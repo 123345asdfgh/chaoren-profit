@@ -17,7 +17,7 @@ main .history-comparison-workspace{grid-template-columns:minmax(0,38%) minmax(0,
 .history-comparison-mode main .comparison-new-inputs .actions{display:none}
 .history-comparison-mode main .calculator-results{position:static;width:100%;margin-top:0}
 .history-comparison-mode main .calculator-results .net-card{width:100%;margin-bottom:10px}
-.history-comparison-mode main .comparison-profit-dock{grid-column:1/-1;width:100%;margin:0 0 2px}
+.history-comparison-mode main .comparison-profit-dock{grid-column:1/-1;width:100%;margin:0 0 2px;position:sticky;top:14px;z-index:8}
 .history-comparison-mode main .comparison-profit-dock .net-card{width:100%;margin:0}
 .history-comparison-mode main .comparison-profit-dock .net-card #net-status{display:none}
 .history-comparison-mode main .comparison-profit-dock .net-card>.net-label{display:none}
@@ -61,7 +61,7 @@ main .history-comparison-workspace{grid-template-columns:minmax(0,38%) minmax(0,
 .history-comparison-mode main .freight-estimate>button{grid-column:2;grid-row:1/4;align-self:center;margin:0}
 .history-comparison-mode main .freight-estimate>span,.history-comparison-mode main .freight-estimate>strong,.history-comparison-mode main .freight-estimate>p{grid-column:1}
 .history-comparison-mode .baseline-photo{display:grid;place-items:center;overflow:hidden;position:relative;min-height:120px;border-radius:8px;background:#fff8e9;border:1px solid #eedcc0}
-.history-comparison-mode main .history-comparison-actions{position:sticky;bottom:18px;z-index:4;display:flex;justify-content:flex-end;padding:14px;background:#fffefa;border:1px solid #eedcc0;border-radius:12px;box-shadow:0 8px 25px #63421c19;margin:0}
+.history-comparison-mode main .history-comparison-actions{position:static;z-index:auto;display:flex;justify-content:flex-end;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none;margin:0 0 10px}
 .history-comparison-mode main .history-comparison-actions #open-save{width:100%;min-height:48px;font-size:16px}
 .history-comparison-mode main .profit-entry .receipt-note{margin-top:9px}
 .history-comparison-mode main .profit-entry .actions{margin-top:8px}

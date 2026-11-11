@@ -66,10 +66,13 @@
    comparisonDock=document.createElement('section');comparisonDock.className='comparison-profit-dock';
    comparisonDock.setAttribute('aria-label','实时利润对比');
    workspace.parentElement.insertBefore(comparisonDock,workspace);
+   // 保存操作区必须脱离实时利润卡片，避免随 sticky 对比卡片一起吸附。
+   actions.remove();
    comparisonDock.append(netCard);
+   inputs.append(results);
    newHeading=document.createElement('div');newHeading.className='comparison-column-heading comparison-new-heading';inputs.prepend(newHeading);
    inputs.classList.add('comparison-new-inputs');
-   actions.classList.add('history-comparison-actions');inputs.append(actions);get('compare-current').hidden=true;
+   actions.classList.add('history-comparison-actions');inputs.insertBefore(actions,results);get('compare-current').hidden=true;
    lookup.hidden=true;explanation.hidden=true;
    document.querySelector('.profit-details').open=true;
    get('open-save').textContent='保存本次修改';
@@ -88,9 +91,9 @@
   }
   newHeading.replaceChildren();const title=document.createElement('h2'),version=document.createElement('span');title.textContent='本次修改';version.textContent=`保存为第 ${record.version+1} 版`;newHeading.append(title,version);
   renderBaseline();
-  // 对比结果放在右侧输入区末尾，保存按钮紧随其后。
+  // 保存按钮放在利润明细上方，随内容正常排列；实时对比卡片单独保持可见。
   inputs.append(results);
-  inputs.append(actions);
+  if(actions.parentElement!==inputs)inputs.insertBefore(actions,results);
   get('open-save').textContent='保存本次修改';
   renderProfit();
  }
@@ -104,7 +107,7 @@
   document.querySelector('.comparison-net-summary')?.remove();
   baselineColumn.remove();baselineColumn=null;newHeading.remove();newHeading=null;
   inputs.classList.remove('comparison-new-inputs');workspace.classList.remove('history-comparison-workspace');document.body.classList.remove('history-comparison-mode');
-  lookup.hidden=false;explanation.hidden=false;get('compare-current').hidden=false;
+  lookup.hidden=false;explanation.hidden=false;get('compare-current').hidden=true;
   document.querySelector('main h1').textContent='跨境日常辅助测算';
   comparisonHeading?.remove();comparisonHeading=null;
   document.querySelector('.profit-details thead tr').innerHTML='<th>项目</th><th>💲</th><th>RMB</th>';
