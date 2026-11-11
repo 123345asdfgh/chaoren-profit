@@ -1,0 +1,18 @@
+{
+  "verifiedAt": "2026-11-05T08:26:01.050Z",
+  "onlyRequiredField": "specCode",
+  "originalDataUnchanged": {
+    "products": 4,
+    "records": 1,
+    "global_settings": 1
+  },
+  "uiFixturesRemoved": true,
+  "checks": [
+    "all product and measurement write routes allow spec-only data",
+    "blank spec rejected",
+    "catalog-only save does not change history",
+    "search starts independent history",
+    "history edits and previous-version restore support partial data",
+    "Excel leaves missing profits blank"
+  ]
+}

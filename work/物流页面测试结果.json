@@ -1,0 +1,4215 @@
+{
+  "date": "2026-11-04",
+  "checks": 526,
+  "failures": [],
+  "results": [
+    {
+      "id": "main-A-普货-0",
+      "expected": 50.1,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USPH",
+      "value": "50.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-普货-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-普货-2",
+      "expected": 58.92,
+      "enabled": true,
+      "hint": "裸货预估 · 0.46 kg 计费 · USPH",
+      "value": "58.92 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-普货-3",
+      "expected": 62.22,
+      "enabled": true,
+      "hint": "裸货预估 · 0.46 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "62.22 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-普货-0",
+      "expected": 114,
+      "enabled": true,
+      "hint": "1 kg 计费 · USPH",
+      "value": "114.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-普货-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-普货-2",
+      "expected": 144.6,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USPH",
+      "value": "144.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-普货-3",
+      "expected": 152.1,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "152.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-普货-0",
+      "expected": 624,
+      "enabled": true,
+      "hint": "6 kg 计费 · USPH",
+      "value": "624.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-普货-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-普货-2",
+      "expected": 943.26,
+      "enabled": true,
+      "hint": "裸货预估 · 9.13 kg 计费 · USPH",
+      "value": "943.26 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-普货-3",
+      "expected": 989.91,
+      "enabled": true,
+      "hint": "裸货预估 · 9.13 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "989.91 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-潮玩-0",
+      "expected": 50.1,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USPH",
+      "value": "50.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-潮玩-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-潮玩-2",
+      "expected": 72.18,
+      "enabled": true,
+      "hint": "裸货预估 · 0.59 kg 计费 · USPH",
+      "value": "72.18 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-潮玩-3",
+      "expected": 76.13,
+      "enabled": true,
+      "hint": "裸货预估 · 0.59 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "76.13 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-潮玩-0",
+      "expected": 114,
+      "enabled": true,
+      "hint": "1 kg 计费 · USPH",
+      "value": "114.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-潮玩-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-潮玩-2",
+      "expected": 154.8,
+      "enabled": true,
+      "hint": "裸货预估 · 1.4 kg 计费 · USPH",
+      "value": "154.80 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-潮玩-3",
+      "expected": 162.8,
+      "enabled": true,
+      "hint": "裸货预估 · 1.4 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "162.80 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-潮玩-0",
+      "expected": 624,
+      "enabled": true,
+      "hint": "6 kg 计费 · USPH",
+      "value": "624.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-潮玩-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-潮玩-2",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-潮玩-3",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-带电-0",
+      "expected": 51.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC",
+      "value": "51.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-带电-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-带电-2",
+      "expected": 82.62,
+      "enabled": true,
+      "hint": "裸货预估 · 0.66 kg 计费 · USFC",
+      "value": "82.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-带电-3",
+      "expected": 83.62,
+      "enabled": true,
+      "hint": "裸货预估 · 0.66 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "83.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-带电-0",
+      "expected": 119,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC",
+      "value": "119.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-带电-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-带电-2",
+      "expected": 167.15,
+      "enabled": true,
+      "hint": "裸货预估 · 1.45 kg 计费 · USFC",
+      "value": "167.15 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-带电-3",
+      "expected": 168.15,
+      "enabled": true,
+      "hint": "裸货预估 · 1.45 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "168.15 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-带电-0",
+      "expected": 654,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC",
+      "value": "654.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-带电-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-带电-2",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-带电-3",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-带磁-0",
+      "expected": 51.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC",
+      "value": "51.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-带磁-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-带磁-2",
+      "expected": 67.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.52 kg 计费 · USFC",
+      "value": "67.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-带磁-3",
+      "expected": 68.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.52 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "68.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-带磁-0",
+      "expected": 119,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC",
+      "value": "119.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-带磁-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-带磁-2",
+      "expected": 151.1,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USFC",
+      "value": "151.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-带磁-3",
+      "expected": 152.1,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "152.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-带磁-0",
+      "expected": 654,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC",
+      "value": "654.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-带磁-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-带磁-2",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-带磁-3",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-毛绒-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-毛绒-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-毛绒-2",
+      "expected": 51.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.24 kg 计费 · USMPPK",
+      "value": "51.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-毛绒-3",
+      "expected": 46.48,
+      "enabled": true,
+      "hint": "裸货预估 · 0.24 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "46.48 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-毛绒-0",
+      "expected": 135,
+      "enabled": true,
+      "hint": "1 kg 计费 · USMPPK",
+      "value": "135.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-毛绒-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-毛绒-2",
+      "expected": 158.6,
+      "enabled": true,
+      "hint": "裸货预估 · 1.2 kg 计费 · USMPPK",
+      "value": "158.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-毛绒-3",
+      "expected": 141.4,
+      "enabled": true,
+      "hint": "裸货预估 · 1.2 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "141.40 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-毛绒-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-毛绒-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-毛绒-2",
+      "expected": 51.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.24 kg 计费 · USMPPK",
+      "value": "51.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-毛绒-3",
+      "expected": 283.71,
+      "enabled": true,
+      "hint": "裸货预估 · 2.53 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "283.71 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-洞洞包-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-洞洞包-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-洞洞包-2",
+      "expected": 51.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.24 kg 计费 · USMPPK",
+      "value": "51.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-洞洞包-3",
+      "expected": 55.7,
+      "enabled": true,
+      "hint": "裸货预估 · 0.35 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "55.70 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-洞洞包-0",
+      "expected": 135,
+      "enabled": true,
+      "hint": "1 kg 计费 · USMPPK",
+      "value": "135.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-洞洞包-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-洞洞包-2",
+      "expected": 158.6,
+      "enabled": true,
+      "hint": "裸货预估 · 1.2 kg 计费 · USMPPK",
+      "value": "158.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-洞洞包-3",
+      "expected": 141.4,
+      "enabled": true,
+      "hint": "裸货预估 · 1.2 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "141.40 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-洞洞包-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-洞洞包-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-洞洞包-2",
+      "expected": 51.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.24 kg 计费 · USMPPK",
+      "value": "51.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-洞洞包-3",
+      "expected": 756.65,
+      "enabled": true,
+      "hint": "裸货预估 · 6.95 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "756.65 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-包袋-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-包袋-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-包袋-2",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "裸货预估 · 0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-包袋-3",
+      "expected": 48.52,
+      "enabled": true,
+      "hint": "裸货预估 · 0.26 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "48.52 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-包袋-0",
+      "expected": 135,
+      "enabled": true,
+      "hint": "1 kg 计费 · USMPPK",
+      "value": "135.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-包袋-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-包袋-2",
+      "expected": 153.2,
+      "enabled": true,
+      "hint": "裸货预估 · 1.15 kg 计费 · USMPPK",
+      "value": "153.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-包袋-3",
+      "expected": 136.05,
+      "enabled": true,
+      "hint": "裸货预估 · 1.15 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "136.05 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-包袋-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-包袋-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-包袋-2",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "裸货预估 · 0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-包袋-3",
+      "expected": 562.98,
+      "enabled": true,
+      "hint": "裸货预估 · 5.14 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "562.98 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-液体-0",
+      "expected": 65,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USTM",
+      "value": "65.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-液体-1",
+      "expected": 66,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USTM · 店铺附加费 1.00 RMB",
+      "value": "66.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-液体-2",
+      "expected": 116,
+      "enabled": true,
+      "hint": "裸货预估 · 0.66 kg 计费 · USTM",
+      "value": "116.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-A-液体-3",
+      "expected": 117,
+      "enabled": true,
+      "hint": "裸货预估 · 0.66 kg 计费 · USTM · 店铺附加费 1.00 RMB",
+      "value": "117.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-液体-0",
+      "expected": 150,
+      "enabled": true,
+      "hint": "1 kg 计费 · USTM",
+      "value": "150.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-液体-1",
+      "expected": 151,
+      "enabled": true,
+      "hint": "1 kg 计费 · USTM · 店铺附加费 1.00 RMB",
+      "value": "151.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-液体-2",
+      "expected": 179,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USTM",
+      "value": "179.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-B-液体-3",
+      "expected": 180,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USTM · 店铺附加费 1.00 RMB",
+      "value": "180.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-液体-0",
+      "expected": 649,
+      "enabled": true,
+      "hint": "6 kg 计费 · USTM",
+      "value": "649.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-液体-1",
+      "expected": 650,
+      "enabled": true,
+      "hint": "6 kg 计费 · USTM · 店铺附加费 1.00 RMB",
+      "value": "650.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-液体-2",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-C-液体-3",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.01",
+      "expected": 26.85,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USPH",
+      "value": "26.85 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.05",
+      "expected": 26.85,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USPH",
+      "value": "26.85 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.2",
+      "expected": 41.4,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USPH",
+      "value": "41.40 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.21",
+      "expected": 42.37,
+      "enabled": true,
+      "hint": "0.21 kg 计费 · USPH",
+      "value": "42.37 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.22",
+      "expected": 43.34,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USPH",
+      "value": "43.34 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.23",
+      "expected": 43.31,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USPH",
+      "value": "43.31 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.31",
+      "expected": 51.07,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USPH",
+      "value": "51.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.32",
+      "expected": 50.04,
+      "enabled": true,
+      "hint": "0.32 kg 计费 · USPH",
+      "value": "50.04 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.45",
+      "expected": 62.65,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USPH",
+      "value": "62.65 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.46",
+      "expected": 58.92,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USPH",
+      "value": "58.92 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.7",
+      "expected": 83.4,
+      "enabled": true,
+      "hint": "0.7 kg 计费 · USPH",
+      "value": "83.40 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-0.71",
+      "expected": 84.42,
+      "enabled": true,
+      "hint": "0.71 kg 计费 · USPH",
+      "value": "84.42 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-1",
+      "expected": 114,
+      "enabled": true,
+      "hint": "1 kg 计费 · USPH",
+      "value": "114.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-1.01",
+      "expected": 115.02,
+      "enabled": true,
+      "hint": "1.01 kg 计费 · USPH",
+      "value": "115.02 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-2",
+      "expected": 216,
+      "enabled": true,
+      "hint": "2 kg 计费 · USPH",
+      "value": "216.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-2.01",
+      "expected": 217.02,
+      "enabled": true,
+      "hint": "2.01 kg 计费 · USPH",
+      "value": "217.02 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-3",
+      "expected": 318,
+      "enabled": true,
+      "hint": "3 kg 计费 · USPH",
+      "value": "318.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-3.01",
+      "expected": 319.02,
+      "enabled": true,
+      "hint": "3.01 kg 计费 · USPH",
+      "value": "319.02 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-5",
+      "expected": 522,
+      "enabled": true,
+      "hint": "5 kg 计费 · USPH",
+      "value": "522.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-5.01",
+      "expected": 523.02,
+      "enabled": true,
+      "hint": "5.01 kg 计费 · USPH",
+      "value": "523.02 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-10",
+      "expected": 1032,
+      "enabled": true,
+      "hint": "10 kg 计费 · USPH",
+      "value": "1,032.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USPH-10.01",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.044",
+      "expected": 26.85,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USPH",
+      "value": "26.85 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.045",
+      "expected": 26.85,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USPH",
+      "value": "26.85 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.054",
+      "expected": 26.85,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USPH",
+      "value": "26.85 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.055",
+      "expected": 27.82,
+      "enabled": true,
+      "hint": "0.06 kg 计费 · USPH",
+      "value": "27.82 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.224",
+      "expected": 43.34,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USPH",
+      "value": "43.34 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.225",
+      "expected": 43.31,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USPH",
+      "value": "43.31 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.226",
+      "expected": 43.31,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USPH",
+      "value": "43.31 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.227",
+      "expected": 43.31,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USPH",
+      "value": "43.31 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.304",
+      "expected": 50.1,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USPH",
+      "value": "50.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.305",
+      "expected": 51.07,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USPH",
+      "value": "51.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.311",
+      "expected": 51.07,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USPH",
+      "value": "51.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.312",
+      "expected": 51.07,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USPH",
+      "value": "51.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.444",
+      "expected": 61.68,
+      "enabled": true,
+      "hint": "0.44 kg 计费 · USPH",
+      "value": "61.68 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.445",
+      "expected": 62.65,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USPH",
+      "value": "62.65 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.454",
+      "expected": 62.65,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USPH",
+      "value": "62.65 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USPH-0.455",
+      "expected": 58.92,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USPH",
+      "value": "58.92 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.01",
+      "expected": 27.1,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USFC",
+      "value": "27.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.05",
+      "expected": 27.1,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USFC",
+      "value": "27.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.2",
+      "expected": 42.4,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USFC",
+      "value": "42.40 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.21",
+      "expected": 43.42,
+      "enabled": true,
+      "hint": "0.21 kg 计费 · USFC",
+      "value": "43.42 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.22",
+      "expected": 44.44,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USFC",
+      "value": "44.44 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.23",
+      "expected": 44.46,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USFC",
+      "value": "44.46 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.31",
+      "expected": 52.62,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USFC",
+      "value": "52.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.32",
+      "expected": 51.64,
+      "enabled": true,
+      "hint": "0.32 kg 计费 · USFC",
+      "value": "51.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.45",
+      "expected": 64.9,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USFC",
+      "value": "64.90 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.46",
+      "expected": 61.22,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USFC",
+      "value": "61.22 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.7",
+      "expected": 86.9,
+      "enabled": true,
+      "hint": "0.7 kg 计费 · USFC",
+      "value": "86.90 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-0.71",
+      "expected": 87.97,
+      "enabled": true,
+      "hint": "0.71 kg 计费 · USFC",
+      "value": "87.97 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-1",
+      "expected": 119,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC",
+      "value": "119.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-1.01",
+      "expected": 120.07,
+      "enabled": true,
+      "hint": "1.01 kg 计费 · USFC",
+      "value": "120.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-2",
+      "expected": 226,
+      "enabled": true,
+      "hint": "2 kg 计费 · USFC",
+      "value": "226.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-2.01",
+      "expected": 227.07,
+      "enabled": true,
+      "hint": "2.01 kg 计费 · USFC",
+      "value": "227.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-3",
+      "expected": 333,
+      "enabled": true,
+      "hint": "3 kg 计费 · USFC",
+      "value": "333.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-3.01",
+      "expected": 334.07,
+      "enabled": true,
+      "hint": "3.01 kg 计费 · USFC",
+      "value": "334.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-5",
+      "expected": 547,
+      "enabled": true,
+      "hint": "5 kg 计费 · USFC",
+      "value": "547.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-5.01",
+      "expected": 548.07,
+      "enabled": true,
+      "hint": "5.01 kg 计费 · USFC",
+      "value": "548.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-10",
+      "expected": 1082,
+      "enabled": true,
+      "hint": "10 kg 计费 · USFC",
+      "value": "1,082.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USFC-10.01",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.044",
+      "expected": 27.1,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USFC",
+      "value": "27.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.045",
+      "expected": 27.1,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USFC",
+      "value": "27.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.054",
+      "expected": 27.1,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USFC",
+      "value": "27.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.055",
+      "expected": 28.12,
+      "enabled": true,
+      "hint": "0.06 kg 计费 · USFC",
+      "value": "28.12 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.224",
+      "expected": 44.44,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USFC",
+      "value": "44.44 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.225",
+      "expected": 44.46,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USFC",
+      "value": "44.46 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.226",
+      "expected": 44.46,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USFC",
+      "value": "44.46 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.227",
+      "expected": 44.46,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USFC",
+      "value": "44.46 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.304",
+      "expected": 51.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC",
+      "value": "51.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.305",
+      "expected": 52.62,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USFC",
+      "value": "52.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.311",
+      "expected": 52.62,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USFC",
+      "value": "52.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.312",
+      "expected": 52.62,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USFC",
+      "value": "52.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.444",
+      "expected": 63.88,
+      "enabled": true,
+      "hint": "0.44 kg 计费 · USFC",
+      "value": "63.88 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.445",
+      "expected": 64.9,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USFC",
+      "value": "64.90 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.454",
+      "expected": 64.9,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USFC",
+      "value": "64.90 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USFC-0.455",
+      "expected": 61.22,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USFC",
+      "value": "61.22 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.01",
+      "expected": 30.55,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USMPPK",
+      "value": "30.55 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.05",
+      "expected": 30.55,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USMPPK",
+      "value": "30.55 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.2",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.21",
+      "expected": 48.31,
+      "enabled": true,
+      "hint": "0.21 kg 计费 · USMPPK",
+      "value": "48.31 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.22",
+      "expected": 49.42,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USMPPK",
+      "value": "49.42 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.23",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.31",
+      "expected": 59.41,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USMPPK",
+      "value": "59.41 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.32",
+      "expected": 60.52,
+      "enabled": true,
+      "hint": "0.32 kg 计费 · USMPPK",
+      "value": "60.52 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.45",
+      "expected": 74.95,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USMPPK",
+      "value": "74.95 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.46",
+      "expected": 76.68,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USMPPK",
+      "value": "76.68 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.7",
+      "expected": 102.6,
+      "enabled": true,
+      "hint": "0.7 kg 计费 · USMPPK",
+      "value": "102.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-0.71",
+      "expected": 103.68,
+      "enabled": true,
+      "hint": "0.71 kg 计费 · USMPPK",
+      "value": "103.68 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-1",
+      "expected": 135,
+      "enabled": true,
+      "hint": "1 kg 计费 · USMPPK",
+      "value": "135.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-1.01",
+      "expected": 138.08,
+      "enabled": true,
+      "hint": "1.01 kg 计费 · USMPPK",
+      "value": "138.08 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-2",
+      "expected": 245,
+      "enabled": true,
+      "hint": "2 kg 计费 · USMPPK",
+      "value": "245.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-2.01",
+      "expected": 246.08,
+      "enabled": true,
+      "hint": "2.01 kg 计费 · USMPPK",
+      "value": "246.08 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-3",
+      "expected": 353,
+      "enabled": true,
+      "hint": "3 kg 计费 · USMPPK",
+      "value": "353.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-3.01",
+      "expected": 354.08,
+      "enabled": true,
+      "hint": "3.01 kg 计费 · USMPPK",
+      "value": "354.08 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-5",
+      "expected": 569,
+      "enabled": true,
+      "hint": "5 kg 计费 · USMPPK",
+      "value": "569.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-5.01",
+      "expected": 570.08,
+      "enabled": true,
+      "hint": "5.01 kg 计费 · USMPPK",
+      "value": "570.08 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-10",
+      "expected": 1109,
+      "enabled": true,
+      "hint": "10 kg 计费 · USMPPK",
+      "value": "1,109.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USMPPK-10.01",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.044",
+      "expected": 30.55,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USMPPK",
+      "value": "30.55 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.045",
+      "expected": 30.55,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USMPPK",
+      "value": "30.55 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.054",
+      "expected": 30.55,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USMPPK",
+      "value": "30.55 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.055",
+      "expected": 31.66,
+      "enabled": true,
+      "hint": "0.06 kg 计费 · USMPPK",
+      "value": "31.66 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.224",
+      "expected": 49.42,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USMPPK",
+      "value": "49.42 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.225",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.226",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.227",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.304",
+      "expected": 58.3,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USMPPK",
+      "value": "58.30 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.305",
+      "expected": 59.41,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USMPPK",
+      "value": "59.41 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.311",
+      "expected": 59.41,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USMPPK",
+      "value": "59.41 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.312",
+      "expected": 59.41,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USMPPK",
+      "value": "59.41 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.444",
+      "expected": 73.84,
+      "enabled": true,
+      "hint": "0.44 kg 计费 · USMPPK",
+      "value": "73.84 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.445",
+      "expected": 74.95,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USMPPK",
+      "value": "74.95 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.454",
+      "expected": 74.95,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USMPPK",
+      "value": "74.95 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USMPPK-0.455",
+      "expected": 76.68,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USMPPK",
+      "value": "76.68 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.01",
+      "expected": 40,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USTM",
+      "value": "40.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.05",
+      "expected": 40,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USTM",
+      "value": "40.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.2",
+      "expected": 55,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USTM",
+      "value": "55.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.21",
+      "expected": 56,
+      "enabled": true,
+      "hint": "0.21 kg 计费 · USTM",
+      "value": "56.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.22",
+      "expected": 57,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USTM",
+      "value": "57.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.23",
+      "expected": 58,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USTM",
+      "value": "58.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.31",
+      "expected": 66,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USTM",
+      "value": "66.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.32",
+      "expected": 67,
+      "enabled": true,
+      "hint": "0.32 kg 计费 · USTM",
+      "value": "67.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.45",
+      "expected": 80,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USTM",
+      "value": "80.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.46",
+      "expected": 96,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USTM",
+      "value": "96.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.7",
+      "expected": 120,
+      "enabled": true,
+      "hint": "0.7 kg 计费 · USTM",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-0.71",
+      "expected": 121,
+      "enabled": true,
+      "hint": "0.71 kg 计费 · USTM",
+      "value": "121.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-1",
+      "expected": 150,
+      "enabled": true,
+      "hint": "1 kg 计费 · USTM",
+      "value": "150.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-1.01",
+      "expected": 150,
+      "enabled": true,
+      "hint": "1.01 kg 计费 · USTM",
+      "value": "150.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-2",
+      "expected": 249,
+      "enabled": true,
+      "hint": "2 kg 计费 · USTM",
+      "value": "249.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-2.01",
+      "expected": 250,
+      "enabled": true,
+      "hint": "2.01 kg 计费 · USTM",
+      "value": "250.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-3",
+      "expected": 349,
+      "enabled": true,
+      "hint": "3 kg 计费 · USTM",
+      "value": "349.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-3.01",
+      "expected": 350,
+      "enabled": true,
+      "hint": "3.01 kg 计费 · USTM",
+      "value": "350.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-5",
+      "expected": 549,
+      "enabled": true,
+      "hint": "5 kg 计费 · USTM",
+      "value": "549.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-5.01",
+      "expected": 550,
+      "enabled": true,
+      "hint": "5.01 kg 计费 · USTM",
+      "value": "550.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-10",
+      "expected": 1049,
+      "enabled": true,
+      "hint": "10 kg 计费 · USTM",
+      "value": "1,049.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-D-USTM-10.01",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.044",
+      "expected": 40,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USTM",
+      "value": "40.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.045",
+      "expected": 40,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USTM",
+      "value": "40.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.054",
+      "expected": 40,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USTM",
+      "value": "40.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.055",
+      "expected": 41,
+      "enabled": true,
+      "hint": "0.06 kg 计费 · USTM",
+      "value": "41.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.224",
+      "expected": 57,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USTM",
+      "value": "57.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.225",
+      "expected": 58,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USTM",
+      "value": "58.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.226",
+      "expected": 58,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USTM",
+      "value": "58.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.227",
+      "expected": 58,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USTM",
+      "value": "58.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.304",
+      "expected": 65,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USTM",
+      "value": "65.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.305",
+      "expected": 66,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USTM",
+      "value": "66.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.311",
+      "expected": 66,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USTM",
+      "value": "66.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.312",
+      "expected": 66,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USTM",
+      "value": "66.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.444",
+      "expected": 79,
+      "enabled": true,
+      "hint": "0.44 kg 计费 · USTM",
+      "value": "79.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.445",
+      "expected": 80,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USTM",
+      "value": "80.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.454",
+      "expected": 80,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USTM",
+      "value": "80.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-E-USTM-0.455",
+      "expected": 96,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USTM",
+      "value": "96.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-F1",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的长（cm）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-F2",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的宽（cm）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-F3",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的高（cm）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-F4",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的实重（kg）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-F5",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的长（cm）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-F6",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的实重（kg）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-F7",
+      "expected": null,
+      "enabled": false,
+      "hint": "填完尺寸与实重后自动计算。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-F8",
+      "expected": null,
+      "enabled": false,
+      "hint": "填完尺寸与实重后自动计算。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "main-adopt-source",
+      "expected": 58.92,
+      "enabled": true,
+      "hint": "裸货预估 · 0.46 kg 计费 · USPH",
+      "value": "58.92 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-普货-0",
+      "expected": 50.1,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USPH",
+      "value": "50.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-普货-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-普货-2",
+      "expected": 58.92,
+      "enabled": true,
+      "hint": "裸货预估 · 0.46 kg 计费 · USPH",
+      "value": "58.92 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-普货-3",
+      "expected": 62.22,
+      "enabled": true,
+      "hint": "裸货预估 · 0.46 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "62.22 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-普货-0",
+      "expected": 114,
+      "enabled": true,
+      "hint": "1 kg 计费 · USPH",
+      "value": "114.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-普货-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-普货-2",
+      "expected": 144.6,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USPH",
+      "value": "144.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-普货-3",
+      "expected": 152.1,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "152.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-普货-0",
+      "expected": 624,
+      "enabled": true,
+      "hint": "6 kg 计费 · USPH",
+      "value": "624.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-普货-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-普货-2",
+      "expected": 943.26,
+      "enabled": true,
+      "hint": "裸货预估 · 9.13 kg 计费 · USPH",
+      "value": "943.26 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-普货-3",
+      "expected": 989.91,
+      "enabled": true,
+      "hint": "裸货预估 · 9.13 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "989.91 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-潮玩-0",
+      "expected": 50.1,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USPH",
+      "value": "50.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-潮玩-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-潮玩-2",
+      "expected": 72.18,
+      "enabled": true,
+      "hint": "裸货预估 · 0.59 kg 计费 · USPH",
+      "value": "72.18 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-潮玩-3",
+      "expected": 76.13,
+      "enabled": true,
+      "hint": "裸货预估 · 0.59 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "76.13 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-潮玩-0",
+      "expected": 114,
+      "enabled": true,
+      "hint": "1 kg 计费 · USPH",
+      "value": "114.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-潮玩-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-潮玩-2",
+      "expected": 154.8,
+      "enabled": true,
+      "hint": "裸货预估 · 1.4 kg 计费 · USPH",
+      "value": "154.80 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-潮玩-3",
+      "expected": 162.8,
+      "enabled": true,
+      "hint": "裸货预估 · 1.4 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "162.80 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-潮玩-0",
+      "expected": 624,
+      "enabled": true,
+      "hint": "6 kg 计费 · USPH",
+      "value": "624.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-潮玩-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-潮玩-2",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-潮玩-3",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-带电-0",
+      "expected": 51.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC",
+      "value": "51.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-带电-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-带电-2",
+      "expected": 82.62,
+      "enabled": true,
+      "hint": "裸货预估 · 0.66 kg 计费 · USFC",
+      "value": "82.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-带电-3",
+      "expected": 83.62,
+      "enabled": true,
+      "hint": "裸货预估 · 0.66 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "83.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-带电-0",
+      "expected": 119,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC",
+      "value": "119.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-带电-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-带电-2",
+      "expected": 167.15,
+      "enabled": true,
+      "hint": "裸货预估 · 1.45 kg 计费 · USFC",
+      "value": "167.15 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-带电-3",
+      "expected": 168.15,
+      "enabled": true,
+      "hint": "裸货预估 · 1.45 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "168.15 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-带电-0",
+      "expected": 654,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC",
+      "value": "654.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-带电-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-带电-2",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-带电-3",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-带磁-0",
+      "expected": 51.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC",
+      "value": "51.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-带磁-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-带磁-2",
+      "expected": 67.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.52 kg 计费 · USFC",
+      "value": "67.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-带磁-3",
+      "expected": 68.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.52 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "68.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-带磁-0",
+      "expected": 119,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC",
+      "value": "119.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-带磁-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-带磁-2",
+      "expected": 151.1,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USFC",
+      "value": "151.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-带磁-3",
+      "expected": 152.1,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "152.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-带磁-0",
+      "expected": 654,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC",
+      "value": "654.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-带磁-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-带磁-2",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-带磁-3",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-毛绒-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-毛绒-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-毛绒-2",
+      "expected": 51.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.24 kg 计费 · USMPPK",
+      "value": "51.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-毛绒-3",
+      "expected": 46.48,
+      "enabled": true,
+      "hint": "裸货预估 · 0.24 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "46.48 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-毛绒-0",
+      "expected": 135,
+      "enabled": true,
+      "hint": "1 kg 计费 · USMPPK",
+      "value": "135.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-毛绒-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-毛绒-2",
+      "expected": 158.6,
+      "enabled": true,
+      "hint": "裸货预估 · 1.2 kg 计费 · USMPPK",
+      "value": "158.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-毛绒-3",
+      "expected": 141.4,
+      "enabled": true,
+      "hint": "裸货预估 · 1.2 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "141.40 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-毛绒-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-毛绒-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-毛绒-2",
+      "expected": 51.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.24 kg 计费 · USMPPK",
+      "value": "51.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-毛绒-3",
+      "expected": 283.71,
+      "enabled": true,
+      "hint": "裸货预估 · 2.53 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "283.71 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-洞洞包-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-洞洞包-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-洞洞包-2",
+      "expected": 51.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.24 kg 计费 · USMPPK",
+      "value": "51.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-洞洞包-3",
+      "expected": 55.7,
+      "enabled": true,
+      "hint": "裸货预估 · 0.35 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "55.70 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-洞洞包-0",
+      "expected": 135,
+      "enabled": true,
+      "hint": "1 kg 计费 · USMPPK",
+      "value": "135.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-洞洞包-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-洞洞包-2",
+      "expected": 158.6,
+      "enabled": true,
+      "hint": "裸货预估 · 1.2 kg 计费 · USMPPK",
+      "value": "158.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-洞洞包-3",
+      "expected": 141.4,
+      "enabled": true,
+      "hint": "裸货预估 · 1.2 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "141.40 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-洞洞包-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-洞洞包-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-洞洞包-2",
+      "expected": 51.64,
+      "enabled": true,
+      "hint": "裸货预估 · 0.24 kg 计费 · USMPPK",
+      "value": "51.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-洞洞包-3",
+      "expected": 756.65,
+      "enabled": true,
+      "hint": "裸货预估 · 6.95 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "756.65 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-包袋-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-包袋-1",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-包袋-2",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "裸货预估 · 0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-包袋-3",
+      "expected": 48.52,
+      "enabled": true,
+      "hint": "裸货预估 · 0.26 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "48.52 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-包袋-0",
+      "expected": 135,
+      "enabled": true,
+      "hint": "1 kg 计费 · USMPPK",
+      "value": "135.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-包袋-1",
+      "expected": 120,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-包袋-2",
+      "expected": 153.2,
+      "enabled": true,
+      "hint": "裸货预估 · 1.15 kg 计费 · USMPPK",
+      "value": "153.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-包袋-3",
+      "expected": 136.05,
+      "enabled": true,
+      "hint": "裸货预估 · 1.15 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "136.05 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-包袋-0",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-包袋-1",
+      "expected": 655,
+      "enabled": true,
+      "hint": "6 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "655.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-包袋-2",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "裸货预估 · 0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-包袋-3",
+      "expected": 562.98,
+      "enabled": true,
+      "hint": "裸货预估 · 5.14 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "562.98 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-液体-0",
+      "expected": 65,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USTM",
+      "value": "65.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-液体-1",
+      "expected": 66,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USTM · 店铺附加费 1.00 RMB",
+      "value": "66.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-液体-2",
+      "expected": 116,
+      "enabled": true,
+      "hint": "裸货预估 · 0.66 kg 计费 · USTM",
+      "value": "116.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-A-液体-3",
+      "expected": 117,
+      "enabled": true,
+      "hint": "裸货预估 · 0.66 kg 计费 · USTM · 店铺附加费 1.00 RMB",
+      "value": "117.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-液体-0",
+      "expected": 150,
+      "enabled": true,
+      "hint": "1 kg 计费 · USTM",
+      "value": "150.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-液体-1",
+      "expected": 151,
+      "enabled": true,
+      "hint": "1 kg 计费 · USTM · 店铺附加费 1.00 RMB",
+      "value": "151.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-液体-2",
+      "expected": 179,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USTM",
+      "value": "179.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-B-液体-3",
+      "expected": 180,
+      "enabled": true,
+      "hint": "裸货预估 · 1.3 kg 计费 · USTM · 店铺附加费 1.00 RMB",
+      "value": "180.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-液体-0",
+      "expected": 649,
+      "enabled": true,
+      "hint": "6 kg 计费 · USTM",
+      "value": "649.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-液体-1",
+      "expected": 650,
+      "enabled": true,
+      "hint": "6 kg 计费 · USTM · 店铺附加费 1.00 RMB",
+      "value": "650.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-液体-2",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-C-液体-3",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.01",
+      "expected": 26.85,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USPH",
+      "value": "26.85 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.05",
+      "expected": 26.85,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USPH",
+      "value": "26.85 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.2",
+      "expected": 41.4,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USPH",
+      "value": "41.40 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.21",
+      "expected": 42.37,
+      "enabled": true,
+      "hint": "0.21 kg 计费 · USPH",
+      "value": "42.37 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.22",
+      "expected": 43.34,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USPH",
+      "value": "43.34 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.23",
+      "expected": 43.31,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USPH",
+      "value": "43.31 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.31",
+      "expected": 51.07,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USPH",
+      "value": "51.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.32",
+      "expected": 50.04,
+      "enabled": true,
+      "hint": "0.32 kg 计费 · USPH",
+      "value": "50.04 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.45",
+      "expected": 62.65,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USPH",
+      "value": "62.65 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.46",
+      "expected": 58.92,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USPH",
+      "value": "58.92 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.7",
+      "expected": 83.4,
+      "enabled": true,
+      "hint": "0.7 kg 计费 · USPH",
+      "value": "83.40 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-0.71",
+      "expected": 84.42,
+      "enabled": true,
+      "hint": "0.71 kg 计费 · USPH",
+      "value": "84.42 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-1",
+      "expected": 114,
+      "enabled": true,
+      "hint": "1 kg 计费 · USPH",
+      "value": "114.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-1.01",
+      "expected": 115.02,
+      "enabled": true,
+      "hint": "1.01 kg 计费 · USPH",
+      "value": "115.02 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-2",
+      "expected": 216,
+      "enabled": true,
+      "hint": "2 kg 计费 · USPH",
+      "value": "216.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-2.01",
+      "expected": 217.02,
+      "enabled": true,
+      "hint": "2.01 kg 计费 · USPH",
+      "value": "217.02 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-3",
+      "expected": 318,
+      "enabled": true,
+      "hint": "3 kg 计费 · USPH",
+      "value": "318.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-3.01",
+      "expected": 319.02,
+      "enabled": true,
+      "hint": "3.01 kg 计费 · USPH",
+      "value": "319.02 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-5",
+      "expected": 522,
+      "enabled": true,
+      "hint": "5 kg 计费 · USPH",
+      "value": "522.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-5.01",
+      "expected": 523.02,
+      "enabled": true,
+      "hint": "5.01 kg 计费 · USPH",
+      "value": "523.02 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-10",
+      "expected": 1032,
+      "enabled": true,
+      "hint": "10 kg 计费 · USPH",
+      "value": "1,032.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USPH-10.01",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.044",
+      "expected": 26.85,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USPH",
+      "value": "26.85 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.045",
+      "expected": 26.85,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USPH",
+      "value": "26.85 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.054",
+      "expected": 26.85,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USPH",
+      "value": "26.85 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.055",
+      "expected": 27.82,
+      "enabled": true,
+      "hint": "0.06 kg 计费 · USPH",
+      "value": "27.82 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.224",
+      "expected": 43.34,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USPH",
+      "value": "43.34 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.225",
+      "expected": 43.31,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USPH",
+      "value": "43.31 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.226",
+      "expected": 43.31,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USPH",
+      "value": "43.31 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.227",
+      "expected": 43.31,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USPH",
+      "value": "43.31 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.304",
+      "expected": 50.1,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USPH",
+      "value": "50.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.305",
+      "expected": 51.07,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USPH",
+      "value": "51.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.311",
+      "expected": 51.07,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USPH",
+      "value": "51.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.312",
+      "expected": 51.07,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USPH",
+      "value": "51.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.444",
+      "expected": 61.68,
+      "enabled": true,
+      "hint": "0.44 kg 计费 · USPH",
+      "value": "61.68 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.445",
+      "expected": 62.65,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USPH",
+      "value": "62.65 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.454",
+      "expected": 62.65,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USPH",
+      "value": "62.65 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USPH-0.455",
+      "expected": 58.92,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USPH",
+      "value": "58.92 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.01",
+      "expected": 27.1,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USFC",
+      "value": "27.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.05",
+      "expected": 27.1,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USFC",
+      "value": "27.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.2",
+      "expected": 42.4,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USFC",
+      "value": "42.40 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.21",
+      "expected": 43.42,
+      "enabled": true,
+      "hint": "0.21 kg 计费 · USFC",
+      "value": "43.42 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.22",
+      "expected": 44.44,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USFC",
+      "value": "44.44 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.23",
+      "expected": 44.46,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USFC",
+      "value": "44.46 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.31",
+      "expected": 52.62,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USFC",
+      "value": "52.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.32",
+      "expected": 51.64,
+      "enabled": true,
+      "hint": "0.32 kg 计费 · USFC",
+      "value": "51.64 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.45",
+      "expected": 64.9,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USFC",
+      "value": "64.90 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.46",
+      "expected": 61.22,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USFC",
+      "value": "61.22 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.7",
+      "expected": 86.9,
+      "enabled": true,
+      "hint": "0.7 kg 计费 · USFC",
+      "value": "86.90 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-0.71",
+      "expected": 87.97,
+      "enabled": true,
+      "hint": "0.71 kg 计费 · USFC",
+      "value": "87.97 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-1",
+      "expected": 119,
+      "enabled": true,
+      "hint": "1 kg 计费 · USFC",
+      "value": "119.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-1.01",
+      "expected": 120.07,
+      "enabled": true,
+      "hint": "1.01 kg 计费 · USFC",
+      "value": "120.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-2",
+      "expected": 226,
+      "enabled": true,
+      "hint": "2 kg 计费 · USFC",
+      "value": "226.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-2.01",
+      "expected": 227.07,
+      "enabled": true,
+      "hint": "2.01 kg 计费 · USFC",
+      "value": "227.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-3",
+      "expected": 333,
+      "enabled": true,
+      "hint": "3 kg 计费 · USFC",
+      "value": "333.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-3.01",
+      "expected": 334.07,
+      "enabled": true,
+      "hint": "3.01 kg 计费 · USFC",
+      "value": "334.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-5",
+      "expected": 547,
+      "enabled": true,
+      "hint": "5 kg 计费 · USFC",
+      "value": "547.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-5.01",
+      "expected": 548.07,
+      "enabled": true,
+      "hint": "5.01 kg 计费 · USFC",
+      "value": "548.07 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-10",
+      "expected": 1082,
+      "enabled": true,
+      "hint": "10 kg 计费 · USFC",
+      "value": "1,082.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USFC-10.01",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.044",
+      "expected": 27.1,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USFC",
+      "value": "27.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.045",
+      "expected": 27.1,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USFC",
+      "value": "27.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.054",
+      "expected": 27.1,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USFC",
+      "value": "27.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.055",
+      "expected": 28.12,
+      "enabled": true,
+      "hint": "0.06 kg 计费 · USFC",
+      "value": "28.12 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.224",
+      "expected": 44.44,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USFC",
+      "value": "44.44 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.225",
+      "expected": 44.46,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USFC",
+      "value": "44.46 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.226",
+      "expected": 44.46,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USFC",
+      "value": "44.46 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.227",
+      "expected": 44.46,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USFC",
+      "value": "44.46 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.304",
+      "expected": 51.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC",
+      "value": "51.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.305",
+      "expected": 52.62,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USFC",
+      "value": "52.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.311",
+      "expected": 52.62,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USFC",
+      "value": "52.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.312",
+      "expected": 52.62,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USFC",
+      "value": "52.62 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.444",
+      "expected": 63.88,
+      "enabled": true,
+      "hint": "0.44 kg 计费 · USFC",
+      "value": "63.88 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.445",
+      "expected": 64.9,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USFC",
+      "value": "64.90 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.454",
+      "expected": 64.9,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USFC",
+      "value": "64.90 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USFC-0.455",
+      "expected": 61.22,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USFC",
+      "value": "61.22 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.01",
+      "expected": 30.55,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USMPPK",
+      "value": "30.55 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.05",
+      "expected": 30.55,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USMPPK",
+      "value": "30.55 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.2",
+      "expected": 47.2,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USMPPK",
+      "value": "47.20 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.21",
+      "expected": 48.31,
+      "enabled": true,
+      "hint": "0.21 kg 计费 · USMPPK",
+      "value": "48.31 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.22",
+      "expected": 49.42,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USMPPK",
+      "value": "49.42 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.23",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.31",
+      "expected": 59.41,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USMPPK",
+      "value": "59.41 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.32",
+      "expected": 60.52,
+      "enabled": true,
+      "hint": "0.32 kg 计费 · USMPPK",
+      "value": "60.52 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.45",
+      "expected": 74.95,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USMPPK",
+      "value": "74.95 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.46",
+      "expected": 76.68,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USMPPK",
+      "value": "76.68 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.7",
+      "expected": 102.6,
+      "enabled": true,
+      "hint": "0.7 kg 计费 · USMPPK",
+      "value": "102.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-0.71",
+      "expected": 103.68,
+      "enabled": true,
+      "hint": "0.71 kg 计费 · USMPPK",
+      "value": "103.68 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-1",
+      "expected": 135,
+      "enabled": true,
+      "hint": "1 kg 计费 · USMPPK",
+      "value": "135.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-1.01",
+      "expected": 138.08,
+      "enabled": true,
+      "hint": "1.01 kg 计费 · USMPPK",
+      "value": "138.08 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-2",
+      "expected": 245,
+      "enabled": true,
+      "hint": "2 kg 计费 · USMPPK",
+      "value": "245.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-2.01",
+      "expected": 246.08,
+      "enabled": true,
+      "hint": "2.01 kg 计费 · USMPPK",
+      "value": "246.08 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-3",
+      "expected": 353,
+      "enabled": true,
+      "hint": "3 kg 计费 · USMPPK",
+      "value": "353.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-3.01",
+      "expected": 354.08,
+      "enabled": true,
+      "hint": "3.01 kg 计费 · USMPPK",
+      "value": "354.08 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-5",
+      "expected": 569,
+      "enabled": true,
+      "hint": "5 kg 计费 · USMPPK",
+      "value": "569.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-5.01",
+      "expected": 570.08,
+      "enabled": true,
+      "hint": "5.01 kg 计费 · USMPPK",
+      "value": "570.08 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-10",
+      "expected": 1109,
+      "enabled": true,
+      "hint": "10 kg 计费 · USMPPK",
+      "value": "1,109.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USMPPK-10.01",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.044",
+      "expected": 30.55,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USMPPK",
+      "value": "30.55 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.045",
+      "expected": 30.55,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USMPPK",
+      "value": "30.55 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.054",
+      "expected": 30.55,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USMPPK",
+      "value": "30.55 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.055",
+      "expected": 31.66,
+      "enabled": true,
+      "hint": "0.06 kg 计费 · USMPPK",
+      "value": "31.66 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.224",
+      "expected": 49.42,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USMPPK",
+      "value": "49.42 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.225",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.226",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.227",
+      "expected": 50.53,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USMPPK",
+      "value": "50.53 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.304",
+      "expected": 58.3,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USMPPK",
+      "value": "58.30 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.305",
+      "expected": 59.41,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USMPPK",
+      "value": "59.41 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.311",
+      "expected": 59.41,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USMPPK",
+      "value": "59.41 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.312",
+      "expected": 59.41,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USMPPK",
+      "value": "59.41 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.444",
+      "expected": 73.84,
+      "enabled": true,
+      "hint": "0.44 kg 计费 · USMPPK",
+      "value": "73.84 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.445",
+      "expected": 74.95,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USMPPK",
+      "value": "74.95 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.454",
+      "expected": 74.95,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USMPPK",
+      "value": "74.95 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USMPPK-0.455",
+      "expected": 76.68,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USMPPK",
+      "value": "76.68 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.01",
+      "expected": 40,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USTM",
+      "value": "40.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.05",
+      "expected": 40,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USTM",
+      "value": "40.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.2",
+      "expected": 55,
+      "enabled": true,
+      "hint": "0.2 kg 计费 · USTM",
+      "value": "55.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.21",
+      "expected": 56,
+      "enabled": true,
+      "hint": "0.21 kg 计费 · USTM",
+      "value": "56.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.22",
+      "expected": 57,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USTM",
+      "value": "57.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.23",
+      "expected": 58,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USTM",
+      "value": "58.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.31",
+      "expected": 66,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USTM",
+      "value": "66.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.32",
+      "expected": 67,
+      "enabled": true,
+      "hint": "0.32 kg 计费 · USTM",
+      "value": "67.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.45",
+      "expected": 80,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USTM",
+      "value": "80.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.46",
+      "expected": 96,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USTM",
+      "value": "96.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.7",
+      "expected": 120,
+      "enabled": true,
+      "hint": "0.7 kg 计费 · USTM",
+      "value": "120.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-0.71",
+      "expected": 121,
+      "enabled": true,
+      "hint": "0.71 kg 计费 · USTM",
+      "value": "121.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-1",
+      "expected": 150,
+      "enabled": true,
+      "hint": "1 kg 计费 · USTM",
+      "value": "150.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-1.01",
+      "expected": 150,
+      "enabled": true,
+      "hint": "1.01 kg 计费 · USTM",
+      "value": "150.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-2",
+      "expected": 249,
+      "enabled": true,
+      "hint": "2 kg 计费 · USTM",
+      "value": "249.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-2.01",
+      "expected": 250,
+      "enabled": true,
+      "hint": "2.01 kg 计费 · USTM",
+      "value": "250.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-3",
+      "expected": 349,
+      "enabled": true,
+      "hint": "3 kg 计费 · USTM",
+      "value": "349.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-3.01",
+      "expected": 350,
+      "enabled": true,
+      "hint": "3.01 kg 计费 · USTM",
+      "value": "350.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-5",
+      "expected": 549,
+      "enabled": true,
+      "hint": "5 kg 计费 · USTM",
+      "value": "549.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-5.01",
+      "expected": 550,
+      "enabled": true,
+      "hint": "5.01 kg 计费 · USTM",
+      "value": "550.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-10",
+      "expected": 1049,
+      "enabled": true,
+      "hint": "10 kg 计费 · USTM",
+      "value": "1,049.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-D-USTM-10.01",
+      "expected": null,
+      "enabled": false,
+      "hint": "计费重超过10kg，需人工询价。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.044",
+      "expected": 40,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USTM",
+      "value": "40.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.045",
+      "expected": 40,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USTM",
+      "value": "40.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.054",
+      "expected": 40,
+      "enabled": true,
+      "hint": "0.05 kg 计费 · USTM",
+      "value": "40.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.055",
+      "expected": 41,
+      "enabled": true,
+      "hint": "0.06 kg 计费 · USTM",
+      "value": "41.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.224",
+      "expected": 57,
+      "enabled": true,
+      "hint": "0.22 kg 计费 · USTM",
+      "value": "57.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.225",
+      "expected": 58,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USTM",
+      "value": "58.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.226",
+      "expected": 58,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USTM",
+      "value": "58.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.227",
+      "expected": 58,
+      "enabled": true,
+      "hint": "0.23 kg 计费 · USTM",
+      "value": "58.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.304",
+      "expected": 65,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USTM",
+      "value": "65.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.305",
+      "expected": 66,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USTM",
+      "value": "66.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.311",
+      "expected": 66,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USTM",
+      "value": "66.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.312",
+      "expected": 66,
+      "enabled": true,
+      "hint": "0.31 kg 计费 · USTM",
+      "value": "66.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.444",
+      "expected": 79,
+      "enabled": true,
+      "hint": "0.44 kg 计费 · USTM",
+      "value": "79.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.445",
+      "expected": 80,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USTM",
+      "value": "80.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.454",
+      "expected": 80,
+      "enabled": true,
+      "hint": "0.45 kg 计费 · USTM",
+      "value": "80.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-E-USTM-0.455",
+      "expected": 96,
+      "enabled": true,
+      "hint": "0.46 kg 计费 · USTM",
+      "value": "96.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-F1",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的长（cm）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-F2",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的宽（cm）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-F3",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的高（cm）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-F4",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的实重（kg）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-F5",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的长（cm）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-F6",
+      "expected": null,
+      "enabled": false,
+      "hint": "请填写有效的实重（kg）",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-F7",
+      "expected": null,
+      "enabled": false,
+      "hint": "填完尺寸与实重后自动计算。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-F8",
+      "expected": null,
+      "enabled": false,
+      "hint": "填完尺寸与实重后自动计算。",
+      "value": "— RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-adopt-source",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-temporary-hk-surcharge",
+      "expected": 53.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 2.00 RMB",
+      "value": "53.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-unaffected-by-comparison",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-reopened-reset-defaults",
+      "expected": 52.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 1.00 RMB",
+      "value": "52.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-saved-hk-surcharge",
+      "expected": 53.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 2.00 RMB",
+      "value": "53.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-reload-saved-hk-surcharge",
+      "expected": 53.6,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USFC · 店铺附加费 2.00 RMB",
+      "value": "53.60 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-saved-tier-rate",
+      "expected": 51,
+      "enabled": true,
+      "hint": "0.3 kg 计费 · USPH",
+      "value": "51.00 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-saved-pack-size",
+      "expected": 50.1,
+      "enabled": true,
+      "hint": "裸货预估 · 0.3 kg 计费 · USPH",
+      "value": "50.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-inherits-global-pack-size",
+      "expected": 50.1,
+      "enabled": true,
+      "hint": "裸货预估 · 0.3 kg 计费 · USPH",
+      "value": "50.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-temporary-pack-size",
+      "expected": 50.1,
+      "enabled": true,
+      "hint": "裸货预估 · 0.3 kg 计费 · USPH",
+      "value": "50.10 RMB",
+      "pass": true
+    },
+    {
+      "id": "main-unaffected-by-temporary-pack-size",
+      "expected": 58.92,
+      "enabled": true,
+      "hint": "裸货预估 · 0.46 kg 计费 · USPH",
+      "value": "58.92 RMB",
+      "pass": true
+    },
+    {
+      "id": "compare-reopened-pack-defaults",
+      "expected": 58.92,
+      "enabled": true,
+      "hint": "裸货预估 · 0.46 kg 计费 · USPH",
+      "value": "58.92 RMB",
+      "pass": true
+    },
+    {
+      "id": "final-main-defaults",
+      "expected": 58.92,
+      "enabled": true,
+      "hint": "裸货预估 · 0.46 kg 计费 · USPH",
+      "value": "58.92 RMB",
+      "pass": true
+    }
+  ]
+}

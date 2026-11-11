@@ -1,0 +1,5774 @@
+[
+  {
+    "id": "1bedc81d-9475-47a2-8a6b-ccb8e6a7ae93",
+    "user_id": null,
+    "market": "US",
+    "order_number": null,
+    "name": "",
+    "category": "",
+    "spec_code": "123",
+    "product_code": "",
+    "snapshot": {
+      "input": null,
+      "quote": null,
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "",
+        "height": "",
+        "length": "",
+        "weight": "",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "",
+        "logistics": "",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "",
+        "chinaPrice": "",
+        "multiplier": "2.8",
+        "buyerShipping": "0"
+      },
+      "result": null,
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "",
+        "market": "US",
+        "category": "",
+        "specCode": "123",
+        "productCode": ""
+      }
+    },
+    "previous_snapshot": {
+      "input": null,
+      "quote": null,
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "",
+        "height": "",
+        "length": "",
+        "weight": "",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "",
+        "logistics": "",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "",
+        "chinaPrice": "",
+        "multiplier": "2.8",
+        "buyerShipping": "0"
+      },
+      "result": null,
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "",
+        "market": "US",
+        "category": "",
+        "specCode": "123",
+        "productCode": ""
+      }
+    },
+    "previous_saved_at": "2026-11-06T03:52:18.466Z",
+    "version": 1,
+    "net_rmb": null,
+    "net_usd": null,
+    "margin": null,
+    "created_at": "2026-11-06T03:52:04.217Z",
+    "updated_at": "2026-11-06T03:52:34.289Z",
+    "operator_name": null,
+    "product_spec": null,
+    "previous_version": 2,
+    "product_id": "aabdddc1-17a8-4d19-8e5f-6eaf4a4fc843"
+  },
+  {
+    "id": "1fea1b74-f5c6-4801-afb4-94bce1d27664",
+    "user_id": null,
+    "market": "US",
+    "order_number": null,
+    "name": "jhj",
+    "category": "盲盒",
+    "spec_code": "13",
+    "product_code": "123",
+    "snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 4.94,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 114,
+        "operation": 16,
+        "promotion": 25,
+        "salePrice": 4.94,
+        "chinaPrice": 12,
+        "multiplier": 2.8,
+        "buyerShipping": 0
+      },
+      "quote": {
+        "cny": 114,
+        "fee": 12,
+        "code": "USPH",
+        "mode": "max",
+        "rate": 102,
+        "extra": 0,
+        "naked": false,
+        "store": "广州店铺",
+        "width": 1,
+        "height": 1,
+        "length": 1,
+        "weight": 1,
+        "attribute": "潮玩",
+        "chargeWeight": 1,
+        "volumeWeight": 0
+      },
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "1",
+        "height": "1",
+        "length": "1",
+        "weight": "1",
+        "divisor": "1.13",
+        "receipt": "4.94",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "潮玩",
+        "logistics": "114",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "4.94",
+        "chinaPrice": "12",
+        "multiplier": "2.8",
+        "buyerShipping": "0"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 7.4318584070796465,
+            "usd": 1.092920353982301,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 4.756389380530973,
+            "usd": 0.6994690265486726,
+            "name": "代运营",
+            "rate": 16,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 2.080920353982301,
+            "usd": 0.3060176991150443,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 0.336,
+            "usd": 0.049411764705882356,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 0.8918230088495577,
+            "usd": 0.1311504424778761,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 0.5945486725663717,
+            "usd": 0.08743362831858408,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 2.36640291514836,
+        "margin": -3.5376113360323886,
+        "netRmb": -105.16410619469026,
+        "netUsd": -15.465309734513275,
+        "taxUsd": 0,
+        "costRmb": 4.8,
+        "costUsd": 0.7058823529411765,
+        "grossRmb": 33.592,
+        "grossUsd": 4.94,
+        "pretaxUsd": -15.465309734513275,
+        "rateTotal": 53,
+        "revenueRmb": 29.727433628318586,
+        "revenueUsd": 4.371681415929204,
+        "logisticsRmb": 114,
+        "logisticsUsd": 16.764705882352942
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "jhj",
+        "market": "US",
+        "category": "潮玩",
+        "specCode": "13",
+        "productCode": "123"
+      }
+    },
+    "previous_snapshot": null,
+    "previous_saved_at": null,
+    "version": 1,
+    "net_rmb": "-105.16410619469026",
+    "net_usd": "-15.465309734513275",
+    "margin": "-3.5376113360323886",
+    "created_at": "2026-11-05T06:58:45.122Z",
+    "updated_at": "2026-11-05T06:58:45.122Z",
+    "operator_name": null,
+    "product_spec": null,
+    "previous_version": null,
+    "product_id": "33bfb0a3-200f-4962-9d35-fe9eda2afbf5"
+  },
+  {
+    "id": "2d4befdf-3e4a-4c0e-9ebf-a54cecc6759c",
+    "user_id": null,
+    "market": "US",
+    "order_number": null,
+    "name": "【演示】星际旅行盲盒",
+    "category": "盲盒",
+    "spec_code": "DEMO-20261107-BLIND-01",
+    "product_code": "DEMO-P-BLIND-01",
+    "snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 36.98,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 51,
+        "operation": 16,
+        "promotion": 25,
+        "salePrice": 31.99,
+        "chinaPrice": 59,
+        "multiplier": 2.8,
+        "buyerShipping": 4.99
+      },
+      "quote": {
+        "cny": 50.04,
+        "fee": 19,
+        "code": "USPH",
+        "mode": "max",
+        "rate": 97,
+        "extra": 0,
+        "naked": false,
+        "store": "广州店铺",
+        "width": 12,
+        "height": 10,
+        "length": 14,
+        "weight": 0.32,
+        "attribute": "盲盒",
+        "chargeWeight": 0.32,
+        "volumeWeight": 0.17
+      },
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "12",
+        "height": "10",
+        "length": "14",
+        "weight": "0.32",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "36.98",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "盲盒",
+        "logistics": "51",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "31.99",
+        "chinaPrice": "59",
+        "multiplier": "2.8",
+        "buyerShipping": "4.99"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 55.63362831858407,
+            "usd": 8.18141592920354,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 35.605522123893806,
+            "usd": 5.236106194690266,
+            "name": "代运营",
+            "rate": 16,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 15.57741592920354,
+            "usd": 2.2907964601769915,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 1.6520000000000001,
+            "usd": 0.24294117647058827,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 6.676035398230089,
+            "usd": 0.9817699115044249,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 4.450690265486726,
+            "usd": 0.6545132743362833,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 17.587542946382097,
+        "margin": 0.09551064963573311,
+        "netRmb": 21.25441592920353,
+        "netUsd": 3.125649401353461,
+        "taxUsd": 1.041883133784487,
+        "costRmb": 23.6,
+        "costUsd": 3.4705882352941178,
+        "grossRmb": 251.46399999999997,
+        "grossUsd": 36.98,
+        "pretaxUsd": 4.167532535137948,
+        "rateTotal": 53,
+        "revenueRmb": 222.5345132743363,
+        "revenueUsd": 32.72566371681416,
+        "logisticsRmb": 51,
+        "logisticsUsd": 7.5
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "【演示】星际旅行盲盒",
+        "market": "US",
+        "category": "盲盒",
+        "specCode": "DEMO-20261107-BLIND-01",
+        "productCode": "DEMO-P-BLIND-01"
+      }
+    },
+    "previous_snapshot": null,
+    "previous_saved_at": null,
+    "version": 1,
+    "net_rmb": "21.25441592920353",
+    "net_usd": "3.125649401353461",
+    "margin": "0.09551064963573311",
+    "created_at": "2026-11-07T12:14:23.936Z",
+    "updated_at": "2026-11-07T12:14:23.936Z",
+    "operator_name": null,
+    "product_spec": null,
+    "previous_version": null,
+    "product_id": "bab7551d-9d45-43eb-be44-f607cac3b5fc"
+  },
+  {
+    "id": "3610a93e-d98e-4bec-8632-08a2ce273fab",
+    "user_id": null,
+    "market": "US",
+    "order_number": null,
+    "name": "【演示】旅行随行杯",
+    "category": "常规",
+    "spec_code": "DEMO-20261107-CUP-01",
+    "product_code": "DEMO-P-CUP-01",
+    "snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 1004.99,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 48.16,
+        "operation": 16,
+        "promotion": 25,
+        "salePrice": 1000,
+        "chinaPrice": 39,
+        "multiplier": 2.8,
+        "buyerShipping": 4.99
+      },
+      "quote": {
+        "cny": 48.16,
+        "fee": 21,
+        "code": "USPH",
+        "mode": "max",
+        "rate": 97,
+        "extra": 0,
+        "naked": false,
+        "store": "广州店铺",
+        "width": 10,
+        "height": 12,
+        "length": 22,
+        "weight": 0.28,
+        "attribute": "常规",
+        "chargeWeight": 0.28,
+        "volumeWeight": 0.26
+      },
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "10",
+        "height": "12",
+        "length": "22",
+        "weight": "0.28",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "1004.99",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "常规",
+        "logistics": "48.16",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "1000",
+        "chinaPrice": "39",
+        "multiplier": "2.8",
+        "buyerShipping": "4.99"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 1511.9318584070797,
+            "usd": 222.34292035398232,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 967.636389380531,
+            "usd": 142.29946902654868,
+            "name": "代运营",
+            "rate": 16,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 423.34092035398237,
+            "usd": 62.256017699115056,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 1.092,
+            "usd": 0.16058823529411764,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 181.43182300884956,
+            "usd": 26.68115044247788,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 120.95454867256637,
+            "usd": 17.787433628318585,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 471.5275793857366,
+        "margin": 0.3444574748475695,
+        "netRmb": 2083.1849203539828,
+        "netUsd": 306.35072358146806,
+        "taxUsd": 102.11690786048935,
+        "costRmb": 15.6,
+        "costUsd": 2.2941176470588234,
+        "grossRmb": 6833.932,
+        "grossUsd": 1004.99,
+        "pretaxUsd": 408.4676314419574,
+        "rateTotal": 53,
+        "revenueRmb": 6047.727433628319,
+        "revenueUsd": 889.3716814159293,
+        "logisticsRmb": 48.16,
+        "logisticsUsd": 7.08235294117647
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "【演示】旅行随行杯",
+        "market": "US",
+        "category": "常规",
+        "specCode": "DEMO-20261107-CUP-01",
+        "productCode": "DEMO-P-CUP-01"
+      }
+    },
+    "previous_snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 100004.99,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 48.16,
+        "operation": 16,
+        "promotion": 25,
+        "salePrice": 100000,
+        "chinaPrice": 39,
+        "multiplier": 2.8,
+        "buyerShipping": 4.99
+      },
+      "quote": {
+        "cny": 48.16,
+        "fee": 21,
+        "code": "USPH",
+        "mode": "max",
+        "rate": 97,
+        "extra": 0,
+        "naked": false,
+        "store": "广州店铺",
+        "width": 10,
+        "height": 12,
+        "length": 22,
+        "weight": 0.28,
+        "attribute": "常规",
+        "chargeWeight": 0.28,
+        "volumeWeight": 0.26
+      },
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "10",
+        "height": "12",
+        "length": "22",
+        "weight": "0.28",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "100004.99",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "常规",
+        "logistics": "48.16",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "100000",
+        "chinaPrice": "39",
+        "multiplier": "2.8",
+        "buyerShipping": "4.99"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 150449.98495575224,
+            "usd": 22124.997787610624,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 96287.99037168143,
+            "usd": 14159.9985840708,
+            "name": "代运营",
+            "rate": 16,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 42125.99578761063,
+            "usd": 6194.999380530975,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 1.092,
+            "usd": 0.16058823529411764,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 18053.998194690266,
+            "usd": 2654.9997345132747,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 12035.998796460179,
+            "usd": 1769.99982300885,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 46905.155897969824,
+        "margin": 0.35241917745951534,
+        "netRmb": 212085.83978761063,
+        "netUsd": 31189.09408641333,
+        "taxUsd": 10396.36469547111,
+        "costRmb": 15.6,
+        "costUsd": 2.2941176470588234,
+        "grossRmb": 680033.932,
+        "grossUsd": 100004.99,
+        "pretaxUsd": 41585.45878188444,
+        "rateTotal": 53,
+        "revenueRmb": 601799.939823009,
+        "revenueUsd": 88499.9911504425,
+        "logisticsRmb": 48.16,
+        "logisticsUsd": 7.08235294117647
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "【演示】旅行随行杯",
+        "market": "US",
+        "category": "常规",
+        "specCode": "DEMO-20261107-CUP-01",
+        "productCode": "DEMO-P-CUP-01"
+      }
+    },
+    "previous_saved_at": "2026-11-09T03:53:26.780Z",
+    "version": 5,
+    "net_rmb": "2083.1849203539828",
+    "net_usd": "306.35072358146806",
+    "margin": "0.3444574748475695",
+    "created_at": "2026-11-07T12:14:24.000Z",
+    "updated_at": "2026-11-09T04:13:25.271Z",
+    "operator_name": null,
+    "product_spec": null,
+    "previous_version": 4,
+    "product_id": "fe5c2c3d-1396-413f-beb6-23fb94307694"
+  },
+  {
+    "id": "3cd57689-b838-407b-9734-9af2d14ed252",
+    "user_id": null,
+    "market": "US",
+    "order_number": null,
+    "name": "12",
+    "category": "",
+    "spec_code": "123",
+    "product_code": "",
+    "snapshot": {
+      "input": null,
+      "quote": null,
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "",
+        "height": "",
+        "length": "",
+        "weight": "",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "",
+        "logistics": "",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "",
+        "chinaPrice": "",
+        "multiplier": "2.8",
+        "buyerShipping": "0"
+      },
+      "result": null,
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "12",
+        "market": "US",
+        "category": "",
+        "specCode": "123",
+        "productCode": ""
+      }
+    },
+    "previous_snapshot": null,
+    "previous_saved_at": null,
+    "version": 1,
+    "net_rmb": null,
+    "net_usd": null,
+    "margin": null,
+    "created_at": "2026-11-06T03:08:19.115Z",
+    "updated_at": "2026-11-06T03:08:19.115Z",
+    "operator_name": null,
+    "product_spec": null,
+    "previous_version": null,
+    "product_id": "aabdddc1-17a8-4d19-8e5f-6eaf4a4fc843"
+  },
+  {
+    "id": "5471e008-9519-4734-983a-f20c5664eee2",
+    "user_id": null,
+    "market": "US",
+    "order_number": null,
+    "name": "【演示】奶油猫毛绒公仔",
+    "category": "毛绒",
+    "spec_code": "DEMO-20261107-PLUSH-01",
+    "product_code": "DEMO-P-PLUSH-01",
+    "snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 45.98,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 112,
+        "operation": 16,
+        "promotion": 25,
+        "salePrice": 39.99,
+        "chinaPrice": 89,
+        "multiplier": 2.8,
+        "buyerShipping": 5.99
+      },
+      "quote": {
+        "cny": 97.2,
+        "fee": 27,
+        "code": "USMPPK",
+        "mode": "actual",
+        "rate": 108,
+        "extra": 0,
+        "naked": false,
+        "store": "广州店铺",
+        "width": 24,
+        "height": 20,
+        "length": 32,
+        "weight": 0.65,
+        "attribute": "毛绒",
+        "chargeWeight": 0.65,
+        "volumeWeight": 1.54
+      },
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "24",
+        "height": "20",
+        "length": "32",
+        "weight": "0.65",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "45.98",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "毛绒",
+        "logistics": "112",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "39.99",
+        "chinaPrice": "89",
+        "multiplier": "2.8",
+        "buyerShipping": "5.99"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 69.17345132743363,
+            "usd": 10.172566371681416,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 44.27100884955752,
+            "usd": 6.510442477876106,
+            "name": "代运营",
+            "rate": 16,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 19.368566371681414,
+            "usd": 2.8483185840707965,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 2.492,
+            "usd": 0.3664705882352941,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 8.300814159292036,
+            "usd": 1.22070796460177,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 5.53387610619469,
+            "usd": 0.8138053097345133,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 21.9323112961999,
+        "margin": -0.0724479952920708,
+        "netRmb": -20.0459115044248,
+        "netUsd": -2.947928162415412,
+        "taxUsd": 0,
+        "costRmb": 35.6,
+        "costUsd": 5.235294117647059,
+        "grossRmb": 312.664,
+        "grossUsd": 45.98,
+        "pretaxUsd": -2.947928162415412,
+        "rateTotal": 53,
+        "revenueRmb": 276.6938053097345,
+        "revenueUsd": 40.690265486725664,
+        "logisticsRmb": 112,
+        "logisticsUsd": 16.47058823529412
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "【演示】奶油猫毛绒公仔",
+        "market": "US",
+        "category": "毛绒",
+        "specCode": "DEMO-20261107-PLUSH-01",
+        "productCode": "DEMO-P-PLUSH-01"
+      }
+    },
+    "previous_snapshot": null,
+    "previous_saved_at": null,
+    "version": 1,
+    "net_rmb": "-20.0459115044248",
+    "net_usd": "-2.947928162415412",
+    "margin": "-0.0724479952920708",
+    "created_at": "2026-11-07T12:14:23.968Z",
+    "updated_at": "2026-11-07T12:14:23.968Z",
+    "operator_name": null,
+    "product_spec": null,
+    "previous_version": null,
+    "product_id": "ba21216e-edec-4166-9100-c5feb467a8c8"
+  },
+  {
+    "id": "590673eb-f60e-45dc-b940-e4490440507f",
+    "user_id": null,
+    "market": "US",
+    "order_number": null,
+    "name": "【演示】星际旅行盲盒",
+    "category": "盲盒",
+    "spec_code": "DEMO-20261107-BLIND-01",
+    "product_code": "DEMO-P-BLIND-01",
+    "snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 34.98,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 51,
+        "operation": 16,
+        "promotion": 25,
+        "salePrice": 29.99,
+        "chinaPrice": 59,
+        "multiplier": 2.8,
+        "buyerShipping": 4.99
+      },
+      "quote": {
+        "cny": 50.04,
+        "fee": 19,
+        "code": "USPH",
+        "mode": "max",
+        "rate": 97,
+        "extra": 0,
+        "naked": false,
+        "store": "广州店铺",
+        "width": 12,
+        "height": 10,
+        "length": 14,
+        "weight": 0.32,
+        "attribute": "盲盒",
+        "chargeWeight": 0.32,
+        "volumeWeight": 0.17
+      },
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "12",
+        "height": "10",
+        "length": "14",
+        "weight": "0.32",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "34.98",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "盲盒",
+        "logistics": "51",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "29.99",
+        "chinaPrice": "59",
+        "multiplier": "2.8",
+        "buyerShipping": "4.99"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 52.62477876106195,
+            "usd": 7.738938053097345,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 33.67985840707965,
+            "usd": 4.952920353982301,
+            "name": "代运营",
+            "rate": 16,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 14.734938053097345,
+            "usd": 2.1669026548672568,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 1.6520000000000001,
+            "usd": 0.24294117647058827,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 6.314973451327433,
+            "usd": 0.9286725663716814,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 4.209982300884956,
+            "usd": 0.6191150442477876,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 16.64948984903696,
+        "margin": 0.08081714761376244,
+        "netRmb": 17.011938053097335,
+        "netUsd": 2.5017555960437257,
+        "taxUsd": 0.8339185320145752,
+        "costRmb": 23.6,
+        "costUsd": 3.4705882352941178,
+        "grossRmb": 237.86399999999998,
+        "grossUsd": 34.98,
+        "pretaxUsd": 3.335674128058301,
+        "rateTotal": 53,
+        "revenueRmb": 210.4991150442478,
+        "revenueUsd": 30.95575221238938,
+        "logisticsRmb": 51,
+        "logisticsUsd": 7.5
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "【演示】星际旅行盲盒",
+        "market": "US",
+        "category": "盲盒",
+        "specCode": "DEMO-20261107-BLIND-01",
+        "productCode": "DEMO-P-BLIND-01"
+      }
+    },
+    "previous_snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 34.98,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 54,
+        "operation": 16,
+        "promotion": 25,
+        "salePrice": 29.99,
+        "chinaPrice": 59,
+        "multiplier": 2.8,
+        "buyerShipping": 4.99
+      },
+      "quote": {
+        "cny": 50.04,
+        "fee": 19,
+        "code": "USPH",
+        "mode": "max",
+        "rate": 97,
+        "extra": 0,
+        "naked": false,
+        "store": "广州店铺",
+        "width": 12,
+        "height": 10,
+        "length": 14,
+        "weight": 0.32,
+        "attribute": "盲盒",
+        "chargeWeight": 0.32,
+        "volumeWeight": 0.17
+      },
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "12",
+        "height": "10",
+        "length": "14",
+        "weight": "0.32",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "34.98",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "盲盒",
+        "logistics": "54",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "29.99",
+        "chinaPrice": "59",
+        "multiplier": "2.8",
+        "buyerShipping": "4.99"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 52.62477876106195,
+            "usd": 7.738938053097345,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 33.67985840707965,
+            "usd": 4.952920353982301,
+            "name": "代运营",
+            "rate": 16,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 14.734938053097345,
+            "usd": 2.1669026548672568,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 1.6520000000000001,
+            "usd": 0.24294117647058827,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 6.314973451327433,
+            "usd": 0.9286725663716814,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 4.209982300884956,
+            "usd": 0.6191150442477876,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 16.64948984903696,
+        "margin": 0.07012826657249516,
+        "netRmb": 14.761938053097333,
+        "netUsd": 2.170873243102549,
+        "taxUsd": 0.7236244143675163,
+        "costRmb": 23.6,
+        "costUsd": 3.4705882352941178,
+        "grossRmb": 237.86399999999998,
+        "grossUsd": 34.98,
+        "pretaxUsd": 2.8944976574700654,
+        "rateTotal": 53,
+        "revenueRmb": 210.4991150442478,
+        "revenueUsd": 30.95575221238938,
+        "logisticsRmb": 54,
+        "logisticsUsd": 7.9411764705882355
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "【演示】星际旅行盲盒",
+        "market": "US",
+        "category": "盲盒",
+        "specCode": "DEMO-20261107-BLIND-01",
+        "productCode": "DEMO-P-BLIND-01"
+      }
+    },
+    "previous_saved_at": "2026-11-07T12:14:23.898Z",
+    "version": 2,
+    "net_rmb": "17.011938053097335",
+    "net_usd": "2.5017555960437257",
+    "margin": "0.08081714761376244",
+    "created_at": "2026-11-07T12:14:23.898Z",
+    "updated_at": "2026-11-07T12:14:23.923Z",
+    "operator_name": null,
+    "product_spec": null,
+    "previous_version": 1,
+    "product_id": "bab7551d-9d45-43eb-be44-f607cac3b5fc"
+  },
+  {
+    "id": "5b2088f7-b87b-4732-bcdb-a164a7719b53",
+    "user_id": null,
+    "market": "US",
+    "order_number": null,
+    "name": "",
+    "category": "",
+    "spec_code": "312321",
+    "product_code": "",
+    "snapshot": {
+      "input": null,
+      "quote": null,
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "",
+        "height": "",
+        "length": "",
+        "weight": "",
+        "divisor": "1.13",
+        "photoId": "0141a8da-8531-47a2-aec9-4f8f752cd394",
+        "receipt": "",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "",
+        "logistics": "",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "",
+        "chinaPrice": "",
+        "multiplier": "2.8",
+        "buyerShipping": "0"
+      },
+      "result": null,
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "",
+        "market": "US",
+        "category": "",
+        "specCode": "312321",
+        "productCode": ""
+      }
+    },
+    "previous_snapshot": null,
+    "previous_saved_at": null,
+    "version": 1,
+    "net_rmb": null,
+    "net_usd": null,
+    "margin": null,
+    "created_at": "2026-11-05T09:29:19.543Z",
+    "updated_at": "2026-11-05T09:29:19.543Z",
+    "operator_name": null,
+    "product_spec": null,
+    "previous_version": null,
+    "product_id": "604b058d-ce12-4491-9ebc-98f386795b3a"
+  },
+  {
+    "id": "70797251-2762-438c-9cfb-b2e890be329c",
+    "user_id": null,
+    "market": "US",
+    "order_number": null,
+    "name": "【演示】旅行随行杯",
+    "category": "常规",
+    "spec_code": "DEMO-20261107-CUP-01",
+    "product_code": "DEMO-P-CUP-01",
+    "snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 24.98,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 42,
+        "operation": 16,
+        "promotion": 25,
+        "salePrice": 19.99,
+        "chinaPrice": 39,
+        "multiplier": 2.8,
+        "buyerShipping": 4.99
+      },
+      "quote": {
+        "cny": 48.16,
+        "fee": 21,
+        "code": "USPH",
+        "mode": "max",
+        "rate": 97,
+        "extra": 0,
+        "naked": false,
+        "store": "广州店铺",
+        "width": 10,
+        "height": 10,
+        "length": 22,
+        "weight": 0.28,
+        "attribute": "常规",
+        "chargeWeight": 0.28,
+        "volumeWeight": 0.22
+      },
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "10",
+        "height": "10",
+        "length": "22",
+        "weight": "0.28",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "24.98",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "常规",
+        "logistics": "42",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "19.99",
+        "chinaPrice": "39",
+        "multiplier": "2.8",
+        "buyerShipping": "4.99"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 37.58053097345133,
+            "usd": 5.526548672566372,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 24.051539823008852,
+            "usd": 3.5369911504424785,
+            "name": "代运营",
+            "rate": 16,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 10.522548672566373,
+            "usd": 1.5474336283185843,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 1.092,
+            "usd": 0.16058823529411764,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 4.50966371681416,
+            "usd": 0.6631858407079647,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 3.0064424778761065,
+            "usd": 0.4421238938053098,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 11.876871421134826,
+        "margin": 0.05966885272924235,
+        "netRmb": 8.969548672566392,
+        "netUsd": 1.3190512753774106,
+        "taxUsd": 0.4396837584591368,
+        "costRmb": 15.6,
+        "costUsd": 2.2941176470588234,
+        "grossRmb": 169.864,
+        "grossUsd": 24.98,
+        "pretaxUsd": 1.7587350338365475,
+        "rateTotal": 53,
+        "revenueRmb": 150.32212389380533,
+        "revenueUsd": 22.10619469026549,
+        "logisticsRmb": 42,
+        "logisticsUsd": 6.176470588235294
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "【演示】旅行随行杯",
+        "market": "US",
+        "category": "常规",
+        "specCode": "DEMO-20261107-CUP-01",
+        "productCode": "DEMO-P-CUP-01"
+      }
+    },
+    "previous_snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 24.98,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 45,
+        "operation": 16,
+        "promotion": 25,
+        "salePrice": 19.99,
+        "chinaPrice": 39,
+        "multiplier": 2.8,
+        "buyerShipping": 4.99
+      },
+      "quote": {
+        "cny": 48.16,
+        "fee": 21,
+        "code": "USPH",
+        "mode": "max",
+        "rate": 97,
+        "extra": 0,
+        "naked": false,
+        "store": "广州店铺",
+        "width": 10,
+        "height": 10,
+        "length": 22,
+        "weight": 0.28,
+        "attribute": "常规",
+        "chargeWeight": 0.28,
+        "volumeWeight": 0.22
+      },
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "10",
+        "height": "10",
+        "length": "22",
+        "weight": "0.28",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "24.98",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "常规",
+        "logistics": "45",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "19.99",
+        "chinaPrice": "39",
+        "multiplier": "2.8",
+        "buyerShipping": "4.99"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 37.58053097345133,
+            "usd": 5.526548672566372,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 24.051539823008852,
+            "usd": 3.5369911504424785,
+            "name": "代运营",
+            "rate": 16,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 10.522548672566373,
+            "usd": 1.5474336283185843,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 1.092,
+            "usd": 0.16058823529411764,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 4.50966371681416,
+            "usd": 0.6631858407079647,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 3.0064424778761065,
+            "usd": 0.4421238938053098,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 11.876871421134826,
+        "margin": 0.04470099609099056,
+        "netRmb": 6.719548672566391,
+        "netUsd": 0.988168922436234,
+        "taxUsd": 0.329389640812078,
+        "costRmb": 15.6,
+        "costUsd": 2.2941176470588234,
+        "grossRmb": 169.864,
+        "grossUsd": 24.98,
+        "pretaxUsd": 1.317558563248312,
+        "rateTotal": 53,
+        "revenueRmb": 150.32212389380533,
+        "revenueUsd": 22.10619469026549,
+        "logisticsRmb": 45,
+        "logisticsUsd": 6.61764705882353
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "【演示】旅行随行杯",
+        "market": "US",
+        "category": "常规",
+        "specCode": "DEMO-20261107-CUP-01",
+        "productCode": "DEMO-P-CUP-01"
+      }
+    },
+    "previous_saved_at": "2026-11-07T12:14:23.980Z",
+    "version": 2,
+    "net_rmb": "8.969548672566392",
+    "net_usd": "1.3190512753774106",
+    "margin": "0.05966885272924235",
+    "created_at": "2026-11-07T12:14:23.980Z",
+    "updated_at": "2026-11-07T12:14:23.991Z",
+    "operator_name": null,
+    "product_spec": null,
+    "previous_version": 1,
+    "product_id": "fe5c2c3d-1396-413f-beb6-23fb94307694"
+  },
+  {
+    "id": "bb5211d0-a273-473c-ba8a-0c85e2ea17c4",
+    "user_id": null,
+    "market": "US",
+    "order_number": null,
+    "name": "猪",
+    "category": "盲盒",
+    "spec_code": "123",
+    "product_code": "134",
+    "snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 27.19,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 50,
+        "operation": 10,
+        "promotion": 25,
+        "salePrice": 24.29,
+        "chinaPrice": 59,
+        "multiplier": 2.8,
+        "buyerShipping": 2.9
+      },
+      "quote": null,
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "",
+        "height": "",
+        "length": "0.000001",
+        "weight": "",
+        "divisor": "1.13",
+        "photoId": "351441c0-65d9-4c53-968c-2dc3e0ae0441",
+        "receipt": "27.19",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "潮玩",
+        "logistics": "50",
+        "operation": "10",
+        "promotion": "25",
+        "salePrice": "24.29",
+        "chinaPrice": "59",
+        "multiplier": "2.8",
+        "buyerShipping": "2.9"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 40.905309734513274,
+            "usd": 6.015486725663717,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 16.36212389380531,
+            "usd": 2.4061946902654867,
+            "name": "代运营",
+            "rate": 10,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 11.453486725663717,
+            "usd": 1.6843362831858406,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 1.6520000000000001,
+            "usd": 0.24294117647058827,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 4.908637168141593,
+            "usd": 0.721858407079646,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 3.272424778761062,
+            "usd": 0.48123893805309736,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 11.552056220718375,
+        "margin": 0.052563117928304134,
+        "netRmb": 8.600442477876113,
+        "netUsd": 1.2647709526288402,
+        "taxUsd": 0.42159031754294674,
+        "costRmb": 23.6,
+        "costUsd": 3.4705882352941178,
+        "grossRmb": 184.892,
+        "grossUsd": 27.19,
+        "pretaxUsd": 1.686361270171787,
+        "rateTotal": 47,
+        "revenueRmb": 163.6212389380531,
+        "revenueUsd": 24.061946902654867,
+        "logisticsRmb": 50,
+        "logisticsUsd": 7.352941176470589
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "猪",
+        "market": "US",
+        "category": "潮玩",
+        "specCode": "123",
+        "productCode": "134"
+      }
+    },
+    "previous_snapshot": null,
+    "previous_saved_at": null,
+    "version": 1,
+    "net_rmb": "8.600442477876113",
+    "net_usd": "1.2647709526288402",
+    "margin": "0.052563117928304134",
+    "created_at": "2026-11-06T02:07:44.535Z",
+    "updated_at": "2026-11-06T02:07:44.535Z",
+    "operator_name": null,
+    "product_spec": null,
+    "previous_version": null,
+    "product_id": "aabdddc1-17a8-4d19-8e5f-6eaf4a4fc843"
+  },
+  {
+    "id": "cce467cf-c126-48cd-a1c2-b97392dcc4ed",
+    "user_id": null,
+    "market": "US",
+    "order_number": null,
+    "name": "【演示】奶油猫毛绒公仔",
+    "category": "毛绒",
+    "spec_code": "DEMO-20261107-PLUSH-01",
+    "product_code": "DEMO-P-PLUSH-01",
+    "snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 40.98,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 125,
+        "operation": 16,
+        "promotion": 25,
+        "salePrice": 34.99,
+        "chinaPrice": 89,
+        "multiplier": 2.8,
+        "buyerShipping": 5.99
+      },
+      "quote": {
+        "cny": 97.2,
+        "fee": 27,
+        "code": "USMPPK",
+        "mode": "actual",
+        "rate": 108,
+        "extra": 0,
+        "naked": false,
+        "store": "广州店铺",
+        "width": 24,
+        "height": 20,
+        "length": 32,
+        "weight": 0.65,
+        "attribute": "毛绒",
+        "chargeWeight": 0.65,
+        "volumeWeight": 1.54
+      },
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "24",
+        "height": "20",
+        "length": "32",
+        "weight": "0.65",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "40.98",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "毛绒",
+        "logistics": "125",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "34.99",
+        "chinaPrice": "89",
+        "multiplier": "2.8",
+        "buyerShipping": "5.99"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 61.651327433628325,
+            "usd": 9.06637168141593,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 39.456849557522126,
+            "usd": 5.802477876106195,
+            "name": "代运营",
+            "rate": 16,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 17.262371681415928,
+            "usd": 2.5385840707964604,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 2.492,
+            "usd": 0.3664705882352941,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 7.398159292035399,
+            "usd": 1.0879646017699116,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 4.932106194690266,
+            "usd": 0.7253097345132744,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 19.587178552837067,
+        "margin": -0.19134829041426227,
+        "netRmb": -47.18750442477875,
+        "netUsd": -6.939338885996875,
+        "taxUsd": 0,
+        "costRmb": 35.6,
+        "costUsd": 5.235294117647059,
+        "grossRmb": 278.664,
+        "grossUsd": 40.98,
+        "pretaxUsd": -6.939338885996875,
+        "rateTotal": 53,
+        "revenueRmb": 246.6053097345133,
+        "revenueUsd": 36.26548672566372,
+        "logisticsRmb": 125,
+        "logisticsUsd": 18.38235294117647
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "【演示】奶油猫毛绒公仔",
+        "market": "US",
+        "category": "毛绒",
+        "specCode": "DEMO-20261107-PLUSH-01",
+        "productCode": "DEMO-P-PLUSH-01"
+      }
+    },
+    "previous_snapshot": {
+      "input": {
+        "fx": 6.8,
+        "tax": 25,
+        "labor": 3,
+        "other": 2,
+        "divisor": 1.13,
+        "receipt": 40.98,
+        "royalty": 7,
+        "costRate": 40,
+        "currency": "RMB",
+        "platform": 7,
+        "logistics": 128,
+        "operation": 16,
+        "promotion": 25,
+        "salePrice": 34.99,
+        "chinaPrice": 89,
+        "multiplier": 2.8,
+        "buyerShipping": 5.99
+      },
+      "quote": {
+        "cny": 97.2,
+        "fee": 27,
+        "code": "USMPPK",
+        "mode": "actual",
+        "rate": 108,
+        "extra": 0,
+        "naked": false,
+        "store": "广州店铺",
+        "width": 24,
+        "height": 20,
+        "length": 32,
+        "weight": 0.65,
+        "attribute": "毛绒",
+        "chargeWeight": 0.65,
+        "volumeWeight": 1.54
+      },
+      "fields": {
+        "fx": "6.8",
+        "tax": "25",
+        "zone": "America/Los_Angeles",
+        "labor": "3",
+        "other": "2",
+        "store": "广州店铺",
+        "width": "24",
+        "height": "20",
+        "length": "32",
+        "weight": "0.65",
+        "divisor": "1.13",
+        "photoId": "",
+        "receipt": "40.98",
+        "royalty": "7",
+        "costRate": "40",
+        "currency": "RMB",
+        "packType": "parcel",
+        "platform": "7",
+        "attribute": "毛绒",
+        "logistics": "128",
+        "operation": "16",
+        "promotion": "25",
+        "salePrice": "34.99",
+        "chinaPrice": "89",
+        "multiplier": "2.8",
+        "buyerShipping": "5.99"
+      },
+      "result": {
+        "fees": [
+          {
+            "key": "promotion",
+            "rmb": 61.651327433628325,
+            "usd": 9.06637168141593,
+            "name": "推广费",
+            "rate": 25,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "operation",
+            "rmb": 39.456849557522126,
+            "usd": 5.802477876106195,
+            "name": "代运营",
+            "rate": 16,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "platform",
+            "rmb": 17.262371681415928,
+            "usd": 2.5385840707964604,
+            "name": "平台佣金",
+            "rate": 7,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "royalty",
+            "rmb": 2.492,
+            "usd": 0.3664705882352941,
+            "name": "版权费",
+            "rate": 7,
+            "basis": "产品成本"
+          },
+          {
+            "key": "labor",
+            "rmb": 7.398159292035399,
+            "usd": 1.0879646017699116,
+            "name": "人工成本",
+            "rate": 3,
+            "basis": "真实营业收入"
+          },
+          {
+            "key": "other",
+            "rmb": 4.932106194690266,
+            "usd": 0.7253097345132744,
+            "name": "其他费用",
+            "rate": 2,
+            "basis": "真实营业收入"
+          }
+        ],
+        "feeUsd": 19.587178552837067,
+        "margin": -0.20351347859788127,
+        "netRmb": -50.18750442477875,
+        "netUsd": -7.380515356585111,
+        "taxUsd": 0,
+        "costRmb": 35.6,
+        "costUsd": 5.235294117647059,
+        "grossRmb": 278.664,
+        "grossUsd": 40.98,
+        "pretaxUsd": -7.380515356585111,
+        "rateTotal": 53,
+        "revenueRmb": 246.6053097345133,
+        "revenueUsd": 36.26548672566372,
+        "logisticsRmb": 128,
+        "logisticsUsd": 18.823529411764707
+      },
+      "freight": {
+        "pack": {
+          "包袋": {
+            "size": 0.95,
+            "weight": 1.15
+          },
+          "带电": {
+            "size": 1.3,
+            "weight": 1.45
+          },
+          "带磁": {
+            "size": 1.2,
+            "weight": 1.3
+          },
+          "普货": {
+            "size": 1.15,
+            "weight": 1.3
+          },
+          "毛绒": {
+            "size": 0.75,
+            "weight": 1.2
+          },
+          "液体": {
+            "size": 1.3,
+            "weight": 1.3
+          },
+          "潮玩": {
+            "size": 1.25,
+            "weight": 1.4
+          },
+          "洞洞包": {
+            "size": 1.05,
+            "weight": 1.2
+          }
+        },
+        "routes": {
+          "包袋": "USMPPK",
+          "带电": "USFC",
+          "带磁": "USFC",
+          "普货": "USPH",
+          "毛绒": "USMPPK",
+          "液体": "USTM",
+          "潮玩": "USPH",
+          "洞洞包": "USMPPK"
+        },
+        "channels": {
+          "USFC": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 102
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 102
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 107
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 107
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USPH": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 22,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 97
+              },
+              {
+                "fee": 21,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 97
+              },
+              {
+                "fee": 19,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 97
+              },
+              {
+                "fee": 12,
+                "max": 1,
+                "min": 0.451,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 3,
+                "min": 1.001,
+                "rate": 102
+              },
+              {
+                "fee": 12,
+                "max": 10,
+                "min": 3.001,
+                "rate": 102
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USTM": {
+            "mode": "max",
+            "tiers": [
+              {
+                "fee": 35,
+                "max": 0.2,
+                "min": 0.05,
+                "rate": 100
+              },
+              {
+                "fee": 35,
+                "max": 0.45,
+                "min": 0.201,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 0.7,
+                "min": 0.451,
+                "rate": 100
+              },
+              {
+                "fee": 50,
+                "max": 1,
+                "min": 0.701,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 2,
+                "min": 1.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 5,
+                "min": 2.001,
+                "rate": 100
+              },
+              {
+                "fee": 49,
+                "max": 10,
+                "min": 5.001,
+                "rate": 100
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          },
+          "USMPPK": {
+            "mode": "actual",
+            "tiers": [
+              {
+                "fee": 25,
+                "max": 0.226,
+                "min": 0.05,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.311,
+                "min": 0.227,
+                "rate": 111
+              },
+              {
+                "fee": 25,
+                "max": 0.45,
+                "min": 0.312,
+                "rate": 111
+              },
+              {
+                "fee": 27,
+                "max": 1,
+                "min": 0.451,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 3,
+                "min": 1.001,
+                "rate": 108
+              },
+              {
+                "fee": 29,
+                "max": 10,
+                "min": 3.001,
+                "rate": 108
+              }
+            ],
+            "minWeight": 0.05,
+            "volumeDivisor": 10000
+          }
+        },
+        "hongKong": {
+          "extraFee": 1,
+          "overrideChannel": "USFC",
+          "preserveChannel": "USTM"
+        },
+        "maxWeight": 10
+      },
+      "identity": {
+        "name": "【演示】奶油猫毛绒公仔",
+        "market": "US",
+        "category": "毛绒",
+        "specCode": "DEMO-20261107-PLUSH-01",
+        "productCode": "DEMO-P-PLUSH-01"
+      }
+    },
+    "previous_saved_at": "2026-11-07T12:14:23.951Z",
+    "version": 2,
+    "net_rmb": "-47.18750442477875",
+    "net_usd": "-6.939338885996875",
+    "margin": "-0.19134829041426227",
+    "created_at": "2026-11-07T12:14:23.951Z",
+    "updated_at": "2026-11-07T12:14:23.960Z",
+    "operator_name": null,
+    "product_spec": null,
+    "previous_version": 1,
+    "product_id": "ba21216e-edec-4166-9100-c5feb467a8c8"
+  }
+]

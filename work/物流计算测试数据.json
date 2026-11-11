@@ -1,0 +1,5048 @@
+{
+  "date": "2026-11-04",
+  "reference": "/Users/miniso/Downloads/美区跨境小包运费查询工具_外发版_v2026.10.26.html",
+  "configuration": "DEFAULT_CONFIG",
+  "passed": 256,
+  "rows": [
+    {
+      "id": "A01",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 50.1
+      }
+    },
+    {
+      "id": "A02",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 52.6
+      }
+    },
+    {
+      "id": "A03",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.46,
+        "volumeWeight": 0.46,
+        "cny": 58.92
+      }
+    },
+    {
+      "id": "A04",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.46,
+        "volumeWeight": 0.46,
+        "cny": 62.22
+      }
+    },
+    {
+      "id": "A05",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "潮玩",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 50.1
+      }
+    },
+    {
+      "id": "A06",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "潮玩",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 52.6
+      }
+    },
+    {
+      "id": "A07",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "潮玩",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.59,
+        "volumeWeight": 0.59,
+        "cny": 72.18
+      }
+    },
+    {
+      "id": "A08",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "潮玩",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.59,
+        "volumeWeight": 0.59,
+        "cny": 76.13
+      }
+    },
+    {
+      "id": "A09",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 51.6
+      }
+    },
+    {
+      "id": "A10",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "带电",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 52.6
+      }
+    },
+    {
+      "id": "A11",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "带电",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.66,
+        "volumeWeight": 0.66,
+        "cny": 82.62
+      }
+    },
+    {
+      "id": "A12",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "带电",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.66,
+        "volumeWeight": 0.66,
+        "cny": 83.62
+      }
+    },
+    {
+      "id": "A13",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "带磁",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 51.6
+      }
+    },
+    {
+      "id": "A14",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "带磁",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 52.6
+      }
+    },
+    {
+      "id": "A15",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "带磁",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.52,
+        "volumeWeight": 0.52,
+        "cny": 67.64
+      }
+    },
+    {
+      "id": "A16",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "带磁",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.52,
+        "volumeWeight": 0.52,
+        "cny": 68.64
+      }
+    },
+    {
+      "id": "A17",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.2,
+        "volumeWeight": 0.3,
+        "cny": 47.2
+      }
+    },
+    {
+      "id": "A18",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 52.6
+      }
+    },
+    {
+      "id": "A19",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "毛绒",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.24,
+        "volumeWeight": 0.13,
+        "cny": 51.64
+      }
+    },
+    {
+      "id": "A20",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "毛绒",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.24,
+        "volumeWeight": 0.13,
+        "cny": 46.48
+      }
+    },
+    {
+      "id": "A21",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "洞洞包",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.2,
+        "volumeWeight": 0.3,
+        "cny": 47.2
+      }
+    },
+    {
+      "id": "A22",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "洞洞包",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 52.6
+      }
+    },
+    {
+      "id": "A23",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "洞洞包",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.24,
+        "volumeWeight": 0.35,
+        "cny": 51.64
+      }
+    },
+    {
+      "id": "A24",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "洞洞包",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.35,
+        "volumeWeight": 0.35,
+        "cny": 55.7
+      }
+    },
+    {
+      "id": "A25",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "包袋",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.2,
+        "volumeWeight": 0.3,
+        "cny": 47.2
+      }
+    },
+    {
+      "id": "A26",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "包袋",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 52.6
+      }
+    },
+    {
+      "id": "A27",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "包袋",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0.26,
+        "cny": 50.53
+      }
+    },
+    {
+      "id": "A28",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "包袋",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.26,
+        "volumeWeight": 0.26,
+        "cny": 48.52
+      }
+    },
+    {
+      "id": "A29",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 65
+      }
+    },
+    {
+      "id": "A30",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "液体",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0.3,
+        "cny": 66
+      }
+    },
+    {
+      "id": "A31",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "液体",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.66,
+        "volumeWeight": 0.66,
+        "cny": 116
+      }
+    },
+    {
+      "id": "A32",
+      "group": "A",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "液体",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.66,
+        "volumeWeight": 0.66,
+        "cny": 117
+      }
+    },
+    {
+      "id": "B01",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 114
+      }
+    },
+    {
+      "id": "B02",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "普货",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 120
+      }
+    },
+    {
+      "id": "B03",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "普货",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 1.3,
+        "volumeWeight": 0.15,
+        "cny": 144.6
+      }
+    },
+    {
+      "id": "B04",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "普货",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1.3,
+        "volumeWeight": 0.15,
+        "cny": 152.1
+      }
+    },
+    {
+      "id": "B05",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "潮玩",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 114
+      }
+    },
+    {
+      "id": "B06",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "潮玩",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 120
+      }
+    },
+    {
+      "id": "B07",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "潮玩",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 1.4,
+        "volumeWeight": 0.2,
+        "cny": 154.8
+      }
+    },
+    {
+      "id": "B08",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "潮玩",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1.4,
+        "volumeWeight": 0.2,
+        "cny": 162.8
+      }
+    },
+    {
+      "id": "B09",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 119
+      }
+    },
+    {
+      "id": "B10",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "带电",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 120
+      }
+    },
+    {
+      "id": "B11",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "带电",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1.45,
+        "volumeWeight": 0.22,
+        "cny": 167.15
+      }
+    },
+    {
+      "id": "B12",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "带电",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1.45,
+        "volumeWeight": 0.22,
+        "cny": 168.15
+      }
+    },
+    {
+      "id": "B13",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "带磁",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 119
+      }
+    },
+    {
+      "id": "B14",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "带磁",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 120
+      }
+    },
+    {
+      "id": "B15",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "带磁",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1.3,
+        "volumeWeight": 0.17,
+        "cny": 151.1
+      }
+    },
+    {
+      "id": "B16",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "带磁",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1.3,
+        "volumeWeight": 0.17,
+        "cny": 152.1
+      }
+    },
+    {
+      "id": "B17",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 135
+      }
+    },
+    {
+      "id": "B18",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 120
+      }
+    },
+    {
+      "id": "B19",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "毛绒",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 1.2,
+        "volumeWeight": 0.04,
+        "cny": 158.6
+      }
+    },
+    {
+      "id": "B20",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "毛绒",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1.2,
+        "volumeWeight": 0.04,
+        "cny": 141.4
+      }
+    },
+    {
+      "id": "B21",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "洞洞包",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 135
+      }
+    },
+    {
+      "id": "B22",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "洞洞包",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 120
+      }
+    },
+    {
+      "id": "B23",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "洞洞包",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 1.2,
+        "volumeWeight": 0.12,
+        "cny": 158.6
+      }
+    },
+    {
+      "id": "B24",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "洞洞包",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1.2,
+        "volumeWeight": 0.12,
+        "cny": 141.4
+      }
+    },
+    {
+      "id": "B25",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "包袋",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 135
+      }
+    },
+    {
+      "id": "B26",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "包袋",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 120
+      }
+    },
+    {
+      "id": "B27",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "包袋",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 1.15,
+        "volumeWeight": 0.09,
+        "cny": 153.2
+      }
+    },
+    {
+      "id": "B28",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "包袋",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1.15,
+        "volumeWeight": 0.09,
+        "cny": 136.05
+      }
+    },
+    {
+      "id": "B29",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 150
+      }
+    },
+    {
+      "id": "B30",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "液体",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 1,
+        "volumeWeight": 0.1,
+        "cny": 151
+      }
+    },
+    {
+      "id": "B31",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "液体",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 1.3,
+        "volumeWeight": 0.22,
+        "cny": 179
+      }
+    },
+    {
+      "id": "B32",
+      "group": "B",
+      "input": {
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "weight": 1,
+        "attribute": "液体",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 1.3,
+        "volumeWeight": 0.22,
+        "cny": 180
+      }
+    },
+    {
+      "id": "C01",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 624
+      }
+    },
+    {
+      "id": "C02",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 655
+      }
+    },
+    {
+      "id": "C03",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 9.13,
+        "volumeWeight": 9.13,
+        "cny": 943.26
+      }
+    },
+    {
+      "id": "C04",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 9.13,
+        "volumeWeight": 9.13,
+        "cny": 989.91
+      }
+    },
+    {
+      "id": "C05",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "潮玩",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 624
+      }
+    },
+    {
+      "id": "C06",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "潮玩",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 655
+      }
+    },
+    {
+      "id": "C07",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "潮玩",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "C08",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "潮玩",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "C09",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 654
+      }
+    },
+    {
+      "id": "C10",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "带电",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 655
+      }
+    },
+    {
+      "id": "C11",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "带电",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "C12",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "带电",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "C13",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "带磁",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 654
+      }
+    },
+    {
+      "id": "C14",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "带磁",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 655
+      }
+    },
+    {
+      "id": "C15",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "带磁",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "C16",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "带磁",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "C17",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.2,
+        "volumeWeight": 6,
+        "cny": 47.2
+      }
+    },
+    {
+      "id": "C18",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 655
+      }
+    },
+    {
+      "id": "C19",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "毛绒",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.24,
+        "volumeWeight": 2.53,
+        "cny": 51.64
+      }
+    },
+    {
+      "id": "C20",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "毛绒",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 2.53,
+        "volumeWeight": 2.53,
+        "cny": 283.71
+      }
+    },
+    {
+      "id": "C21",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "洞洞包",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.2,
+        "volumeWeight": 6,
+        "cny": 47.2
+      }
+    },
+    {
+      "id": "C22",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "洞洞包",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 655
+      }
+    },
+    {
+      "id": "C23",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "洞洞包",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.24,
+        "volumeWeight": 6.95,
+        "cny": 51.64
+      }
+    },
+    {
+      "id": "C24",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "洞洞包",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 6.95,
+        "volumeWeight": 6.95,
+        "cny": 756.65
+      }
+    },
+    {
+      "id": "C25",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "包袋",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.2,
+        "volumeWeight": 6,
+        "cny": 47.2
+      }
+    },
+    {
+      "id": "C26",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "包袋",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 655
+      }
+    },
+    {
+      "id": "C27",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "包袋",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.23,
+        "volumeWeight": 5.14,
+        "cny": 50.53
+      }
+    },
+    {
+      "id": "C28",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "包袋",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 5.14,
+        "volumeWeight": 5.14,
+        "cny": 562.98
+      }
+    },
+    {
+      "id": "C29",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 649
+      }
+    },
+    {
+      "id": "C30",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "液体",
+        "naked": false,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 6,
+        "volumeWeight": 6,
+        "cny": 650
+      }
+    },
+    {
+      "id": "C31",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "液体",
+        "naked": true,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "C32",
+      "group": "C",
+      "input": {
+        "length": 50,
+        "width": 40,
+        "height": 30,
+        "weight": 0.2,
+        "attribute": "液体",
+        "naked": true,
+        "store": "香港店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "D-USPH-0.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.01,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 26.85
+      }
+    },
+    {
+      "id": "D-USPH-0.05",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.05,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 26.85
+      }
+    },
+    {
+      "id": "D-USPH-0.2",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.2,
+        "volumeWeight": 0,
+        "cny": 41.4
+      }
+    },
+    {
+      "id": "D-USPH-0.21",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.21,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.21,
+        "volumeWeight": 0,
+        "cny": 42.37
+      }
+    },
+    {
+      "id": "D-USPH-0.22",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.22,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.22,
+        "volumeWeight": 0,
+        "cny": 43.34
+      }
+    },
+    {
+      "id": "D-USPH-0.23",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.23,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 43.31
+      }
+    },
+    {
+      "id": "D-USPH-0.31",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.31,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 51.07
+      }
+    },
+    {
+      "id": "D-USPH-0.32",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.32,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.32,
+        "volumeWeight": 0,
+        "cny": 50.04
+      }
+    },
+    {
+      "id": "D-USPH-0.45",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.45,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 62.65
+      }
+    },
+    {
+      "id": "D-USPH-0.46",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.46,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.46,
+        "volumeWeight": 0,
+        "cny": 58.92
+      }
+    },
+    {
+      "id": "D-USPH-0.7",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.7,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.7,
+        "volumeWeight": 0,
+        "cny": 83.4
+      }
+    },
+    {
+      "id": "D-USPH-0.71",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.71,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.71,
+        "volumeWeight": 0,
+        "cny": 84.42
+      }
+    },
+    {
+      "id": "D-USPH-1",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 1,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 1,
+        "volumeWeight": 0,
+        "cny": 114
+      }
+    },
+    {
+      "id": "D-USPH-1.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 1.01,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 1.01,
+        "volumeWeight": 0,
+        "cny": 115.02
+      }
+    },
+    {
+      "id": "D-USPH-2",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 2,
+        "volumeWeight": 0,
+        "cny": 216
+      }
+    },
+    {
+      "id": "D-USPH-2.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 2.01,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 2.01,
+        "volumeWeight": 0,
+        "cny": 217.02
+      }
+    },
+    {
+      "id": "D-USPH-3",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 3,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 3,
+        "volumeWeight": 0,
+        "cny": 318
+      }
+    },
+    {
+      "id": "D-USPH-3.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 3.01,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 3.01,
+        "volumeWeight": 0,
+        "cny": 319.02
+      }
+    },
+    {
+      "id": "D-USPH-5",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 5,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 5,
+        "volumeWeight": 0,
+        "cny": 522
+      }
+    },
+    {
+      "id": "D-USPH-5.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 5.01,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 5.01,
+        "volumeWeight": 0,
+        "cny": 523.02
+      }
+    },
+    {
+      "id": "D-USPH-10",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 10,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 10,
+        "volumeWeight": 0,
+        "cny": 1032
+      }
+    },
+    {
+      "id": "D-USPH-10.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 10.01,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "D-USFC-0.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.01,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 27.1
+      }
+    },
+    {
+      "id": "D-USFC-0.05",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.05,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 27.1
+      }
+    },
+    {
+      "id": "D-USFC-0.2",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.2,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.2,
+        "volumeWeight": 0,
+        "cny": 42.4
+      }
+    },
+    {
+      "id": "D-USFC-0.21",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.21,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.21,
+        "volumeWeight": 0,
+        "cny": 43.42
+      }
+    },
+    {
+      "id": "D-USFC-0.22",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.22,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.22,
+        "volumeWeight": 0,
+        "cny": 44.44
+      }
+    },
+    {
+      "id": "D-USFC-0.23",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.23,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 44.46
+      }
+    },
+    {
+      "id": "D-USFC-0.31",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.31,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 52.62
+      }
+    },
+    {
+      "id": "D-USFC-0.32",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.32,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.32,
+        "volumeWeight": 0,
+        "cny": 51.64
+      }
+    },
+    {
+      "id": "D-USFC-0.45",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.45,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 64.9
+      }
+    },
+    {
+      "id": "D-USFC-0.46",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.46,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.46,
+        "volumeWeight": 0,
+        "cny": 61.22
+      }
+    },
+    {
+      "id": "D-USFC-0.7",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.7,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.7,
+        "volumeWeight": 0,
+        "cny": 86.9
+      }
+    },
+    {
+      "id": "D-USFC-0.71",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.71,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.71,
+        "volumeWeight": 0,
+        "cny": 87.97
+      }
+    },
+    {
+      "id": "D-USFC-1",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 1,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1,
+        "volumeWeight": 0,
+        "cny": 119
+      }
+    },
+    {
+      "id": "D-USFC-1.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 1.01,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 1.01,
+        "volumeWeight": 0,
+        "cny": 120.07
+      }
+    },
+    {
+      "id": "D-USFC-2",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 2,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 2,
+        "volumeWeight": 0,
+        "cny": 226
+      }
+    },
+    {
+      "id": "D-USFC-2.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 2.01,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 2.01,
+        "volumeWeight": 0,
+        "cny": 227.07
+      }
+    },
+    {
+      "id": "D-USFC-3",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 3,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 3,
+        "volumeWeight": 0,
+        "cny": 333
+      }
+    },
+    {
+      "id": "D-USFC-3.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 3.01,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 3.01,
+        "volumeWeight": 0,
+        "cny": 334.07
+      }
+    },
+    {
+      "id": "D-USFC-5",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 5,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 5,
+        "volumeWeight": 0,
+        "cny": 547
+      }
+    },
+    {
+      "id": "D-USFC-5.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 5.01,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 5.01,
+        "volumeWeight": 0,
+        "cny": 548.07
+      }
+    },
+    {
+      "id": "D-USFC-10",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 10,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 10,
+        "volumeWeight": 0,
+        "cny": 1082
+      }
+    },
+    {
+      "id": "D-USFC-10.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 10.01,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "D-USMPPK-0.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.01,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 30.55
+      }
+    },
+    {
+      "id": "D-USMPPK-0.05",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.05,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 30.55
+      }
+    },
+    {
+      "id": "D-USMPPK-0.2",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.2,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.2,
+        "volumeWeight": 0,
+        "cny": 47.2
+      }
+    },
+    {
+      "id": "D-USMPPK-0.21",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.21,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.21,
+        "volumeWeight": 0,
+        "cny": 48.31
+      }
+    },
+    {
+      "id": "D-USMPPK-0.22",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.22,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.22,
+        "volumeWeight": 0,
+        "cny": 49.42
+      }
+    },
+    {
+      "id": "D-USMPPK-0.23",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.23,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 50.53
+      }
+    },
+    {
+      "id": "D-USMPPK-0.31",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.31,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 59.41
+      }
+    },
+    {
+      "id": "D-USMPPK-0.32",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.32,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.32,
+        "volumeWeight": 0,
+        "cny": 60.52
+      }
+    },
+    {
+      "id": "D-USMPPK-0.45",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.45,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 74.95
+      }
+    },
+    {
+      "id": "D-USMPPK-0.46",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.46,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.46,
+        "volumeWeight": 0,
+        "cny": 76.68
+      }
+    },
+    {
+      "id": "D-USMPPK-0.7",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.7,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.7,
+        "volumeWeight": 0,
+        "cny": 102.6
+      }
+    },
+    {
+      "id": "D-USMPPK-0.71",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.71,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.71,
+        "volumeWeight": 0,
+        "cny": 103.68
+      }
+    },
+    {
+      "id": "D-USMPPK-1",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 1,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 1,
+        "volumeWeight": 0,
+        "cny": 135
+      }
+    },
+    {
+      "id": "D-USMPPK-1.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 1.01,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 1.01,
+        "volumeWeight": 0,
+        "cny": 138.08
+      }
+    },
+    {
+      "id": "D-USMPPK-2",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 2,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 2,
+        "volumeWeight": 0,
+        "cny": 245
+      }
+    },
+    {
+      "id": "D-USMPPK-2.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 2.01,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 2.01,
+        "volumeWeight": 0,
+        "cny": 246.08
+      }
+    },
+    {
+      "id": "D-USMPPK-3",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 3,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 3,
+        "volumeWeight": 0,
+        "cny": 353
+      }
+    },
+    {
+      "id": "D-USMPPK-3.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 3.01,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 3.01,
+        "volumeWeight": 0,
+        "cny": 354.08
+      }
+    },
+    {
+      "id": "D-USMPPK-5",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 5,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 5,
+        "volumeWeight": 0,
+        "cny": 569
+      }
+    },
+    {
+      "id": "D-USMPPK-5.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 5.01,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 5.01,
+        "volumeWeight": 0,
+        "cny": 570.08
+      }
+    },
+    {
+      "id": "D-USMPPK-10",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 10,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 10,
+        "volumeWeight": 0,
+        "cny": 1109
+      }
+    },
+    {
+      "id": "D-USMPPK-10.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 10.01,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "D-USTM-0.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.01,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 40
+      }
+    },
+    {
+      "id": "D-USTM-0.05",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.05,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 40
+      }
+    },
+    {
+      "id": "D-USTM-0.2",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.2,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.2,
+        "volumeWeight": 0,
+        "cny": 55
+      }
+    },
+    {
+      "id": "D-USTM-0.21",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.21,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.21,
+        "volumeWeight": 0,
+        "cny": 56
+      }
+    },
+    {
+      "id": "D-USTM-0.22",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.22,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.22,
+        "volumeWeight": 0,
+        "cny": 57
+      }
+    },
+    {
+      "id": "D-USTM-0.23",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.23,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 58
+      }
+    },
+    {
+      "id": "D-USTM-0.31",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.31,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 66
+      }
+    },
+    {
+      "id": "D-USTM-0.32",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.32,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.32,
+        "volumeWeight": 0,
+        "cny": 67
+      }
+    },
+    {
+      "id": "D-USTM-0.45",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.45,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 80
+      }
+    },
+    {
+      "id": "D-USTM-0.46",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.46,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.46,
+        "volumeWeight": 0,
+        "cny": 96
+      }
+    },
+    {
+      "id": "D-USTM-0.7",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.7,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.7,
+        "volumeWeight": 0,
+        "cny": 120
+      }
+    },
+    {
+      "id": "D-USTM-0.71",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.71,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.71,
+        "volumeWeight": 0,
+        "cny": 121
+      }
+    },
+    {
+      "id": "D-USTM-1",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 1,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 1,
+        "volumeWeight": 0,
+        "cny": 150
+      }
+    },
+    {
+      "id": "D-USTM-1.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 1.01,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 1.01,
+        "volumeWeight": 0,
+        "cny": 150
+      }
+    },
+    {
+      "id": "D-USTM-2",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 2,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 2,
+        "volumeWeight": 0,
+        "cny": 249
+      }
+    },
+    {
+      "id": "D-USTM-2.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 2.01,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 2.01,
+        "volumeWeight": 0,
+        "cny": 250
+      }
+    },
+    {
+      "id": "D-USTM-3",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 3,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 3,
+        "volumeWeight": 0,
+        "cny": 349
+      }
+    },
+    {
+      "id": "D-USTM-3.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 3.01,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 3.01,
+        "volumeWeight": 0,
+        "cny": 350
+      }
+    },
+    {
+      "id": "D-USTM-5",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 5,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 5,
+        "volumeWeight": 0,
+        "cny": 549
+      }
+    },
+    {
+      "id": "D-USTM-5.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 5.01,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 5.01,
+        "volumeWeight": 0,
+        "cny": 550
+      }
+    },
+    {
+      "id": "D-USTM-10",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 10,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 10,
+        "volumeWeight": 0,
+        "cny": 1049
+      }
+    },
+    {
+      "id": "D-USTM-10.01",
+      "group": "D",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 10.01,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "E-USPH-0.044",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.044,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 26.85
+      }
+    },
+    {
+      "id": "E-USPH-0.045",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.045,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 26.85
+      }
+    },
+    {
+      "id": "E-USPH-0.054",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.054,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 26.85
+      }
+    },
+    {
+      "id": "E-USPH-0.055",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.055,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.06,
+        "volumeWeight": 0,
+        "cny": 27.82
+      }
+    },
+    {
+      "id": "E-USPH-0.224",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.224,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.22,
+        "volumeWeight": 0,
+        "cny": 43.34
+      }
+    },
+    {
+      "id": "E-USPH-0.225",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.225,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 43.31
+      }
+    },
+    {
+      "id": "E-USPH-0.226",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.226,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 43.31
+      }
+    },
+    {
+      "id": "E-USPH-0.227",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.227,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 43.31
+      }
+    },
+    {
+      "id": "E-USPH-0.304",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.304,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0,
+        "cny": 50.1
+      }
+    },
+    {
+      "id": "E-USPH-0.305",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.305,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 51.07
+      }
+    },
+    {
+      "id": "E-USPH-0.311",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.311,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 51.07
+      }
+    },
+    {
+      "id": "E-USPH-0.312",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.312,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 51.07
+      }
+    },
+    {
+      "id": "E-USPH-0.444",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.444,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.44,
+        "volumeWeight": 0,
+        "cny": 61.68
+      }
+    },
+    {
+      "id": "E-USPH-0.445",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.445,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 62.65
+      }
+    },
+    {
+      "id": "E-USPH-0.454",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.454,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 62.65
+      }
+    },
+    {
+      "id": "E-USPH-0.455",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.455,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USPH",
+        "chargeWeight": 0.46,
+        "volumeWeight": 0,
+        "cny": 58.92
+      }
+    },
+    {
+      "id": "E-USFC-0.044",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.044,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 27.1
+      }
+    },
+    {
+      "id": "E-USFC-0.045",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.045,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 27.1
+      }
+    },
+    {
+      "id": "E-USFC-0.054",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.054,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 27.1
+      }
+    },
+    {
+      "id": "E-USFC-0.055",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.055,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.06,
+        "volumeWeight": 0,
+        "cny": 28.12
+      }
+    },
+    {
+      "id": "E-USFC-0.224",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.224,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.22,
+        "volumeWeight": 0,
+        "cny": 44.44
+      }
+    },
+    {
+      "id": "E-USFC-0.225",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.225,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 44.46
+      }
+    },
+    {
+      "id": "E-USFC-0.226",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.226,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 44.46
+      }
+    },
+    {
+      "id": "E-USFC-0.227",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.227,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 44.46
+      }
+    },
+    {
+      "id": "E-USFC-0.304",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.304,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0,
+        "cny": 51.6
+      }
+    },
+    {
+      "id": "E-USFC-0.305",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.305,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 52.62
+      }
+    },
+    {
+      "id": "E-USFC-0.311",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.311,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 52.62
+      }
+    },
+    {
+      "id": "E-USFC-0.312",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.312,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 52.62
+      }
+    },
+    {
+      "id": "E-USFC-0.444",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.444,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.44,
+        "volumeWeight": 0,
+        "cny": 63.88
+      }
+    },
+    {
+      "id": "E-USFC-0.445",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.445,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 64.9
+      }
+    },
+    {
+      "id": "E-USFC-0.454",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.454,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 64.9
+      }
+    },
+    {
+      "id": "E-USFC-0.455",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.455,
+        "attribute": "带电",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USFC",
+        "chargeWeight": 0.46,
+        "volumeWeight": 0,
+        "cny": 61.22
+      }
+    },
+    {
+      "id": "E-USMPPK-0.044",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.044,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 30.55
+      }
+    },
+    {
+      "id": "E-USMPPK-0.045",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.045,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 30.55
+      }
+    },
+    {
+      "id": "E-USMPPK-0.054",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.054,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 30.55
+      }
+    },
+    {
+      "id": "E-USMPPK-0.055",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.055,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.06,
+        "volumeWeight": 0,
+        "cny": 31.66
+      }
+    },
+    {
+      "id": "E-USMPPK-0.224",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.224,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.22,
+        "volumeWeight": 0,
+        "cny": 49.42
+      }
+    },
+    {
+      "id": "E-USMPPK-0.225",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.225,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 50.53
+      }
+    },
+    {
+      "id": "E-USMPPK-0.226",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.226,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 50.53
+      }
+    },
+    {
+      "id": "E-USMPPK-0.227",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.227,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 50.53
+      }
+    },
+    {
+      "id": "E-USMPPK-0.304",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.304,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0,
+        "cny": 58.3
+      }
+    },
+    {
+      "id": "E-USMPPK-0.305",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.305,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 59.41
+      }
+    },
+    {
+      "id": "E-USMPPK-0.311",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.311,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 59.41
+      }
+    },
+    {
+      "id": "E-USMPPK-0.312",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.312,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 59.41
+      }
+    },
+    {
+      "id": "E-USMPPK-0.444",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.444,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.44,
+        "volumeWeight": 0,
+        "cny": 73.84
+      }
+    },
+    {
+      "id": "E-USMPPK-0.445",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.445,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 74.95
+      }
+    },
+    {
+      "id": "E-USMPPK-0.454",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.454,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 74.95
+      }
+    },
+    {
+      "id": "E-USMPPK-0.455",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.455,
+        "attribute": "毛绒",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USMPPK",
+        "chargeWeight": 0.46,
+        "volumeWeight": 0,
+        "cny": 76.68
+      }
+    },
+    {
+      "id": "E-USTM-0.044",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.044,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 40
+      }
+    },
+    {
+      "id": "E-USTM-0.045",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.045,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 40
+      }
+    },
+    {
+      "id": "E-USTM-0.054",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.054,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.05,
+        "volumeWeight": 0,
+        "cny": 40
+      }
+    },
+    {
+      "id": "E-USTM-0.055",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.055,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.06,
+        "volumeWeight": 0,
+        "cny": 41
+      }
+    },
+    {
+      "id": "E-USTM-0.224",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.224,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.22,
+        "volumeWeight": 0,
+        "cny": 57
+      }
+    },
+    {
+      "id": "E-USTM-0.225",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.225,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 58
+      }
+    },
+    {
+      "id": "E-USTM-0.226",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.226,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 58
+      }
+    },
+    {
+      "id": "E-USTM-0.227",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.227,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.23,
+        "volumeWeight": 0,
+        "cny": 58
+      }
+    },
+    {
+      "id": "E-USTM-0.304",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.304,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.3,
+        "volumeWeight": 0,
+        "cny": 65
+      }
+    },
+    {
+      "id": "E-USTM-0.305",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.305,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 66
+      }
+    },
+    {
+      "id": "E-USTM-0.311",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.311,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 66
+      }
+    },
+    {
+      "id": "E-USTM-0.312",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.312,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.31,
+        "volumeWeight": 0,
+        "cny": 66
+      }
+    },
+    {
+      "id": "E-USTM-0.444",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.444,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.44,
+        "volumeWeight": 0,
+        "cny": 79
+      }
+    },
+    {
+      "id": "E-USTM-0.445",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.445,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 80
+      }
+    },
+    {
+      "id": "E-USTM-0.454",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.454,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.45,
+        "volumeWeight": 0,
+        "cny": 80
+      }
+    },
+    {
+      "id": "E-USTM-0.455",
+      "group": "E",
+      "input": {
+        "length": 1,
+        "width": 1,
+        "height": 1,
+        "weight": 0.455,
+        "attribute": "液体",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": true,
+        "code": "USTM",
+        "chargeWeight": 0.46,
+        "volumeWeight": 0,
+        "cny": 96
+      }
+    },
+    {
+      "id": "F1-长为0",
+      "group": "F",
+      "input": {
+        "length": 0,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "F2-宽为0",
+      "group": "F",
+      "input": {
+        "length": 20,
+        "width": 0,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "F3-高为0",
+      "group": "F",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 0,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "F4-重量为0",
+      "group": "F",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": 0,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "F5-长为负数",
+      "group": "F",
+      "input": {
+        "length": -1,
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "F6-重量为负数",
+      "group": "F",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": -0.2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "F7-长留空",
+      "group": "F",
+      "input": {
+        "length": "",
+        "width": 15,
+        "height": 10,
+        "weight": 0.2,
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    },
+    {
+      "id": "F8-重量非数字",
+      "group": "F",
+      "input": {
+        "length": 20,
+        "width": 15,
+        "height": 10,
+        "weight": "abc",
+        "attribute": "普货",
+        "naked": false,
+        "store": "广州店铺"
+      },
+      "expected": {
+        "ok": false
+      }
+    }
+  ]
+}

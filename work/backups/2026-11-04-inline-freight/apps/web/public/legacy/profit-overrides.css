@@ -1,0 +1,152 @@
+/* Added controls keep the calculator's cream and orange palette. */
+main > .prep-grid{display:none!important}
+main .field-with-tool{display:grid;grid-template-columns:minmax(0,1fr) 42px;gap:8px;align-items:stretch}
+main .field-with-tool .input-unit{min-width:0}
+main .logistics-row{grid-template-columns:minmax(0,1fr) 145px 42px;align-items:stretch}
+main .input-tool-trigger{display:grid;place-items:center;width:42px;height:42px;min-height:42px;padding:0;border:1px solid #eecc9f;border-radius:8px;background:#fffefa;color:#b84b0b}
+main .input-tool-trigger:hover{background:#fff0dc}
+main .input-tool-trigger .ui-icon{width:20px;height:20px;color:inherit}
+body.tool-modal-open{overflow:hidden}
+main .tool-overlay{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;padding:16px;background:#251d17aa}
+main .tool-overlay[hidden]{display:none}
+main .tool-modal-shell{position:relative;width:min(620px,100%);max-height:calc(100dvh - 32px)}
+main .tool-modal-content>.card{position:relative;width:100%;max-height:calc(100dvh - 32px);overflow:auto;background:linear-gradient(180deg,#fff9eb 0,#fffefa 80px);border-radius:8px;box-shadow:0 22px 70px #34251845}
+main .tool-modal-content .section-head{padding-right:38px}
+main .tool-modal-content .three-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+main .tool-modal-content .freight-result,.compare-dialog .freight-result{display:grid;gap:3px;margin-top:18px;padding:11px 13px;border:1px solid #eedcc0;border-radius:8px;background:#fff3de;color:#605243;line-height:1.5}
+main .tool-modal-content .freight-result strong,.compare-dialog .freight-result strong{font-size:16px;font-weight:750;color:#172440}
+main .tool-modal-content .freight-result>span,.compare-dialog .freight-result>span{font-size:11px;color:#716a60}
+main .tool-modal-content .freight-result small,.compare-dialog .freight-result small{font-size:10px;color:#716a60}
+main .tool-modal-content .freight-adopt-actions,.compare-dialog .freight-adopt-actions{justify-content:flex-start;margin-top:12px}
+main .tool-modal-content .freight-adopt-actions button,.compare-dialog .freight-adopt-actions button{width:auto;min-width:140px;max-width:100%;padding:9px 14px}
+main .tool-modal-close{position:absolute;right:16px;top:16px;z-index:2;display:grid;place-items:center;width:34px;height:34px;padding:0;border:1px solid #eecc9f;border-radius:8px;background:#fffefa;color:#b84b0b;font-size:22px;line-height:1}
+main .tool-modal-close:hover{background:#fff0dc}
+@media(max-width:600px){main .field-with-tool{display:block;position:relative}main #open-price-tool{position:absolute;right:0;top:-28px;width:28px;height:26px;min-height:26px}main #open-price-tool .ui-icon{width:16px;height:16px}main .logistics-row{grid-template-columns:minmax(0,1fr) 115px 42px}main .tool-modal-content .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}main .tool-modal-content .three-grid{grid-template-columns:1fr}}
+.settings-dialog,.save-success-dialog,.compare-dialog{border-radius:8px}
+.compare-dialog::backdrop{background:#251d17aa}
+.settings-dialog{width:min(660px,calc(100vw - 28px));max-height:calc(100dvh - 28px);overflow:auto;padding:24px;border:1px solid #eedcc0;border-radius:15px;background:#fffaf1;color:#172440;box-shadow:0 22px 70px #34251845}
+.settings-dialog::backdrop{background:#251d17aa}
+.save-success-overlay{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;padding:16px;background:#251d17aa}
+.save-success-overlay[hidden]{display:none}
+.save-success-dialog{width:min(420px,100%);padding:24px;border:1px solid #eedcc0;border-radius:8px;background:#fffaf1;color:#172440;box-shadow:0 22px 70px #34251845}
+.save-success-dialog h2{margin:0 0 14px;font-size:20px;color:#b84b0b}
+.save-success-dialog p{margin:0 0 22px}
+.save-success-dialog .actions{display:flex;align-items:center;gap:12px}
+.save-success-dialog .actions a{color:#b84b0b;text-decoration:none;font-size:14px}
+.settings-dialog-head{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.settings-dialog-head h2{font-size:20px;color:#b84b0b}
+.settings-dialog h3{font-size:14px;margin:22px 0 8px;color:#b84b0b}
+.settings-dialog .settings-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:10px}
+.settings-dialog .settings-grid>div{min-width:0}
+.settings-dialog .settings-grid input{width:100%;min-height:40px;background:#fffefa;border-color:#eedcc0;color:#172440}
+.settings-dialog .settings-grid small{display:block;margin-top:4px;color:#716a60}
+.settings-dialog .small{color:#716a60}
+.settings-actions{display:flex;justify-content:space-between;gap:12px;margin-top:18px}
+.settings-dialog button{color:#172440;border-color:#eedcc0;background:#fffefa}
+.settings-dialog button.primary{background:#ee640c;color:white;border-color:#ee640c}
+@media(max-width:600px){.settings-dialog{padding:18px}.settings-dialog .settings-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.calculator-nav{grid-column:1/-1;justify-self:end;margin-top:0;z-index:1;display:flex;gap:8px}
+.calculator-nav a,.calculator-nav button{display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border:1px solid #eecc9f;border-radius:8px;background:#fffefa;color:#b84b0b;text-decoration:none;font-size:12px;font-weight:650;white-space:nowrap}
+.calculator-nav a:hover,.calculator-nav button:hover{background:#fff0dc}
+.calculator-nav [hidden]{display:none}
+@media(max-width:600px){main .dashboard-utilities{display:flex;gap:12px}}
+
+main .product-identity{margin-top:18px;background:linear-gradient(180deg,#fff9eb 0,#fffefa 80px)}
+main .product-identity .section-head{margin-bottom:12px}
+main .product-identity .save-product-form{margin:0;padding:0;border:0;background:transparent}
+main .product-identity .save-fields{grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+main .product-identity .save-fields input{background:#fffefa;border-color:#eedcc0}
+main .product-identity .save-fields select{background:#fffefa;border-color:#eedcc0}
+main .product-identity #save-product-message:empty{display:none}
+main .product-identity #save-product-message{margin-top:10px}
+main .receipt-note{display:grid;gap:3px;line-height:1.5}
+main .receipt-note strong{font-size:16px;font-weight:750;color:#172440}
+main .receipt-note>span{font-size:11px;color:#716a60}
+main .currency-converter{position:absolute;right:16px;bottom:16px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;width:min(238px,calc(100% - 32px));padding:9px;border:1px solid #eedcc0;border-radius:8px;background:#fffaf1ed;box-shadow:0 3px 12px #17334d16;color:#172440}
+main .currency-converter>div{min-width:0}
+main .currency-converter label{display:block;margin-bottom:4px;color:#594b3d;font-size:10px;font-weight:650;white-space:nowrap}
+main .currency-converter input{width:100%;height:32px;min-height:32px;padding:5px 7px;background:#fffefa;border:1px solid #eedcc0;border-radius:6px;color:#172440;font-size:12px}
+main .time-center #fx-display{font-size:12px;text-align:center;overflow-wrap:anywhere;order:0}
+main .time-center #time-gap{order:-2}
+main .time-center::before{order:-1}
+.settings-dialog .zone-setting{margin-top:16px;max-width:310px}
+.settings-dialog .zone-setting select{background:#fffefa;border-color:#eedcc0;color:#172440}
+@media(max-width:650px){main .product-identity .save-fields{grid-template-columns:1fr 1fr}main .currency-converter{right:10px;bottom:10px;width:calc(100% - 20px);gap:5px;padding:6px}main .currency-converter label{font-size:9px}main .currency-converter input{font-size:10px;padding:4px}main .time-center{flex-wrap:wrap}main .time-center #fx-display{min-width:100%;font-size:11px}}
+@media(max-width:370px){main .product-identity .save-fields{grid-template-columns:1fr}main .currency-converter label{font-size:8px}main .currency-converter input{font-size:9px}}
+
+.compare-dialog .compare-fields>div:has(.compare-freight-trigger){position:relative;padding-right:50px}
+.compare-dialog .compare-freight-trigger{position:absolute;right:0;bottom:0;display:grid;place-items:center;width:42px;height:42px;padding:0;border:1px solid #eecc9f;border-radius:8px;background:#fffefa;color:#b84b0b}
+.compare-dialog .compare-freight-trigger .ui-icon{width:20px;height:20px}
+.compare-dialog .compare-freight-overlay{position:fixed;inset:0;z-index:5;display:grid;place-items:center;padding:16px;background:#251d17aa}
+.compare-dialog .compare-freight-overlay[hidden]{display:none}
+.compare-dialog .compare-freight-modal{width:min(620px,100%);max-height:calc(100dvh - 32px);overflow:auto;padding:22px;border:1px solid #eedcc0;border-radius:8px;background:linear-gradient(180deg,#fff9eb 0,#fffefa 80px);box-shadow:0 22px 70px #34251845}
+.compare-dialog .compare-freight-modal .section-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.compare-dialog .compare-freight-modal .section-head h2{display:flex;align-items:center;gap:9px;margin:0;font-size:19px;color:#b84b0b}
+.compare-dialog .compare-freight-modal .section-head .ui-icon{width:24px;height:24px}
+.compare-dialog .compare-freight-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-top:18px}
+.compare-dialog .compare-settings-modal{width:min(740px,100%)}
+.compare-dialog .compare-settings-modal .compare-freight-fields{grid-template-columns:repeat(3,minmax(0,1fr))}
+.compare-dialog .compare-fields{grid-template-columns:repeat(3,minmax(0,1fr))}
+.compare-dialog .compare-heading-actions{display:flex;gap:8px;flex-wrap:wrap}
+.compare-dialog .compare-save-actions{display:flex;justify-content:flex-end;margin-top:18px}
+.compare-dialog .compare-save-actions button{min-height:42px}
+.compare-dialog .compare-freight-fields>div{min-width:0}
+.compare-dialog .compare-freight-fields label{display:block;margin-bottom:5px;font-size:11px}
+.compare-dialog .compare-freight-fields input,.compare-dialog .compare-freight-fields select{width:100%;min-height:42px}
+.compare-dialog #compare-quote-hint{line-height:1.7;min-height:20px}
+@media(max-width:650px){.compare-dialog .compare-freight-fields{grid-template-columns:repeat(2,minmax(0,1fr))}.compare-dialog .compare-freight-modal{padding:18px}}
+@media(max-width:850px){main .product-identity .save-fields{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){main .product-identity .save-fields{grid-template-columns:repeat(2,minmax(0,1fr))}.compare-dialog .compare-fields,.compare-dialog .compare-settings-modal .compare-freight-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:370px){main .product-identity .save-fields,.compare-dialog .compare-freight-fields,.compare-dialog .compare-settings-modal .compare-freight-fields{grid-template-columns:1fr}}
+
+main .record-config-panel{margin-top:18px;background:linear-gradient(180deg,#fff9eb 0,#fffefa 80px)}
+main .record-config-fields{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+main .record-config-fields>div{min-width:0}
+main .record-config-fields label{display:block;margin-bottom:5px;font-size:11px}
+main .record-config-fields input{width:100%;min-height:42px;background:#fffefa;border-color:#eedcc0}
+@media(max-width:850px){main .record-config-fields{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){main .record-config-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:370px){main .record-config-fields{grid-template-columns:1fr}}
+
+
+/* Logistics settings share the existing cream dialog treatment. */
+.freight-config-section{margin-top:20px;border-top:1px solid #eedcc0;padding-top:13px}
+.freight-config-section>summary{font-size:14px;font-weight:650;color:#b84b0b}
+.freight-config-section h4{margin:18px 0 8px;color:#b84b0b;font-size:13px}
+.freight-config-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.freight-config-grid>div{min-width:0}
+.freight-config-section label{display:block;margin-bottom:4px;color:#605243;font-size:11px}
+.freight-config-section input,.freight-config-section select{width:100%;min-height:38px;padding:6px 9px;border:1px solid #eedcc0;border-radius:8px;background:#fffefa;color:#172440}
+.freight-config-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:14px 0 12px}
+.freight-config-tabs button{min-height:36px;padding:7px 8px;border:1px solid #eedcc0;border-radius:8px;background:#fffefa;color:#605243;font-size:12px;white-space:nowrap}
+.freight-config-tabs button[aria-selected="true"]{border-color:#eea866;background:#fff0dc;color:#b84b0b;font-weight:700}
+.freight-config-tabs button:hover{background:#fff0dc}
+.freight-config-panel[hidden],.freight-channel-panel[hidden]{display:none!important}
+.freight-config-section .freight-config-note{margin:0 0 10px;color:#716a60;font-size:11px;line-height:1.7}
+.freight-config-table-wrap{max-width:100%;overflow-x:auto}
+.freight-config-section table{width:100%;table-layout:fixed;border-collapse:collapse;white-space:normal}
+.freight-config-section th,.freight-config-section td{padding:6px;border-bottom:1px solid #eedcc0;text-align:left;vertical-align:middle}
+.freight-config-section thead th{background:#fff3de;color:#605243;font-size:11px;font-weight:650;white-space:nowrap}
+.freight-config-section tbody th{color:#605243;font-size:12px;font-weight:600;white-space:nowrap}
+.freight-config-section tbody tr:last-child>th,.freight-config-section tbody tr:last-child>td{border-bottom:0}
+.freight-config-section .freight-config-table-wrap input,.freight-config-section .freight-config-table-wrap select{min-height:34px;height:34px;padding:5px 7px;font-size:12px}
+.freight-config-section .freight-field-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.freight-product-table{min-width:450px}
+.freight-product-table th:first-child{width:17%}
+.freight-product-table th:nth-child(2){width:27%}
+.freight-config-panel:has(>.freight-channel-picker){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 14px}
+.freight-channel-picker{grid-column:1;grid-row:1;min-width:0}
+.freight-channel-picker label{white-space:nowrap}
+.freight-channel-panel,.freight-channel-options{display:contents}
+.freight-channel-options>.freight-config-field{grid-column:2;grid-row:1}
+.freight-channel-advanced{grid-column:1/-1;border-top:1px solid #eedcc0;padding-top:12px}
+.freight-channel-panel>.freight-config-table-wrap{grid-column:1/-1}
+.freight-channel-advanced .freight-config-grid{margin:0 0 4px;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:14px}
+.freight-rate-table{min-width:410px}
+.freight-rate-table th:first-child{width:52%}
+.freight-weight-range{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:5px}
+.freight-weight-range>span{color:#8f806e;font-size:11px}
+.freight-config-field{min-width:0}
+.compare-dialog .compare-settings-modal{width:min(850px,100%)}
+@media(max-width:600px){.freight-config-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.freight-config-tabs{gap:4px}.freight-config-tabs button{padding:7px 4px;font-size:11px}.freight-config-section th,.freight-config-section td{padding:6px 4px}.freight-channel-options{gap:10px}}

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "【演示】星际旅行盲盒",
+    "specCode": "DEMO-20261107-BLIND-01",
+    "id": "590673eb-f60e-45dc-b940-e4490440507f",
+    "productId": "bab7551d-9d45-43eb-be44-f607cac3b5fc",
+    "version": 2,
+    "netRmb": 17.011938053097335,
+    "margin": 0.08081714761376244
+  },
+  {
+    "name": "【演示】星际旅行盲盒",
+    "specCode": "DEMO-20261107-BLIND-01",
+    "id": "2d4befdf-3e4a-4c0e-9ebf-a54cecc6759c",
+    "productId": "bab7551d-9d45-43eb-be44-f607cac3b5fc",
+    "version": 1,
+    "netRmb": 21.25441592920353,
+    "margin": 0.09551064963573311
+  },
+  {
+    "name": "【演示】奶油猫毛绒公仔",
+    "specCode": "DEMO-20261107-PLUSH-01",
+    "id": "cce467cf-c126-48cd-a1c2-b97392dcc4ed",
+    "productId": "ba21216e-edec-4166-9100-c5feb467a8c8",
+    "version": 2,
+    "netRmb": -47.18750442477875,
+    "margin": -0.19134829041426227
+  },
+  {
+    "name": "【演示】奶油猫毛绒公仔",
+    "specCode": "DEMO-20261107-PLUSH-01",
+    "id": "5471e008-9519-4734-983a-f20c5664eee2",
+    "productId": "ba21216e-edec-4166-9100-c5feb467a8c8",
+    "version": 1,
+    "netRmb": -20.0459115044248,
+    "margin": -0.0724479952920708
+  },
+  {
+    "name": "【演示】旅行随行杯",
+    "specCode": "DEMO-20261107-CUP-01",
+    "id": "70797251-2762-438c-9cfb-b2e890be329c",
+    "productId": "fe5c2c3d-1396-413f-beb6-23fb94307694",
+    "version": 2,
+    "netRmb": 8.969548672566392,
+    "margin": 0.05966885272924235
+  },
+  {
+    "name": "【演示】旅行随行杯",
+    "specCode": "DEMO-20261107-CUP-01",
+    "id": "3610a93e-d98e-4bec-8632-08a2ce273fab",
+    "productId": "fe5c2c3d-1396-413f-beb6-23fb94307694",
+    "version": 1,
+    "netRmb": 13.212026548672583,
+    "margin": 0.08137612828674844
+  }
+]

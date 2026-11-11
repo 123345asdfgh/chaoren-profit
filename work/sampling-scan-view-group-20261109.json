@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "group": [
+      {
+        "desc": false,
+        "field": "日期"
+      }
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.98",
+      "latest": "1.0.99",
+      "message": "lark-cli 1.0.99 available, current 1.0.98, run: lark-cli update"
+    }
+  }
+}

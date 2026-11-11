@@ -1,0 +1,105 @@
+/* Shared visual identity for the calculator and its history. */
+.tool-layout main header.brand-banner{
+ position:relative;isolation:isolate;display:grid;grid-template-columns:176px minmax(0,1fr) 315px;align-items:center;gap:28px;min-height:148px;margin-bottom:12px;padding:12px 26px 12px 16px;border:1px solid #ecd6b5;border-radius:18px;overflow:hidden;
+ background:radial-gradient(ellipse at 8% 25%,#fffef8 0,transparent 42%),linear-gradient(105deg,#fffaf0 20%,#fff3dc 75%,#ffe8bd);box-shadow:0 4px 18px #b7792110;
+}
+.tool-layout main header.brand-banner::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background-image:radial-gradient(#d298493b .8px,transparent .8px),linear-gradient(115deg,transparent 68%,#fffaf064 68%,#fffaf064 77%,transparent 77%);background-size:13px 13px,100% 100%;mask-image:linear-gradient(90deg,transparent 8%,#0002 43%,#000 100%)}
+.tool-layout main header.brand-banner::after{content:'';position:absolute;top:0;bottom:0;right:0;width:470px;z-index:-1;pointer-events:none;background:url('/legacy/assets/brand-route.svg') right center/auto 100% no-repeat}
+.tool-layout main .brand-banner .brand-watermark{position:absolute;right:370px;top:35px;z-index:-1;font-size:52px;font-weight:850;font-style:italic;letter-spacing:-2px;line-height:1;color:#cf945426;-webkit-text-stroke:1px #bf8b3e2e;transform:rotate(-5deg);pointer-events:none;white-space:nowrap}
+.tool-layout main .brand-banner .brand-watermark span{display:block;margin-top:9px;font-size:10px;font-weight:500;font-style:normal;letter-spacing:5px;text-align:right;color:#b488505c;-webkit-text-stroke:0}
+@media(max-width:1530px){.tool-layout main .brand-banner .brand-watermark{display:none}}
+.tool-layout main .brand-banner .brand-banner-logo{position:relative;width:176px;height:108px;overflow:hidden;border:0;padding:0;display:block}
+.tool-layout main .brand-banner .brand-banner-logo img{position:absolute;width:230px;height:auto;max-width:none;left:-25px;top:-17px;mix-blend-mode:multiply}
+.tool-layout main .brand-banner .brand-banner-copy{position:relative;min-width:0;border:0;border-left:1px solid #dfc9a5;padding-left:28px}
+.tool-layout main .brand-banner .brand-eyebrow{display:flex;align-items:center;gap:8px;margin-bottom:9px;font-size:10px;font-weight:650;letter-spacing:1.6px;color:#956d41;white-space:nowrap}
+.tool-layout main .brand-banner .brand-eyebrow>span{width:6px;height:6px;border-radius:2px;background:#e67524;transform:rotate(45deg)}
+.tool-layout main .brand-banner .brand-eyebrow i{font-style:normal;color:#c5ab86;margin:0 3px}
+.tool-layout main .brand-banner .brand-heading{display:flex;flex-direction:row;justify-content:flex-start;align-items:center;flex-wrap:wrap;gap:10px 14px}
+.tool-layout main .brand-banner .brand-heading h1{font-size:34px;font-weight:850;line-height:1.25;letter-spacing:-.7px;-webkit-text-stroke:0;color:#172440;margin:0;text-align:left;white-space:nowrap}
+.tool-layout main .brand-banner .brand-banner-market{display:inline-block;margin:0;padding:5px 8px;border:1px solid #e6be8f;border-radius:5px;color:#bb5e21;background:#fffaf080;font-size:10px;font-weight:650;line-height:1.4;letter-spacing:.2px;white-space:nowrap}
+.tool-layout main .brand-banner .brand-description{display:flex;align-items:center;flex-wrap:wrap;gap:6px 18px;margin:10px 0 0;font-size:12px;line-height:1.5;color:#806a4e}
+.tool-layout main .brand-banner .brand-description span{padding-left:18px;border-left:1px solid #dfc9a5;color:#9b8260;font-size:10px;letter-spacing:.5px}
+.tool-layout main .brand-banner .brand-banner-scene{position:relative;width:315px;height:122px;display:block;border:0;padding:0;overflow:visible}
+.tool-layout main .brand-banner .brand-banner-scene img{position:absolute;width:166px;height:auto;right:2px;bottom:-12px;max-width:none;filter:drop-shadow(0 6px 5px #a96f1f16)}
+.tool-layout main .brand-banner .brand-banner-slogan{position:absolute;right:156px;top:45px;margin:0;font-size:12px;line-height:1.5;font-style:normal;font-weight:600;color:#b6682e;white-space:nowrap;transform:rotate(-6deg)}
+.tool-layout main .brand-banner .brand-banner-slogan span{display:block;width:96px;height:9px;margin:1px 0 0 auto;border-bottom:1px solid #daac6b;font-size:18px;line-height:12px;text-align:center}
+.tool-layout main .brand-banner .brand-orbit-label{position:absolute;left:4px;top:12px;max-width:none;font-size:8px;letter-spacing:2px;color:#ac8554;border:0;padding:0}
+@media(max-width:1370px){
+ .tool-layout main header.brand-banner{grid-template-columns:140px minmax(0,1fr) 230px;gap:18px;padding:12px 18px 12px 10px;min-height:138px}
+ .tool-layout main .brand-banner .brand-banner-logo{width:140px;height:98px}
+ .tool-layout main .brand-banner .brand-banner-logo img{width:200px;left:-28px;top:-15px}
+ .tool-layout main .brand-banner .brand-banner-copy{padding-left:20px}
+ .tool-layout main .brand-banner .brand-heading h1{font-size:28px}
+ .tool-layout main .brand-banner .brand-description{font-size:11px;margin-top:8px}
+ .tool-layout main .brand-banner .brand-description span{display:none}
+ .tool-layout main .brand-banner .brand-banner-scene{width:230px;height:112px}
+ .tool-layout main .brand-banner .brand-banner-scene img{width:145px}
+ .tool-layout main .brand-banner .brand-banner-slogan{font-size:10px;right:130px;top:46px}
+ .tool-layout main .brand-banner .brand-orbit-label{font-size:7px;letter-spacing:1.2px;left:-12px}
+}
+@media(max-width:1100px) and (min-width:901px), (max-width:740px){
+ .tool-layout main header.brand-banner{grid-template-columns:112px minmax(0,1fr) 115px;gap:12px;min-height:126px}
+ .tool-layout main .brand-banner .brand-banner-logo{width:112px;height:85px}
+ .tool-layout main .brand-banner .brand-banner-logo img{width:168px;left:-25px;top:-11px}
+ .tool-layout main .brand-banner .brand-banner-copy{padding-left:16px}
+ .tool-layout main .brand-banner .brand-eyebrow{font-size:8px;letter-spacing:.8px}
+ .tool-layout main .brand-banner .brand-heading{gap:7px 9px}
+ .tool-layout main .brand-banner .brand-heading h1{font-size:25px}
+ .tool-layout main .brand-banner .brand-banner-market{font-size:8px;padding:4px 5px}
+ .tool-layout main .brand-banner .brand-banner-scene{width:115px;height:100px}
+ .tool-layout main .brand-banner .brand-banner-scene img{width:126px;right:-7px;bottom:-12px}
+ .tool-layout main .brand-banner .brand-banner-slogan,.tool-layout main .brand-banner .brand-orbit-label{display:none}
+}
+@media(max-width:520px){
+ .tool-layout main header.brand-banner{grid-template-columns:78px minmax(0,1fr);gap:10px;padding:14px 12px 14px 6px;min-height:122px;border-radius:12px}
+ .tool-layout main .brand-banner .brand-banner-logo{width:78px;height:70px}
+ .tool-layout main .brand-banner .brand-banner-logo img{width:125px;left:-23px;top:-4px}
+ .tool-layout main .brand-banner .brand-banner-copy{padding-left:12px}
+ .tool-layout main .brand-banner .brand-eyebrow{font-size:7px;gap:5px;letter-spacing:.4px;margin-bottom:7px}
+ .tool-layout main .brand-banner .brand-heading{gap:6px}
+ .tool-layout main .brand-banner .brand-heading h1{font-size:20px;white-space:normal}
+ .tool-layout main .brand-banner .brand-description{font-size:9px;margin-top:7px}
+ .tool-layout main .brand-banner .brand-banner-scene{display:none}
+ .tool-layout main .brand-banner .measurement-mode-header{min-height:22px;font-size:10px;padding:4px 6px}
+}
+@media print{.tool-layout main header.brand-banner{background:#fff;box-shadow:none}.tool-layout main header.brand-banner::before,.tool-layout main header.brand-banner::after{display:none}}
+
+/* Keep the page actions with the title; let the decoration fade into the page. */
+.tool-layout main header.brand-banner{
+ min-height:174px;margin-bottom:12px;padding-top:8px;padding-bottom:12px;border:0;border-radius:0;overflow:visible;box-shadow:none;
+ background:radial-gradient(ellipse at 89% 15%,#ffe9c26b,transparent 62%);
+}
+.tool-layout main header.brand-banner::before{mask-image:linear-gradient(180deg,#0008,transparent 95%)}
+.tool-layout main header.brand-banner::after{opacity:.7;mask-image:linear-gradient(180deg,#000 35%,transparent 100%)}
+.tool-layout main .brand-banner .brand-banner-copy{border-left:0}
+.tool-layout main .brand-banner .brand-banner-logo{background:#fff8e9;mix-blend-mode:multiply}
+.tool-layout main .brand-banner .brand-banner-scene{align-self:center}
+.tool-layout main .brand-banner .brand-watermark{top:52px}
+.tool-layout main .brand-banner .brand-actions{display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:10px;margin:12px 0 0;grid-template-columns:none}
+.tool-layout main .brand-banner .brand-actions .calculator-nav{display:flex;align-items:center;justify-content:flex-start;gap:10px;grid-column:auto;justify-self:auto;margin:0;z-index:auto}
+.tool-layout main .brand-banner .brand-actions :is(#open-products,.history-catalog-button){display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:48px;box-sizing:border-box;padding:12px 18px;border:1px solid #e9c79b;border-radius:8px;background:#fffefa;color:#a95b23;font-size:14px;font-weight:650;line-height:22px;white-space:nowrap}
+.tool-layout main .brand-banner .brand-actions :is(#open-products,.history-catalog-button):hover{background:#fff0dc;border-color:#dba76a}
+.tool-layout main .brand-banner .brand-actions :is(.history-new-product,#measurement-back){min-height:48px;box-sizing:border-box;padding:12px 20px;border-radius:8px;font-size:16px;line-height:22px;box-shadow:0 3px 9px #ee640c1f}
+.tool-layout main .brand-banner .brand-actions svg{width:16px;height:16px;flex-shrink:0}
+@media(max-width:1370px){
+ .tool-layout main header.brand-banner{min-height:166px;gap:12px}
+ .tool-layout main .brand-banner .brand-banner-copy{padding-left:12px}
+ .tool-layout main .brand-banner .brand-description{margin-top:7px}
+ .tool-layout main .brand-banner .brand-actions{margin-top:10px}
+}
+@media(max-width:740px), (min-width:901px) and (max-width:1100px){
+ .tool-layout main header.brand-banner{grid-template-columns:92px minmax(0,1fr) 100px;gap:10px;padding-left:0;padding-right:0}
+ .tool-layout main .brand-banner .brand-banner-logo{width:92px}
+ .tool-layout main .brand-banner .brand-banner-logo img{width:145px;left:-25px;top:-3px}
+ .tool-layout main .brand-banner .brand-banner-copy{padding-left:0}
+ .tool-layout main .brand-banner .brand-actions{gap:8px}
+ .tool-layout main .brand-banner .brand-actions :is(#open-products,.history-catalog-button,.history-new-product,#measurement-back){min-height:40px;padding:8px 12px;font-size:13px}
+}
+@media(max-width:520px){
+ .tool-layout main header.brand-banner{grid-template-columns:70px minmax(0,1fr);gap:10px;padding:10px 0 12px;min-height:164px}
+ .tool-layout main .brand-banner .brand-banner-logo{width:70px;height:70px}
+ .tool-layout main .brand-banner .brand-banner-logo img{width:115px;left:-23px;top:0}
+ .tool-layout main .brand-banner .brand-actions{gap:7px;margin-top:10px}
+ .tool-layout main .brand-banner .brand-actions .calculator-nav{gap:7px}
+ .tool-layout main .brand-banner .brand-actions :is(#open-products,.history-catalog-button,.history-new-product,#measurement-back){padding:8px 10px;font-size:12px}
+}

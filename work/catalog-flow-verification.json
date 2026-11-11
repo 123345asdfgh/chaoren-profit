@@ -1,0 +1,10 @@
+{
+  "verifiedAt": "2026-11-05T08:07:43.447Z",
+  "checks": [
+    "catalog-only save leaves history unchanged",
+    "search save adds history and updates product",
+    "history edit preserves previous version and updates product",
+    "direct product delete preserves all history snapshots",
+    "test fixtures removed, all original rows unchanged"
+  ]
+}

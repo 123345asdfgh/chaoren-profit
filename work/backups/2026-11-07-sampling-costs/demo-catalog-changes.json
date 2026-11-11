@@ -1,0 +1,315 @@
+{
+  "date": "2026-11-07",
+  "description": "用户授权的暂估数据，非真实采购价格",
+  "changes": [
+    {
+      "id": "27b9a4ea-ed55-4b6e-bfe7-6b78a01562ea",
+      "name": "24号史迪奇毛绒玩偶",
+      "specCode": "TEMP-COST-66E759596A3B",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "d3fa5d3a-415d-4f7a-beda-74ed8f871a76",
+      "name": "EVA手表盲盒",
+      "specCode": "TEMP-COST-6A6418EAD222",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "0e9c5037-aed5-4bda-8897-de677a361bd5",
+      "name": "snooopy派对骑士毛绒玩偶",
+      "specCode": "TEMP-COST-E0A2AE386F90",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "268c906b-74ba-4d1d-8b17-05b528818684",
+      "name": "SNOOPY-复古派对系列挂件-派对骑士",
+      "specCode": "TEMP-COST-AE1C868692FF",
+      "chinaPrice": 29.9,
+      "action": "created"
+    },
+    {
+      "id": "69959008-9269-4667-a1a4-50452b3114d6",
+      "name": "SNOOPY-复古派对系列挂件-热情漫游",
+      "specCode": "TEMP-COST-A491831E3F72",
+      "chinaPrice": 29.9,
+      "action": "created"
+    },
+    {
+      "id": "b573b963-a196-4ffc-9867-36a15b6be057",
+      "name": "snoopy夏日游记3D立体挂件",
+      "specCode": "TEMP-COST-DADF1F5D6B15",
+      "chinaPrice": 29.9,
+      "action": "created"
+    },
+    {
+      "id": "ebc10914-4d38-4c6a-a9a7-ac5c6c437a14",
+      "name": "snoopy手提袋",
+      "specCode": "TEMP-COST-0F24E27A65C2",
+      "chinaPrice": 49.9,
+      "action": "created"
+    },
+    {
+      "id": "5537d3a1-0d7c-4175-8990-077855222cd2",
+      "name": "snoopy手提袋+挂件",
+      "specCode": "TEMP-COST-EDB0A1AECA3B",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "4a5d5589-0cac-4840-b4c6-c17754341707",
+      "name": "snoopy毛绒胸针盲盒",
+      "specCode": "TEMP-COST-9A8CD3399EEB",
+      "chinaPrice": 29.9,
+      "action": "created"
+    },
+    {
+      "id": "498de75c-2b1c-423b-90a2-e001e3f14a0a",
+      "name": "snoopy纽扣胸针盲盒",
+      "specCode": "TEMP-COST-F2B5C33B5369",
+      "chinaPrice": 29.9,
+      "action": "created"
+    },
+    {
+      "id": "ff4b7a2f-7b71-476c-8369-228eb6764575",
+      "name": "snoopy西部牛仔毛绒玩偶",
+      "specCode": "TEMP-COST-AAD44104300B",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "103bb07f-ac41-4cf3-b79b-160619acd845",
+      "name": "WEART系列-EVA手表盲盒",
+      "specCode": "TEMP-COST-68682038B68A",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "b5526c9a-7220-4f6b-8add-fa27f170a673",
+      "name": "卫衣史迪奇",
+      "specCode": "TEMP-COST-CAC3546200CF",
+      "chinaPrice": 49.9,
+      "action": "created"
+    },
+    {
+      "id": "11712f99-aa62-456f-afbf-a6497d249eb7",
+      "name": "史努比毛绒胸针系列盲盒",
+      "specCode": "TEMP-COST-E9A80D02FB3B",
+      "chinaPrice": 29.9,
+      "action": "created"
+    },
+    {
+      "id": "a23b1f78-b6e7-423a-b684-65f9345883a2",
+      "name": "咒术回战-怀玉萌坐盲盒手办",
+      "specCode": "TEMP-COST-3137988E38F7",
+      "chinaPrice": 39.9,
+      "action": "created"
+    },
+    {
+      "id": "d21b0eb8-8a97-48f5-8c69-c6345e8e6e8f",
+      "name": "咒术回战摆件盲盒",
+      "specCode": "TEMP-COST-6EE1C4AA1806",
+      "chinaPrice": 39.9,
+      "action": "created"
+    },
+    {
+      "id": "dc63bcb9-0a77-4abe-8145-85958632161a",
+      "name": "咒术回战盲盒",
+      "specCode": "TEMP-COST-98B7ACA7FABC",
+      "chinaPrice": 39.9,
+      "action": "created"
+    },
+    {
+      "id": "7a52aac9-a182-41c4-9d7c-93d9bfe655a7",
+      "name": "哈利波特手表盲盒",
+      "specCode": "TEMP-COST-1661CB5867EF",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "14d2fb3f-1ddf-4155-a543-8197eb3a0d81",
+      "name": "基础款史迪奇玩偶",
+      "specCode": "TEMP-COST-EC3D901699AC",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "f798ac28-c2b7-4b8d-a7fb-46cefad958c5",
+      "name": "基础款史迪奇玩偶-24号",
+      "specCode": "TEMP-COST-0919F7E6BF7B",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "ed703e22-f57f-4d2a-8baa-faea9738dea0",
+      "name": "安琪玩偶",
+      "specCode": "TEMP-COST-B2A7CF8A023E",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "9f9a7000-15b2-42a6-ad0d-ff104b652f27",
+      "name": "宝可梦-小小奇遇系列最初的伙伴盲盒",
+      "specCode": "TEMP-COST-475DAE944841",
+      "chinaPrice": 39.9,
+      "action": "created"
+    },
+    {
+      "id": "36668135-2760-4e8c-9c09-fad916735586",
+      "name": "宝可梦抱抱随行毛绒盲盒",
+      "specCode": "TEMP-COST-C309E57DDD6F",
+      "chinaPrice": 59.9,
+      "action": "created"
+    },
+    {
+      "id": "af01d5d5-630c-4841-b634-2199ebf93c67",
+      "name": "宝可梦抱抱随行盲盒",
+      "specCode": "TEMP-COST-E949FCB33D0F",
+      "chinaPrice": 39.9,
+      "action": "created"
+    },
+    {
+      "id": "7b1ee512-4452-4f95-8d33-1d7e2c1b060c",
+      "name": "宝可梦欢乐啦啦队毛绒盲盒",
+      "specCode": "TEMP-COST-7F67F2C9FC02",
+      "chinaPrice": 59.9,
+      "action": "created"
+    },
+    {
+      "id": "7e9dde95-848f-46e7-ac7f-cbe1df01731b",
+      "name": "宝可梦欢乐啦啦队盲盒",
+      "specCode": "TEMP-COST-0E3B0FCE59E2",
+      "chinaPrice": 39.9,
+      "action": "created"
+    },
+    {
+      "id": "84563232-8aef-41c2-af4f-bdf5ab7ee9d6",
+      "name": "宝可梦毛绒抱枕",
+      "specCode": "TEMP-COST-332EC6667BB8",
+      "chinaPrice": 59.9,
+      "action": "created"
+    },
+    {
+      "id": "b16fe80d-661c-4abf-873b-56311b960d8b",
+      "name": "小马宝莉盲盒",
+      "specCode": "TEMP-COST-6761A265A052",
+      "chinaPrice": 39.9,
+      "action": "created"
+    },
+    {
+      "id": "b2e1821b-f6c4-4250-b8d6-2dc938794af7",
+      "name": "布鲁托95周年斜挎包",
+      "specCode": "TEMP-COST-26A13DF0780E",
+      "chinaPrice": 99.9,
+      "action": "created"
+    },
+    {
+      "id": "11571bcf-bcc4-48a8-bd17-ba01fe595377",
+      "name": "漫威蜘蛛侠蜘蛛感应系列搪胶毛绒盲盒",
+      "specCode": "TEMP-COST-AE33FC387EC9",
+      "chinaPrice": 79.9,
+      "action": "created"
+    },
+    {
+      "id": "76c8e5bb-e6cc-4361-b121-04b6872a1892",
+      "name": "火影忍者猫猫乐园",
+      "specCode": "TEMP-COST-46632443841D",
+      "chinaPrice": 49.9,
+      "action": "created"
+    },
+    {
+      "id": "39e6ce8d-3c14-43c1-9b1c-3d1dc2f79700",
+      "name": "火影猫猫乐园",
+      "specCode": "TEMP-COST-DD792393AA21",
+      "chinaPrice": 49.9,
+      "action": "created"
+    },
+    {
+      "id": "0510c916-d693-4f75-a231-a4fb54fbb8b8",
+      "name": "玩具总动员手表盲盒",
+      "specCode": "TEMP-COST-B3E8ECF6B881",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "8f2b3a8f-94a4-4cf9-a48b-8d95cffdcac5",
+      "name": "米奇小方包",
+      "specCode": "TEMP-COST-4432D85FF0D8",
+      "chinaPrice": 89.9,
+      "action": "created"
+    },
+    {
+      "id": "186d938c-c98c-4c08-bf48-680fd0652507",
+      "name": "维尼100周年毛绒挂件",
+      "specCode": "TEMP-COST-D2652FCDD0B8",
+      "chinaPrice": 29.9,
+      "action": "created"
+    },
+    {
+      "id": "b7dfd854-c394-44b4-8ebb-0471c92f99fd",
+      "name": "维尼拍立得盲盒",
+      "specCode": "TEMP-COST-130EFD1D86C2",
+      "chinaPrice": 39.9,
+      "action": "created"
+    },
+    {
+      "id": "ee57b11f-5ffd-4890-a305-5bbd1405a9a1",
+      "name": "芭比洞洞包",
+      "specCode": "TEMP-COST-57836F3842DE",
+      "chinaPrice": 69.9,
+      "action": "created"
+    },
+    {
+      "id": "267338b6-144d-4e84-98a0-7c031bc9abe9",
+      "name": "芭比系列小香风果冻包(粉色)",
+      "specCode": "TEMP-COST-294F589A1415",
+      "chinaPrice": 79.9,
+      "action": "created"
+    },
+    {
+      "id": "710801d2-7784-4606-a502-0ac382b9b998",
+      "name": "花生漫画75周年”&“博画”全民艺术家系列毛绒玩偶盲盒",
+      "specCode": "TEMP-COST-7F7A92B64511",
+      "chinaPrice": 59.9,
+      "action": "created"
+    },
+    {
+      "id": "cc122740-c0df-4e27-b3d2-e8ac2ca5a4c3",
+      "name": "药屋少女的呢喃-药屋萌宠阁盲盒",
+      "specCode": "TEMP-COST-0C854345EF80",
+      "chinaPrice": 39.9,
+      "action": "created"
+    },
+    {
+      "id": "b57f24c5-1bd9-450c-a44c-8575029ae5e1",
+      "name": "迪士尼小熊维尼100周年系列5号帽子维尼毛绒挂饰",
+      "specCode": "TEMP-COST-A11DC782D317",
+      "chinaPrice": 29.9,
+      "action": "created"
+    },
+    {
+      "id": "ac1c485b-528e-4030-b803-810541dfd7ea",
+      "name": "迪士尼小熊维尼伙伴MINI系列搪胶毛绒挂件盲盒",
+      "specCode": "TEMP-COST-C25A1CA5C18F",
+      "chinaPrice": 79.9,
+      "action": "created"
+    },
+    {
+      "id": "cf340583-1f9e-49c8-85c0-7b5d944661e9",
+      "name": "迪士尼猫猫狗狗挂件",
+      "specCode": "TEMP-COST-A41F3CB464C8",
+      "chinaPrice": 29.9,
+      "action": "created"
+    },
+    {
+      "id": "57c01444-f249-4f64-95e7-1249d434b47d",
+      "name": "驯龙高手手表盲盒",
+      "specCode": "TEMP-COST-DDE69767691B",
+      "chinaPrice": 69.9,
+      "action": "created"
+    }
+  ],
+  "preserved": 0
+}

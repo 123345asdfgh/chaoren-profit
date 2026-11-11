@@ -1,0 +1,10 @@
+$ vitest run
+
+ RUN  v4.1.10 /Users/miniso/Downloads/跨境日常辅助测算_整合版/apps/api
+
+
+ Test Files  18 passed (18)
+      Tests  94 passed (94)
+   Start at  11:39:41
+   Duration  1.11s (transform 676ms, setup 0ms, import 3.06s, tests 1.60s, environment 1ms)
+

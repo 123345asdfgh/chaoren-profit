@@ -1,0 +1,38 @@
+{
+  "before": {
+    "records": 241,
+    "shippedQuantity": 175,
+    "unshippedQuantity": 60,
+    "invalidShippedQuantity": 1,
+    "invalidUnshippedQuantity": 5,
+    "missingCreator": 7,
+    "creators": 220,
+    "fulfillment": {
+      "due": 175,
+      "actual": 69,
+      "rate": 39.42857142857143
+    }
+  },
+  "after": {
+    "records": 236,
+    "shippedQuantity": 175,
+    "unshippedQuantity": 60,
+    "invalidShippedQuantity": 1,
+    "invalidUnshippedQuantity": 0,
+    "missingCreator": 2,
+    "creators": 220,
+    "fulfillment": {
+      "due": 175,
+      "actual": 69,
+      "rate": 39.42857142857143
+    }
+  },
+  "removedIds": [
+    "reczz28PyBNPB3EQ",
+    "reczz28PyBNPAGYW",
+    "reczz28PyBNPA25o",
+    "reczz28Rxjz0lPQe",
+    "reczz28Rxk2VRbZr"
+  ],
+  "quality": []
+}

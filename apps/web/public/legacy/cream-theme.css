@@ -1,0 +1,241 @@
+:root {
+  color: #172440;
+  background: #fff8e9;
+}
+body {
+  background: radial-gradient(ellipse at 5% 5%, #fffdf7 0, transparent 55%), linear-gradient(135deg, #fff9ed, #fff5df);
+}
+main, .compare-dialog {
+  --orange: #ee640c;
+  --orange-deep: #b84b0b;
+  --ink: #172440;
+  --muted: #716a60;
+  --line: #eedcc0;
+  color: var(--ink);
+}
+main {
+  font-synthesis: weight;
+  max-width: 1340px;
+  padding: 24px 28px 36px;
+}
+main .dashboard-header {
+  display: grid;
+  grid-template-columns: 174px minmax(0, 1fr) 335px;
+  align-items: center;
+  gap: 14px;
+  min-height: 135px;
+  margin-bottom: 8px;
+  padding: 0;
+}
+.brand-lockup { position: relative; width: 174px; height: 96px; overflow: hidden; }
+.brand-logo { position: absolute; width: 252px; height: auto; left: -31px; top: -23px; mix-blend-mode: multiply; }
+.header-copy { min-width: 0; border-left: 1px solid #b9b2a4; padding-left: 20px; }
+.header-title { display: flex; justify-content: center; gap: 16px; align-items: center; }
+main h1 { font-size: clamp(24px, 3vw, 42px); line-height: 1.3; font-weight: 900; -webkit-text-stroke: .45px currentColor; letter-spacing: -1px; margin: 0; text-align: center; white-space: nowrap; }
+.market-badge {
+  border: 1px solid var(--orange);
+  color: var(--orange);
+  background: transparent;
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-size: clamp(11px, 1.05vw, 15px);
+  font-weight: 750;
+  white-space: nowrap;
+}
+.brand-scene { position: relative; width: 335px; height: 135px; }
+.brand-slogan { position: absolute; z-index: 1; right: 185px; top: 51px; font-size: 14px; color: #d96b1d; font-style: italic; font-weight: 550; white-space: nowrap; transform: rotate(-7deg); }
+.brand-slogan span { display: block; margin-top: -4px; height: 18px; font-size: 29px; text-align: center; border-bottom: 1px solid #efbc75; }
+.brand-mascot {
+  position: absolute;
+  width: 181px;
+  height: auto;
+  right: -2px;
+  bottom: 0;
+  clip-path: polygon(1% 45%, 4% 22%, 7% 12%, 12% 7%, 19% 8%, 29% 13%, 35% 17%, 41% 12%, 49% 4%, 57% 2%, 63% 6%, 68% 19%, 69% 31%, 73% 44%, 71% 58%, 69% 63%, 82% 60%, 100% 69%, 100% 96%, 84% 98%, 63% 100%, 0% 100%, 1% 92%, 4% 88%, 5% 79%, 10% 74%, 14% 69%, 10% 67%, 4% 63%, 1% 55%);
+}
+.dashboard-utilities { display: flex; justify-content: flex-end; gap: 18px; padding-top: 9px; }
+main .dashboard-utilities button { color: #8c724d; font-size: 10px; background: none; border: none; padding: 0; }
+.icon-definitions { position: absolute; overflow: hidden; pointer-events: none; }
+.ui-icon { display: inline-block; width: 25px; height: 25px; flex: 0 0 auto; fill: currentColor; color: var(--orange, #ee640c); vertical-align: middle; }
+main .section-head h2 { display: flex; align-items: center; gap: 10px; font-weight: 750; }
+main :is(#adopt-quote, #adopt-price) { display: inline-flex; align-items: center; justify-content: center; gap: 9px; border-color: #ef9855; color: var(--orange-deep); }
+main :is(#adopt-quote, #adopt-price) .ui-icon { width: 22px; height: 22px; }
+main .net-heading { display: inline-flex; align-items: center; gap: 9px; font-size: 17px; }
+main .net-heading .ui-icon { width: 29px; height: 29px; }
+main .net-actions { grid-template-columns: 1fr; }
+main .archive-search-field { position: relative; }
+main .archive-search-field .ui-icon { position: absolute; left: 18px; top: 13px; width: 20px; height: 20px; color: #757a8a; pointer-events: none; }
+main .archive-search-field #archive-search { padding-left: 49px; }
+main .profit-details summary::before, main .settings summary::before { display: none; }
+main :is(.profit-details summary, .settings summary) { gap: 12px; }
+main .profit-details summary .ui-icon, main .settings summary .ui-icon { width: 22px; height: 22px; }
+main :is(button, input, select), .compare-dialog :is(button, input, select) {
+  color: var(--ink);
+  border-color: var(--line);
+  background-color: #fffefa;
+}
+main :is(button:hover), .compare-dialog button:hover { background-color: #fff0dc; }
+main .primary, .compare-dialog .primary {
+  color: white;
+  border-color: var(--orange);
+  background: linear-gradient(120deg, #ff8517, #f46508);
+}
+main .primary:hover, .compare-dialog .primary:hover { background: #df5a06; }
+main :is(button, summary):focus-visible, .compare-dialog :is(button, summary):focus-visible {
+  outline: 3px solid #efa95d;
+}
+main :is(input, select):focus, .compare-dialog :is(input, select):focus {
+  border-color: var(--orange);
+  outline: 2px solid #f9b76660;
+  box-shadow: none;
+}
+main :is(label, summary), .compare-dialog :is(label, summary) { color: #4c4a47; }
+main :is(.small, .muted, .hint, .fine-print, .setting-note, .settings-summary, .fx-hint, footer),
+.compare-dialog :is(.small, .compare-notice, .compare-history-grid dt) { color: var(--muted); }
+main .card, main .settings, .compare-dialog :is(.card, .compare-history) {
+  background: #fffefa;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  box-shadow: 0 4px 16px #b8771c07;
+}
+main .card { padding: 21px; }
+main .section-head h2, .compare-dialog .section-head h2 { color: var(--orange-deep); font-size: 19px; }
+main .step { color: var(--orange); background: #fff0d9; }
+main .prep-grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 18px; }
+main .prep-grid > .card { position: relative; background: linear-gradient(180deg, #fff9eb 0, #fffefa 80px); }
+main .price-card #adopt-price { width: 100%; }
+main .tool-actions #adopt-quote { flex: 1; }
+main .profit-layout > div > .card { position: relative; background: linear-gradient(180deg, #fff9eb 0, #fffefa 80px); }
+main .profit-layout > div > .card::before { content: ""; position: absolute; left: 0; top: 0; width: 22px; height: 22px; border-radius: 14px 0 20px 0; background: #ffbd69; }
+main .price-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 14px 0 20px 0;
+  background: #ffbd69;
+}
+main .recommended { color: var(--orange-deep); font-size: 40px; }
+main .price-formula { color: var(--muted); }
+main :is(.tool-result, .receipt-note, .formula), .compare-dialog .compare-summary article {
+  color: #605243;
+  background: #fff3de;
+  border-color: var(--line);
+}
+main .tinted { background: #fff5e4; border-color: #e7bd89; }
+main .input-unit span { color: #77716b; }
+main .flow { color: #80715a; }
+main .profit-layout { gap: 18px; margin-top: 18px; }
+main .net-card {
+  padding: 24px;
+  border-color: #efc991;
+  background: linear-gradient(120deg, #fffcf1, #fff8ec);
+  text-align: center;
+}
+main .net-card .net-label { color: var(--orange-deep); font-weight: 650; }
+main .net-card .net-label span:last-child { color: var(--orange-deep); background: #ffedcd; }
+main .net-card .net { color: #f26008; font-size: clamp(46px, 5vw, 66px); line-height: 1.25; margin: 12px 0; }
+main .net-card .net.negative { color: #b63c31; }
+main .profit-amounts { border-color: var(--line); }
+main .profit-amount strong { color: var(--ink); font-size: 22px; }
+main .net-actions button { border-color: #ed9d55; color: var(--orange-deep); background: #fffefa; }
+main .net-actions .primary { color: white; background: linear-gradient(120deg, #ff8517, #f46508); }
+main .save-product-form { text-align: left; background: #fffefa; border-color: var(--line); }
+main .profit-details { padding: 0; }
+main .profit-details summary { padding: 18px 20px; color: var(--orange-deep); font-weight: 600; }
+main .profit-details[open] summary { border-bottom: 1px solid var(--line); }
+main .expand { color: var(--orange-deep); }
+main .archive-panel { padding: 0; background: transparent; border: 0; box-shadow: none; }
+main .archive-panel > .section-head, main .archive-panel > label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+main #archive-search {
+  padding: 13px 18px;
+  min-height: 45px;
+  border-color: #e7b873;
+  border-radius: 24px;
+  background: #fffefaab;
+}
+main .archive-item { padding: 15px; border: 1px solid var(--line); border-radius: 12px; margin-top: 10px; background: #fffefa; }
+main .archive-results:empty, main #archive-message:empty { display: none; }
+main #archive-message { color: var(--muted); }
+main :is(th, td), .compare-dialog :is(th, td) { border-color: #f0e4d2; }
+main th, .compare-dialog th { color: var(--muted); background: #fffaef; }
+main tr.total td, .compare-dialog tr.total td { background: #fff0d8; }
+main tr.light td { color: var(--muted); }
+main .settings { margin-top: 18px; }
+.compare-dialog { background: #fff8e9; border-color: var(--line); }
+.compare-dialog::backdrop { background: #252138c9; }
+.compare-dialog .compare-summary strong { color: var(--orange-deep); }
+.compare-dialog .compare-summary .compare-new { color: var(--ink); background: #ffe7bf; }
+.compare-dialog .compare-input-section { border-color: var(--line); }
+main .delete-archive, .compare-dialog .compare-down { color: #a2392d; }
+main .net-card .net.positive, main .profit-amount strong.positive { color: #16814d; }
+main .net-card .net.negative, main .profit-amount strong.negative { color: #c43c32; }
+.compare-dialog .compare-summary .value-positive, .compare-dialog .compare-table .value-positive { color: #16814d; }
+.compare-dialog .compare-summary .value-negative, .compare-dialog .compare-table .value-negative { color: #c43c32; }
+.compare-dialog .compare-summary .value-neutral, .compare-dialog .compare-table .value-neutral { color: #716a60; }
+.compare-dialog .compare-table :is(.value-positive, .value-negative) { font-weight: 600; }
+@media (max-width: 1150px) {
+  main .dashboard-header { grid-template-columns: 146px minmax(0, 1fr) 244px; gap: 10px; min-height: 118px; }
+  .brand-lockup { width: 146px; height: 85px; }
+  .brand-logo { width: 220px; left: -30px; top: -19px; }
+  .header-copy { padding-left: 14px; }
+  main h1 { font-size: clamp(22px, 2.65vw, 31px); }
+  .header-title { gap: 10px; }
+  .market-badge { font-size: 11px; padding: 7px 8px; }
+  .brand-scene { width: 244px; height: 118px; }
+  .brand-mascot { width: 158px; }
+  .brand-slogan { font-size: 11px; right: 163px; top: 46px; }
+}
+@media (max-width: 850px) {
+  main { padding: 16px 18px; }
+  main .dashboard-header { grid-template-columns: 126px minmax(0, 1fr) 158px; gap: 8px; }
+  .brand-lockup { width: 126px; }
+  .brand-logo { width: 200px; left: -30px; top: -15px; }
+  .header-title { flex-direction: column; gap: 7px; }
+  .header-copy { padding-left: 10px; }
+  main h1 { font-size: 25px; white-space: normal; }
+  .brand-scene { width: 158px; }
+  .brand-mascot { width: 132px; right: 0; bottom: 0; }
+  .brand-slogan { font-size: 10px; right: 6px; top: -10px; transform: rotate(-5deg); }
+  .brand-slogan span { height: 9px; font-size: 17px; }
+}
+@media (max-width: 650px) {
+  main { padding: 13px 12px 26px; }
+  main .dashboard-header { grid-template-columns: 80px minmax(0, 1fr) 90px; gap: 5px; min-height: 95px; margin-bottom: 9px; }
+  .brand-lockup { width: 80px; height: 67px; }
+  .brand-logo { width: 132px; top: -3px; left: -23px; }
+  .header-copy { border: none; padding: 0; }
+  .header-title { flex-direction: column; gap: 5px; }
+  main h1 { font-size: clamp(15px, 3.8vw, 22px); line-height: 1.4; letter-spacing: -.6px; white-space: normal; }
+  .market-badge { font-size: 8px; padding: 4px 5px; border-radius: 6px; }
+  .brand-scene { width: 90px; height: 95px; }
+  .brand-mascot { width: 91px; bottom: 0; }
+  .brand-slogan { font-size: 7px; top: -3px; right: 0; }
+  .brand-slogan span { font-size: 12px; height: 7px; }
+  main .dashboard-utilities { padding: 0; }
+  main .prep-grid, main .profit-layout { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  main .card { padding: 18px; }
+  main .profit-details { padding: 0; }
+  main .archive-panel { padding: 0; }
+  main .section-head { flex-wrap: wrap; gap: 8px; }
+  main .section-head h2 { font-size: 15px; gap: 8px; }
+  main .section-head .ui-icon { width: 22px; height: 22px; }
+  main .net-card .net { font-size: 54px; }
+  main .profit-amount strong { font-size: 20px; }
+  main .archive-item { align-items: flex-start; flex-direction: column; }
+}
+@media print {
+  body { background: white; }
+  .brand-scene, .dashboard-utilities { display: none; }
+  main .dashboard-header { grid-template-columns: 150px minmax(0, 1fr); }
+  main .card, main .net-card { box-shadow: none; }
+}

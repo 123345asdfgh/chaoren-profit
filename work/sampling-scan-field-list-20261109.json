@@ -1,0 +1,276 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "fields": [
+      {
+        "default_value": null,
+        "id": "fldINLGnGG",
+        "name": "达人名称",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldCjsprqU",
+        "multiple": false,
+        "name": "寄样人",
+        "options": [
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "何霜"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "李俊成"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "陈虹"
+          },
+          {
+            "hue": "Carmine",
+            "lightness": "Light",
+            "name": "余泉瑶"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "李娅"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "李文依"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "秦屹文"
+          },
+          {
+            "hue": "Purple",
+            "lightness": "Lighter",
+            "name": "李雨轩 "
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fld4d2K3XC",
+        "name": "whatsapp统计",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldLdrlttT",
+        "name": "寄样产品名称",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": "2026-01-21T16:00:00.000+08:00",
+        "id": "fld2pPEYpg",
+        "name": "日期",
+        "style": {
+          "format": "MM-dd"
+        },
+        "type": "datetime"
+      },
+      {
+        "default_value": null,
+        "id": "fld5irwLUp",
+        "multiple": false,
+        "name": "品类",
+        "options": [
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "毛绒"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "常规"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "盲盒"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fld52b3iLv",
+        "multiple": false,
+        "name": "是否邮寄",
+        "options": [
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "是"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "否"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldkPMdkLM",
+        "multiple": false,
+        "name": "达人等级",
+        "options": [
+          {
+            "hue": "Purple",
+            "lightness": "Lighter",
+            "name": "L0"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "L1"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "L2"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "L3"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "L4"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "L5"
+          },
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "L6"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fld5wjcCZ5",
+        "name": "履约率",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldexUezZj",
+        "name": "备注",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldbQIxiRP",
+        "name": "30天带货 GMV",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fld5ERR70H",
+        "name": "寄样产品数量",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "default_value": null,
+        "id": "fldBctDDfo",
+        "multiple": false,
+        "name": "店铺",
+        "options": [
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "miniso三店"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "miniso四店"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "TT官旗"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "经销一店"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "miniso二店"
+          },
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": ""
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldAiTokNq",
+        "name": "粉丝量",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      }
+    ],
+    "total": 14
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.98",
+      "latest": "1.0.99",
+      "message": "lark-cli 1.0.99 available, current 1.0.98, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "view": {
+      "_meta": {
+        "card_cover": null,
+        "filter": null,
+        "group": [
+          "fldCjsprqU"
+        ],
+        "sort": [],
+        "visible_fields": "14 fields"
+      },
+      "id": "vewTB3B3ZS",
+      "name": "按负责人查看",
+      "type": "kanban"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.98",
+      "latest": "1.0.99",
+      "message": "lark-cli 1.0.99 available, current 1.0.98, run: lark-cli update"
+    }
+  }
+}

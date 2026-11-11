@@ -1,0 +1,39 @@
+// Real database verification. All fixtures are enclosed in one transaction and rolled back.
+import assert from 'node:assert/strict';
+import {randomUUID} from 'node:crypto';
+import {createRequire} from 'node:module';
+import {pool} from './db.js';
+import {measurementSchema,saveMeasurement} from './measurements.js';
+const freight=createRequire(import.meta.url)('../../web/public/legacy/freight-core.js');
+const token=randomUUID();
+const fields={length:'20',width:'15',height:'10',weight:'0.2',packType:'naked',store:'广州店铺',attribute:'普货',chinaPrice:'100',salePrice:'41.18',buyerShipping:'2',receipt:'43.18',logistics:'77',currency:'RMB',fx:'6.8',multiplier:'2.8',costRate:'40',divisor:'1.13',tax:'25',promotion:'25',operation:'10',platform:'7',royalty:'7',labor:'3',other:'2',zone:'America/Los_Angeles'};
+const make=(suffix='',changes:Record<string,string>={})=>measurementSchema.parse({name:'流程验证-'+token+suffix,specCode:'SP-'+token+suffix,productCode:'PR-'+token+suffix,snapshot:{fields:{...fields,...changes},freight:structuredClone(freight.DEFAULT_CONFIG)}});
+const client=await pool.connect();
+try{
+ await client.query('BEGIN');
+ const initial=make(),first=await saveMeasurement(client,null,initial),productId=first.product_id as string;
+ assert.ok(productId);assert.equal(first.version,1);
+ let products=await client.query('SELECT * FROM profit.products WHERE id=$1',[productId]);
+ assert.equal(products.rows[0].snapshot.fields.logistics,'77');assert.equal(products.rows[0].snapshot.fields.promotion,'25');assert.equal(products.rows[0].snapshot.quote.cny,58.92);
+ const reused=make('',{chinaPrice:'200',salePrice:'50',receipt:'52',promotion:'33',fx:'7.1',logistics:'88',store:'香港店铺'});
+ const second=await saveMeasurement(client,null,{...reused,productId});
+ assert.notEqual(second.id,first.id);assert.equal(second.product_id,productId);assert.equal(second.version,1);
+ products=await client.query('SELECT * FROM profit.products WHERE id=$1',[productId]);
+ assert.equal(products.rows[0].snapshot.fields.promotion,'33');assert.equal(products.rows[0].snapshot.fields.store,'香港店铺');assert.equal(products.rows[0].snapshot.fields.logistics,'88');
+ const old=await client.query('SELECT snapshot FROM profit.records WHERE id=$1',[first.id]);assert.equal(old.rows[0].snapshot.fields.promotion,'25');
+ const renamed={...initial,name:initial.name+'修改',specCode:initial.specCode+'-new',snapshot:{...initial.snapshot,fields:{...fields,fx:'7.2',promotion:'31',logistics:'99'}}};
+ const edited=await saveMeasurement(client,first.id as string,{...renamed,productId});
+ assert.equal(edited.id,first.id);assert.equal(edited.product_id,productId);assert.equal(edited.version,2);assert.equal(edited.previous_version,1);
+ assert.equal((edited.previous_snapshot as {fields:Record<string,string>}).fields.logistics,'77');
+ products=await client.query('SELECT * FROM profit.products WHERE id=$1',[productId]);assert.equal(products.rows[0].name,renamed.name);assert.equal(products.rows[0].spec_code,renamed.specCode);assert.equal(products.rows[0].snapshot.fields.fx,'7.2');
+ const byCode=await saveMeasurement(client,null,renamed);assert.equal(byCode.product_id,productId);
+ const count=await client.query('SELECT count(*)::int AS count FROM profit.records WHERE product_id=$1',[productId]);assert.equal(count.rows[0].count,3);
+ const other=await saveMeasurement(client,null,make('-other'));
+ await client.query('SAVEPOINT conflict_check');
+ await assert.rejects(()=>saveMeasurement(client,null,{...renamed,productId,productCode:'PR-'+token+'-other'}),error=>(error as {code?:string}).code==='23505');
+ await client.query('ROLLBACK TO SAVEPOINT conflict_check');
+ products=await client.query('SELECT * FROM profit.products WHERE id=$1',[productId]);assert.equal(products.rows[0].product_code,initial.productCode);
+ const unchangedCount=await client.query('SELECT count(*)::int AS count FROM profit.records WHERE product_id=$1',[productId]);assert.equal(unchangedCount.rows[0].count,3);
+ assert.notEqual(other.product_id,productId);
+ console.log('PASS: 首次双新增；同品新单新增历史并更新商品；历史修改双更新；全量配置快照；版本保留；编码识别；冲突事务回滚。');
+}finally{await client.query('ROLLBACK');client.release();await pool.end()}

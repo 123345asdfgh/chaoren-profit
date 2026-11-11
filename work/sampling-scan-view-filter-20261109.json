@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "filter": {
+      "conditions": [
+        [
+          "店铺",
+          "==",
+          [
+            "miniso三店"
+          ]
+        ],
+        [
+          "是否邮寄",
+          "==",
+          [
+            "是"
+          ]
+        ],
+        [
+          "日期",
+          "==",
+          "\u003cnot_support\u003e"
+        ]
+      ],
+      "logic": "and"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.98",
+      "latest": "1.0.99",
+      "message": "lark-cli 1.0.99 available, current 1.0.98, run: lark-cli update"
+    }
+  }
+}

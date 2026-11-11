@@ -1,0 +1,427 @@
+{
+  "name": "2026年11月5日页面基准版（移除演示数据、导航图标完成）",
+  "createdAt": "2026-11-05T15:08:39.161738+08:00",
+  "project": "/Users/miniso/Downloads/跨境日常辅助测算_整合版",
+  "files": [
+    {
+      "path": ".env.example",
+      "size": 121,
+      "sha256": "47aac1276fc7a1df5766af47415e5efc1827870fdf07aa11776ee487ce8c4638"
+    },
+    {
+      "path": ".gitignore",
+      "size": 56,
+      "sha256": "9fa658e5f644200459adcca900880606218f460e6d77740b84fed724d7d5f036"
+    },
+    {
+      "path": "README.md",
+      "size": 9143,
+      "sha256": "72375e25cd1e7e6e6e813c3c3238cd5371264bf9be8d12d3ab6c5467c7af86f7"
+    },
+    {
+      "path": "app.js",
+      "size": 15688,
+      "sha256": "40a08bc5a5592d56f6698350adb2ad4f2a40bcd5d059bd2cbd57cc262f7d7239"
+    },
+    {
+      "path": "archive-core.js",
+      "size": 2032,
+      "sha256": "28df4a1210b436150c34827f30bdf9eb227f47b6508479f3e367982aa7c32245"
+    },
+    {
+      "path": "archive-core.test.cjs",
+      "size": 4747,
+      "sha256": "2c7b6384ed0bebbd138ca6b66215dd8e2727a89ab743279485f52595ac6fadbe"
+    },
+    {
+      "path": "archive-ui.js",
+      "size": 7974,
+      "sha256": "b973cdbd21c58eb7ce8c8b9a0983c67b61995989a37caf5f72c7866579832caf"
+    },
+    {
+      "path": "build.py",
+      "size": 1534,
+      "sha256": "cea08a3f2f1ee943ef483585c8d86206072e3b4bb846e9bcc6941104e83b190d"
+    },
+    {
+      "path": "compare-core.js",
+      "size": 1103,
+      "sha256": "8d435751b2bb789441d30af57b8dd12d0d8c2d40aed28e3abb79b792dd49f225"
+    },
+    {
+      "path": "compare-core.test.cjs",
+      "size": 2415,
+      "sha256": "75b615d0feb88b7e26ea86b47d047861e95fa7613c0d0fa138894f047e991126"
+    },
+    {
+      "path": "compare-ui.js",
+      "size": 11351,
+      "sha256": "733fffd034a7136f87616a8f15647ed4c37ba95c8429b1b35253b3b58b1f9652"
+    },
+    {
+      "path": "core.js",
+      "size": 2503,
+      "sha256": "c20f627b7c5474fb155619fd7276e51808c6cc12428168a9cf327c40f48748a4"
+    },
+    {
+      "path": "core.test.cjs",
+      "size": 3026,
+      "sha256": "7603676948c03a3e39ad6359a8de24ac5c97b1db3a54be2a82ee0fa0d38fc536"
+    },
+    {
+      "path": "freight-core.js",
+      "size": 4196,
+      "sha256": "b63ec2506bbee2fb68a19f33582c23d94678a3c341259b9fae9624cb106c4564"
+    },
+    {
+      "path": "freight-core.test.cjs",
+      "size": 3262,
+      "sha256": "50dc3e7e80327d3de3205c5c57457131082301215f77b10dab7f966fced27ec6"
+    },
+    {
+      "path": "gateway-core.js",
+      "size": 2381,
+      "sha256": "77790940edaa080eb5c192e9e108c96ffd184e3910816831a7d5a664a378c790"
+    },
+    {
+      "path": "gateway-core.test.cjs",
+      "size": 1047,
+      "sha256": "2c39fb56e7f63c57a630ec1afdd25ef30b41ff022a5ca42f22bdf34219943714"
+    },
+    {
+      "path": "gateway.js",
+      "size": 6885,
+      "sha256": "5a770cb3ed5ab8674679017413e726a74b82703ca424c4ea811f86ebd1dd8ed5"
+    },
+    {
+      "path": "index.html",
+      "size": 16797,
+      "sha256": "d0d7bde5dfa2119436f3b1c0f5154abe936b437f2e2b48aeaae5a9ce309ba1b8"
+    },
+    {
+      "path": "package.json",
+      "size": 434,
+      "sha256": "c76c03815c435b24298b405071c25d70bdf301b825fe191e37a8de36104040d2"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "size": 123959,
+      "sha256": "e367a300cfd31e5986a077ab4b9ebe8b020a20aaa5094c00964e1afd99436f9b"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "size": 21,
+      "sha256": "59d8c363d3edb29e184d75ac9292ac98505e841bb3865ab3ae6858f8937a3e3f"
+    },
+    {
+      "path": "style.css",
+      "size": 29580,
+      "sha256": "7a00460c60873c8a69d522283add14a4e8b3eef7f42581c6ed42d7103d5ffedb"
+    },
+    {
+      "path": "time-core.js",
+      "size": 1473,
+      "sha256": "3c8846d7ea3e845c6bf96d647face74f9d0ae1dd974a334fb4471c7f10e79681"
+    },
+    {
+      "path": "time-core.test.cjs",
+      "size": 2552,
+      "sha256": "e32fceb09c64fad5650c9b0a11fc381b6d9f5a3d7535f46ab87d0eccf1d8b3c2"
+    },
+    {
+      "path": "使用说明.md",
+      "size": 11679,
+      "sha256": "64d695d9fe0458d7373b503b3ad995605b127638205ffa2aafd3a97c6ab868df"
+    },
+    {
+      "path": "恢复基点.md",
+      "size": 2375,
+      "sha256": "7defca5c399e01c59115a6840acd7042b791a1d99cab6884ae5fac1efb1a2a5f"
+    },
+    {
+      "path": "跨境日常辅助测算.html",
+      "size": 226740,
+      "sha256": "35981b9beac2e99eb95ade03de28eb1723f239be8e9281bc1ed3fa48d296109e"
+    },
+    {
+      "path": "apps/api/package.json",
+      "size": 918,
+      "sha256": "443dada365c7594a0e6a9223f6419c87ab81a0bc2d0f0201c47cdfb7363157d3"
+    },
+    {
+      "path": "apps/api/tsconfig.json",
+      "size": 222,
+      "sha256": "36cca1ef23405dd8a2fdd6acf4a8ff9146753b50504f5ccc4321d94d3c1c60ef"
+    },
+    {
+      "path": "apps/api/src/create-user.ts",
+      "size": 735,
+      "sha256": "f30b677b0a738de7757981587096d4909957c9be9b94a3ff7d9f46d8a5aebdd7"
+    },
+    {
+      "path": "apps/api/src/db.ts",
+      "size": 299,
+      "sha256": "008aceee09b917bd20f14fdf31c4d4b9f398eeb7cc0150ad451fc1682454753b"
+    },
+    {
+      "path": "apps/api/src/freight-config.ts",
+      "size": 1069,
+      "sha256": "13e9c14441738848a174913212576a7c4bb3d44f48bac7a56e544fb23c45a6f1"
+    },
+    {
+      "path": "apps/api/src/history-export.test.ts",
+      "size": 4808,
+      "sha256": "49e04e2b7611cbd87811a8462e3aafd8bd47ac98c782c0ec110eb499e3f9e02e"
+    },
+    {
+      "path": "apps/api/src/history-export.ts",
+      "size": 11362,
+      "sha256": "675380a97f6c79dce5563b2df292cf8b79171af19655862079df4f1874800e2e"
+    },
+    {
+      "path": "apps/api/src/migrate.ts",
+      "size": 242,
+      "sha256": "e52f449e16d034ffb4cbc1395347ac06bb69675b936a60469743433714c885ba"
+    },
+    {
+      "path": "apps/api/src/products-smoke.ts",
+      "size": 11003,
+      "sha256": "3c3b2e877715a2091bf191cf4c1521c295d320852a376a6090cb3e00dcf8aa12"
+    },
+    {
+      "path": "apps/api/src/products.ts",
+      "size": 4732,
+      "sha256": "80f4401397c19e886874acfef61c29b20b109b93d2ce9497cbb9f543b7b89d19"
+    },
+    {
+      "path": "apps/api/src/profit.test.ts",
+      "size": 820,
+      "sha256": "e7a2ec5733960b4add75dba4d6bce80b5e8af3f9343f8acfd813faa65867d868"
+    },
+    {
+      "path": "apps/api/src/profit.ts",
+      "size": 1832,
+      "sha256": "6b8d3883f09effdd07721cb380e358602291c04c69693ba685faa7c637105ec8"
+    },
+    {
+      "path": "apps/api/src/schema.sql",
+      "size": 4309,
+      "sha256": "516ae5858d32916991b682d0577ca718e079e96ff4a81a0784e11fe5f4396305"
+    },
+    {
+      "path": "apps/api/src/server.ts",
+      "size": 10886,
+      "sha256": "b6c5856637a0e9d280d9f43892979ab4676c5f3053366ee54ad2f11a7f0bac3e"
+    },
+    {
+      "path": "apps/api/src/smoke.ts",
+      "size": 7863,
+      "sha256": "48bee14dfed97821cc5ac7851071be0478774a9baf67d8922bcda7624f676513"
+    },
+    {
+      "path": "apps/api/src/snapshot.test.ts",
+      "size": 2855,
+      "sha256": "273393e5df08e36f506f211ff9ca1f2f8961805882cc8a08c179db4671a1a109"
+    },
+    {
+      "path": "apps/api/src/snapshot.ts",
+      "size": 3223,
+      "sha256": "507b4fbbe0bcbbaf2df4838ff13c62ea74d07ee0d5886ecafa3ac75134c3e2d6"
+    },
+    {
+      "path": "apps/web/next-env.d.ts",
+      "size": 247,
+      "sha256": "7b550dda9686c16f36a17bf9051d5dbf31e98555b30d114ac49fc49a1e712651"
+    },
+    {
+      "path": "apps/web/next.config.ts",
+      "size": 243,
+      "sha256": "9c4a6be35120f3091f7329280e2c1fdf20e8afc6e36f6ab809bfdf12626b689e"
+    },
+    {
+      "path": "apps/web/package.json",
+      "size": 478,
+      "sha256": "28b02aa22aa70decd5236b10cd2273f0a7b45dff409adf5641d5f8eaadab5770"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "size": 639,
+      "sha256": "6bf102b8ecab1f3d366d415e0ea89bb95b2f90036570e40703a2175cd62f10b7"
+    },
+    {
+      "path": "apps/web/app/layout.tsx",
+      "size": 258,
+      "sha256": "dced532f11c77467ed08915d67a821fd12f224b0f099c72a83500eddceeb6811"
+    },
+    {
+      "path": "apps/web/app/page.tsx",
+      "size": 98,
+      "sha256": "ded1281f2cf09b3525207409a348eb3ab10f54fc02378bbaf9835791a013681a"
+    },
+    {
+      "path": "apps/web/app/shared.css",
+      "size": 11120,
+      "sha256": "b914d8d57352c48fdc7c67fdf6ac01f7d65c73a8824307c3ddd6aab0f14f201e"
+    },
+    {
+      "path": "apps/web/app/calculator/route.ts",
+      "size": 432,
+      "sha256": "cdee4ad25625706bd986f490b9880e12e276fa0ab42bb00faf745a68f01d6ee6"
+    },
+    {
+      "path": "apps/web/app/history/freight-details.tsx",
+      "size": 2227,
+      "sha256": "106ea3b650550010e85b41398dc1b27ef272361d64dae55092aa9fa6e95b7d3e"
+    },
+    {
+      "path": "apps/web/app/history/page.tsx",
+      "size": 13667,
+      "sha256": "e95b430267acc585739ed0d63b4c8103f0b8beaac8444c435ff1c30af6bbf775"
+    },
+    {
+      "path": "apps/web/public/legacy/app.js",
+      "size": 11239,
+      "sha256": "bb3e9666612d578ba26134f0ca33101b5e8d938326570c25e379736ee1c9d363"
+    },
+    {
+      "path": "apps/web/public/legacy/archive-db.js",
+      "size": 8614,
+      "sha256": "05602c44c9a5b314221102210634a9812d574b86521372a113bfd31273f87d4c"
+    },
+    {
+      "path": "apps/web/public/legacy/compare-core.js",
+      "size": 1443,
+      "sha256": "87c766485a07767f1186d376c29f7ce202e94b62ac124f7e225bdc36690790c7"
+    },
+    {
+      "path": "apps/web/public/legacy/compare-ui.js",
+      "size": 14977,
+      "sha256": "e8f3549eae98243df738cd0e830905dbf4ed530619b55facf39322d144bb7812"
+    },
+    {
+      "path": "apps/web/public/legacy/core.js",
+      "size": 2541,
+      "sha256": "ccdaef10a2a713d1ae935a5564dac3d88bd38268704bd4772371720fb0efee8e"
+    },
+    {
+      "path": "apps/web/public/legacy/cream-theme.css",
+      "size": 15637,
+      "sha256": "4f8595643985510218526e0d3a5db41a72d5d016987d41aa391e7ddc39e7666b"
+    },
+    {
+      "path": "apps/web/public/legacy/freight-core.js",
+      "size": 3712,
+      "sha256": "7163904268e432b708fa3720885cdb313b2d468e3dfffd73fa17719c5b600f82"
+    },
+    {
+      "path": "apps/web/public/legacy/freight-core.test.cjs",
+      "size": 2316,
+      "sha256": "10f37ff846a227c0c8a9c6d57fd45878f812d18798ad6af81c971d28d1f3bbbf"
+    },
+    {
+      "path": "apps/web/public/legacy/freight-form.test.cjs",
+      "size": 5053,
+      "sha256": "0edf6b1c33dbc65bcfae2d48342f628abc16de9d23f3aaa17ea42bb627121ce5"
+    },
+    {
+      "path": "apps/web/public/legacy/freight-settings.js",
+      "size": 8757,
+      "sha256": "5f2ed2abbdfb168fde0e4c293c94cd929cad9e1c6bff18dcc11fb9470f1a8fcf"
+    },
+    {
+      "path": "apps/web/public/legacy/gateway-core.js",
+      "size": 2381,
+      "sha256": "77790940edaa080eb5c192e9e108c96ffd184e3910816831a7d5a664a378c790"
+    },
+    {
+      "path": "apps/web/public/legacy/gateway.js",
+      "size": 6885,
+      "sha256": "5a770cb3ed5ab8674679017413e726a74b82703ca424c4ea811f86ebd1dd8ed5"
+    },
+    {
+      "path": "apps/web/public/legacy/index.html",
+      "size": 27829,
+      "sha256": "bc890f1c52a1cd48bbd7c8cf1cec819e76a93b3263781c450339c49c545b3210"
+    },
+    {
+      "path": "apps/web/public/legacy/product-catalog.js",
+      "size": 14261,
+      "sha256": "9c22de831e9797cf111d4ea10c8d265183ad8865efef1ec728de9ff6862a07d3"
+    },
+    {
+      "path": "apps/web/public/legacy/profit-overrides.css",
+      "size": 26792,
+      "sha256": "12034550985069997897a569018cb70831cb8230ef5b34e17058ce1966366e9e"
+    },
+    {
+      "path": "apps/web/public/legacy/settings.js",
+      "size": 3615,
+      "sha256": "8ad717ce460fa22f8880bb24c9ac35758c94003a07d1d6a43162723331706fc5"
+    },
+    {
+      "path": "apps/web/public/legacy/style.css",
+      "size": 29580,
+      "sha256": "7a00460c60873c8a69d522283add14a4e8b3eef7f42581c6ed42d7103d5ffedb"
+    },
+    {
+      "path": "apps/web/public/legacy/time-core.js",
+      "size": 1473,
+      "sha256": "3c8846d7ea3e845c6bf96d647face74f9d0ae1dd974a334fb4471c7f10e79681"
+    },
+    {
+      "path": "apps/web/public/legacy/tool-dialogs.js",
+      "size": 1679,
+      "sha256": "ee01d7ed6c1d562a00625893afdd6b947baa9e33205fce892572c298cb36234f"
+    },
+    {
+      "path": "apps/web/public/legacy/assets/chaoren-logo.webp",
+      "size": 1592,
+      "sha256": "1a3599e163decc4c3d24954bbfc76d3c725e0a10531f5a894c09912dea15fb17"
+    },
+    {
+      "path": "apps/web/public/legacy/assets/chaoren-mascot.webp",
+      "size": 12068,
+      "sha256": "e4dbfc223e5e28b50d641e4da8afab3ed863f4c29a40de96e9e76838bddc0a18"
+    },
+    {
+      "path": "apps/web/public/legacy/assets/time-dusk.webp",
+      "size": 23682,
+      "sha256": "df59fc1772df03ad5dbeffa4b91940a6b171a053a10e7c2d665b793818583004"
+    },
+    {
+      "path": "apps/web/public/legacy/assets/time-morning.webp",
+      "size": 16518,
+      "sha256": "0e496b8c3f35353bb569f35d741ab57c45a5d442de6e99904cc8dd577d09cc8f"
+    },
+    {
+      "path": "apps/web/public/legacy/assets/time-night.webp",
+      "size": 15784,
+      "sha256": "dcf044a7d2d2bca32459025d37d6dd90866723c96df19c3ee91e32fa7d337e8c"
+    },
+    {
+      "path": "apps/web/public/legacy/assets/time-noon.webp",
+      "size": 22176,
+      "sha256": "7ba502cd6e9c3be6810f31a26086f0cbda7e2be4e27cac4776ca762ebe413d5c"
+    },
+    {
+      "path": "assets/time-dusk.webp",
+      "size": 23682,
+      "sha256": "df59fc1772df03ad5dbeffa4b91940a6b171a053a10e7c2d665b793818583004"
+    },
+    {
+      "path": "assets/time-morning.webp",
+      "size": 16518,
+      "sha256": "0e496b8c3f35353bb569f35d741ab57c45a5d442de6e99904cc8dd577d09cc8f"
+    },
+    {
+      "path": "assets/time-night.webp",
+      "size": 15784,
+      "sha256": "dcf044a7d2d2bca32459025d37d6dd90866723c96df19c3ee91e32fa7d337e8c"
+    },
+    {
+      "path": "assets/time-noon.webp",
+      "size": 22176,
+      "sha256": "7ba502cd6e9c3be6810f31a26086f0cbda7e2be4e27cac4776ca762ebe413d5c"
+    }
+  ]
+}
