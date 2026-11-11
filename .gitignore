@@ -8,3 +8,6 @@ dist/
 .lark-cli/
 
 .DS_Store
+
+# GitHub Pages
+work/**/node_modules
