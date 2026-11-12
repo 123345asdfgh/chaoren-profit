@@ -6,8 +6,8 @@
  let baseline=capture(),context='new',confirmation=null,returnFocus=null;
  const manuallyEdited=new Set();
  const initialUrl=new URL(location.href);
- let listHref='history.html';
- try{const candidate=new URL(initialUrl.searchParams.get('historyReturn')||'history.html',location.href);if(candidate.origin===location.origin&&(candidate.pathname.endsWith('/history.html')||candidate.pathname==='/history'))listHref=candidate.pathname.endsWith('/history')?'history.html'+candidate.search:candidate.pathname.replace(/^\//,'')+candidate.search}catch{}
+ let listHref='/chaoren-profit/history';
+ try{const candidate=new URL(initialUrl.searchParams.get('historyReturn')||'/chaoren-profit/history',location.origin);if(candidate.origin===location.origin&&candidate.pathname==='/chaoren-profit/history')listHref=candidate.pathname+candidate.search}catch{}
  let catalogState={query:initialUrl.searchParams.get('catalogQuery')||'',page:Number(initialUrl.searchParams.get('catalogPage'))||1,limit:Number(initialUrl.searchParams.get('catalogLimit'))||10};
  function catalogHref(){
   const url=new URL(listHref,location.origin);
