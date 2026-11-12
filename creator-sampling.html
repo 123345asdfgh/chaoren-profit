@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light"><link rel="icon" href="data:,"><title>超韧 AI · 达人寄样数据看板</title><link rel="stylesheet" href="creator-sampling/style.css"><link rel="stylesheet" href="creator-sampling/integration.css"></head>
+<body>
+<svg class="icon-library" aria-hidden="true"><defs>
+<symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 5a3 3 0 0 1 0 6m2 3a5 5 0 0 1 3 4v3"/></symbol>
+<symbol id="i-box" viewBox="0 0 24 24"><path d="m3 7 9-4 9 4v11l-9 4-9-4V7Zm0 0 9 4 9-4M12 11v11M7 5l10 4"/></symbol>
+<symbol id="i-chart" viewBox="0 0 24 24"><path d="M12 3v9h9M8 4a9 9 0 1 0 12 12M16 3a8 8 0 0 1 5 5h-5Z"/></symbol>
+<symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 2v6m10-6v6M3 11h18m-13 5h2m4 0h2"/></symbol>
+<symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h16M4 17h16M9 4v6m7 4v6"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+</defs></svg>
+
+<main id="main">
+  <header class="topbar"><span>数据工作台 <span class="slash">/</span> <strong>达人寄样</strong></span><div class="dashboard-actions"><div class="market"><span>US</span> TikTok Shop <span class="market-dot"></span></div></div></header>
+  <section class="hero"><div><div class="eyebrow"><span></span> CREATOR & SAMPLING ANALYTICS</div><h1>让每一份寄样，<em>更有方向。</em></h1><p>看清达人结构，找到产品重心。用数据连接好潮玩与全球玩家。</p></div><div class="hero-mark" aria-hidden="true"><div class="orbit"></div><svg><use href="#i-chart"/></svg><span>INSIGHT<br>INTO IMPACT</span></div></section>
+  <section class="filter-card" aria-label="筛选条件">
+    <div class="dashboard-filter-fields">
+    <div class="product-filter">
+      <label for="product-search">商品搜索</label>
+      <form id="product-search-form" class="product-search-form" role="search">
+        <div class="product-search-field">
+          <input id="product-search" type="search" placeholder="输入商品名称，选择对应商品" autocomplete="off" aria-controls="product-search-results" aria-describedby="product-search-status">
+          <div id="product-search-results" class="product-search-results" hidden></div>
+        </div>
+        <button type="submit" class="secondary-button">搜索</button>
+        <button id="clear-product" type="button" class="text-button" hidden>查看全部商品 ×</button>
+      </form>
+      <p id="product-search-status" class="product-search-status" role="status">未选择商品，显示当前日期与品类内的全部数据</p>
+    </div>
+    <div class="category-filter">
+      <h2 id="categories-label">品类筛选</h2>
+      <div id="categories" class="category-checkboxes" role="group" aria-labelledby="categories-label"></div>
+    </div>
+    <div class="period-filter">
+      <h2>时间筛选</h2>
+      <div class="period-tools">
+        <div class="segments" aria-label="周期模式"><button type="button" data-mode="month" aria-pressed="true">按月</button><button type="button" data-mode="day" aria-pressed="false">按天</button><button type="button" data-mode="all" aria-pressed="false">全部</button></div>
+        <div class="period-picker">
+          <button id="period-trigger" class="period-trigger" type="button" aria-label="选择统计月份" aria-haspopup="dialog" aria-expanded="false" aria-controls="period-calendar"><svg aria-hidden="true"><use href="#i-calendar"/></svg><span id="period-display"></span><span class="period-chevron" aria-hidden="true">⌄</span></button>
+          <div id="period-calendar" class="period-calendar" role="dialog" aria-label="选择统计时间" hidden>
+            <div class="period-calendar-heading"><button id="period-previous" type="button" aria-label="上一年">‹</button><select id="period-year" aria-label="统计年份"></select><select id="period-month" aria-label="统计月份" hidden></select><button id="period-next" type="button" aria-label="下一年">›</button></div>
+            <div id="period-weekdays" class="period-weekdays" aria-hidden="true" hidden><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+            <div id="period-calendar-grid" class="period-calendar-grid" role="group" aria-label="选择月份"></div>
+            <div class="period-calendar-footer"><span><i aria-hidden="true"></i>有寄样数据</span><button id="period-latest" type="button">最新数据</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="sync-row"><p id="sync-status" role="status"></p><div class="dashboard-sync-actions"><button type="button" id="source-button" class="text-button">查看口径 ↗</button><button type="button" id="sync-now" class="text-button" hidden>检查更新 ↻</button></div></div>
+  </section>
+  <section class="kpis" aria-label="核心指标">
+    <article class="kpi sampling-kpi"><div><span>应寄样达人 / 实际寄样达人</span><strong id="creator-total">— / —</strong><small>当前筛选内 · 去重账号数 · 位</small></div><svg><use href="#i-users"/></svg></article>
+    <article class="kpi"><div><span>产品寄出数量</span><strong id="quantity-total">—</strong><small>仅汇总已寄样记录的产品数量</small></div><svg><use href="#i-box"/></svg></article>
+    <article class="kpi cost-kpi"><div><span>寄样成本（RMB）</span><strong id="cost-total">—</strong><small id="cost-caption">中国组合价 × 40% × 已寄出数量</small></div><svg><use href="#i-chart"/></svg></article>
+    <article class="kpi"><div><span>覆盖产品</span><strong id="product-total">—</strong><small>实际寄出 · 款</small></div><svg><use href="#i-grid"/></svg></article>
+    <article class="kpi spotlight"><div><span>主力达人等级</span><strong id="leading-tier">—</strong><small id="leading-caption">占实际寄样达人</small></div><svg><use href="#i-chart"/></svg></article>
+    <article class="kpi"><div><span>履约数</span><strong id="fulfilled-total">—</strong><small id="fulfilled-caption">等待自动读取二类表</small></div><svg><use href="#i-users"/></svg></article>
+    <article class="kpi"><div><span>履约率</span><strong id="fulfillment-rate">—</strong><small id="fulfillment-caption">实际履约 ÷ 应履约</small></div><svg><use href="#i-chart"/></svg></article>
+  </section>
+  <div class="chart-grid">
+    <section class="chart-card"><div class="card-heading"><div><div class="mini-label">SHIPPED CREATORS</div><h2>已寄样达人等级分布 <span>L1 — L7</span></h2></div><span class="metric-tag">已寄样 · 按人数占比</span></div><div class="chart-area"><div id="tier-chart" class="donut"></div><div id="tier-legend" class="legend"></div></div><div class="ranking-heading"><h3>已寄样达人等级 · 数量排行</h3><span>高 → 低</span></div><div id="tier-rank" class="ranking"></div><p class="card-footnote">仅统计已邮寄记录，按账号去重；等级取该账号已寄样记录中的最近一条。</p></section>
+    <section class="chart-card product-card"><div class="card-heading"><div><div class="mini-label">SHIPPED PRODUCTS</div><h2>产品寄出分布</h2></div><span class="metric-tag">已寄出 · 按数量占比</span></div><div class="chart-area"><div id="product-chart" class="donut"></div><div id="product-legend" class="legend product-legend"></div></div><div class="ranking-heading"><h3>已寄出产品 · 数量排行</h3><span>高 → 低</span></div><div id="product-rank" class="ranking"></div><p class="card-footnote">仅汇总已邮寄记录的有效产品数量，按产品名称合并；品类沿用原表。</p></section>
+    <details class="unshipped-section" id="unshipped-distributions">
+      <summary class="unshipped-heading"><span>未寄样达人与未寄出产品分布</span><span class="unshipped-toggle"><span class="when-closed">展开</span><span class="when-open">收起</span><span class="toggle-arrow" aria-hidden="true">⌄</span></span></summary>
+      <div class="unshipped-charts">
+    <section class="chart-card" id="unshipped-creators"><div class="card-heading"><div><div class="mini-label">UNSHIPPED CREATORS</div><h2>未寄样达人等级分布 <span>L1 — L7</span></h2></div></div><div class="chart-area"><div id="unshipped-tier-chart" class="donut"></div><div id="unshipped-tier-legend" class="legend"></div></div><div class="ranking-heading"><h3>未寄样达人等级 · 数量排行</h3><span>高 → 低</span></div><div id="unshipped-tier-rank" class="ranking"></div><p class="card-footnote">统计未标记已邮寄的记录，按账号去重；同一达人有已寄和未寄记录时，分别计入两组分布。</p></section>
+    <section class="chart-card product-card" id="unshipped-products"><div class="card-heading"><div><div class="mini-label">UNSHIPPED PRODUCTS</div><h2>未寄出产品分布</h2></div></div><div class="chart-area"><div id="unshipped-product-chart" class="donut"></div><div id="unshipped-product-legend" class="legend product-legend"></div></div><div class="ranking-heading"><h3>未寄出产品 · 数量排行</h3><span>高 → 低</span></div><div id="unshipped-product-rank" class="ranking"></div><p class="card-footnote">汇总未标记已邮寄记录的有效产品数量，不计入上方“产品寄出数量”；仅统计填写完整、状态明确的有效记录。</p></section>
+      </div>
+    </details>
+  </div>
+  <section class="records-card"><details id="records-details"><summary><span><svg><use href="#i-box"/></svg>查看寄样明细 <span id="record-count" class="record-badge"></span></span><span class="expand-label">展开核对 ↓</span></summary><div class="table-wrap"><table><caption class="sr-only">当前筛选寄样明细</caption><thead><tr><th>日期</th><th>达人账号</th><th>等级</th><th>寄样产品</th><th>品类</th><th>数量</th><th>寄样状态</th><th>履约状态</th></tr></thead><tbody id="records"></tbody></table></div></details></section>
+  <section class="records-card invalid-records-card"><details id="invalid-records-details"><summary><span>无效数据 <span id="invalid-record-count" class="record-badge">0 条</span></span><span class="invalid-expand"><span class="when-closed">展开</span><span class="when-open">收起</span>⌄</span></summary><div class="table-wrap"><table><caption class="sr-only">无效记录及原因，不参与任何统计</caption><thead><tr><th>无效原因</th><th>来源</th><th>日期</th><th>达人账号</th><th>等级</th><th>寄样产品</th><th>品类</th><th>数量</th><th>寄样状态</th><th>备注</th></tr></thead><tbody id="invalid-records"></tbody></table></div></details></section>
+  <p id="quality" class="quality" role="status"></p>
+</main>
+<dialog id="source-dialog" aria-labelledby="source-title"><div class="dialog-heading"><h2 id="source-title">数据来源与统计口径</h2><button class="close-button" type="button" data-close="source-dialog" aria-label="关闭数据口径">×</button></div><div id="source-description" class="source-description"></div><div class="dialog-actions"><button class="primary-button" type="button" data-close="source-dialog">我知道了</button></div></dialog>
+<div id="toast" class="toast" role="status"></div>
+<script src="static-demo-api.js"></script><script src="creator-sampling/core.js"></script><script src="creator-sampling/app.js"></script>
+</body></html>

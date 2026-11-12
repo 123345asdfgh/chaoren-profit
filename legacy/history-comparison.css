@@ -1,0 +1,149 @@
+main .history-comparison-workspace{grid-template-columns:minmax(0,38%) minmax(0,62%);align-items:start;gap:22px}
+.history-comparison-mode main{max-width:1540px;padding-top:28px;padding-bottom:48px;background:linear-gradient(180deg,#fff8e9,#fff4df)}
+.history-comparison-mode main .calculator-inputs,.history-comparison-mode main .comparison-baseline-column{background:transparent}
+.history-comparison-mode main .comparison-baseline-inputs,.history-comparison-mode main .comparison-new-inputs{width:100%;min-width:0}
+.history-comparison-mode main .comparison-baseline-inputs>.card,.history-comparison-mode main .comparison-new-inputs>.card{background:#fffdf9;border:1px solid #efdcca;border-radius:12px;padding:17px 18px;margin-bottom:12px;box-shadow:0 5px 18px #a65d1b0b}
+.history-comparison-mode main .comparison-baseline-inputs .section-head h2,.history-comparison-mode main .comparison-new-inputs .section-head h2{font-size:14px;color:#a9521f}
+.history-comparison-mode main .comparison-new-inputs .section-head{margin-bottom:12px}
+.history-comparison-mode main .comparison-new-inputs .save-fields,.history-comparison-mode main .comparison-new-inputs .product-grid,.history-comparison-mode main .comparison-new-inputs .two-grid,.history-comparison-mode main .comparison-new-inputs #settings-form{gap:10px 11px}
+.history-comparison-mode main .comparison-new-inputs .product-information-layout{grid-template-columns:120px minmax(0,1fr);gap:16px}
+.history-comparison-mode main .comparison-new-inputs .product-photo-upload{min-height:150px;border-radius:8px}
+.history-comparison-mode main .comparison-new-inputs .freight-estimate{padding:10px 12px;border-radius:8px}
+.history-comparison-mode main .comparison-new-inputs .receipt-note{margin-top:11px;padding:10px 12px;border-radius:8px}
+.history-comparison-mode main .comparison-new-inputs .calculation-config .section-head{border-bottom:0}
+.history-comparison-mode main .comparison-new-inputs .calculation-config .section-head .primary{display:none}
+.history-comparison-mode main .comparison-new-inputs .calculation-config .small{display:none}
+.history-comparison-mode main .comparison-new-inputs .message{display:none}
+.history-comparison-mode main .comparison-new-inputs .actions{display:none}
+.history-comparison-mode main .calculator-results{position:static;width:100%;margin-top:0}
+.history-comparison-mode main .calculator-results .net-card{width:100%;margin-bottom:10px}
+.history-comparison-mode main .comparison-profit-dock{grid-column:1/-1;width:100%;margin:0 0 2px;position:sticky;top:14px;z-index:8}
+.history-comparison-mode main .comparison-profit-dock .net-card{width:100%;margin:0}
+.history-comparison-mode main .comparison-profit-dock .net-card #net-status{display:none}
+.history-comparison-mode main .comparison-profit-dock .net-card>.net-label{display:none}
+.history-comparison-mode main .comparison-profit-dock .net-card>.net,
+.history-comparison-mode main .comparison-profit-dock .net-card>.profit-amounts{display:none}
+.history-comparison-mode main .comparison-profit-heading{display:flex;align-items:center;justify-content:space-between;margin:0 0 14px;color:#a9521f;font-size:22px;line-height:1.2}
+.history-comparison-mode main .comparison-profit-heading strong{font-size:22px}
+.history-comparison-mode main .comparison-profit-heading span{font-size:12px;color:#9b7853;font-weight:400}
+.history-comparison-mode main .calculator-results .net-card>.net,
+.history-comparison-mode main .calculator-results .net-card>.profit-amounts{display:none}
+.history-comparison-mode main .calculator-results .profit-details{margin-top:10px}
+.comparison-net-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:12px}
+.comparison-net-cell{display:grid;gap:3px;min-width:0;padding:10px 11px;border:1px solid #efdcca;border-radius:9px;background:#fffdf9;color:#665b55}
+.comparison-net-cell:nth-child(2){background:#fff0dc;border-color:#f0c28f}
+.comparison-net-cell>span{font-size:10px;color:#8c7b71}
+.comparison-net-cell>strong{font-size:20px;line-height:1.2;overflow-wrap:anywhere}
+.comparison-net-cell>small{font-size:11px;color:#85746a}
+.comparison-net-cell .positive{color:#16814d}.comparison-net-cell .negative{color:#c43c32}
+.history-comparison-mode main .comparison-baseline-column,.history-comparison-mode main .comparison-new-inputs{min-width:0}
+.history-comparison-mode main .comparison-baseline-inputs .comparison-read-value{margin:3px 0 0;font-size:13px;line-height:1.25;font-weight:600;color:#2b3147;white-space:normal;overflow-wrap:anywhere}
+.history-comparison-mode main .comparison-baseline-inputs .read-only-value{display:block}
+.history-comparison-mode main .comparison-baseline-inputs .product-detail input,
+.history-comparison-mode main .comparison-baseline-inputs .freight-detail input{display:none}
+.comparison-column-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:48px;padding:0 2px 10px;border-bottom:2px solid #eddcc4}
+.comparison-column-heading h2{font-size:22px;color:#716a60}
+.comparison-column-heading span{font-size:13px;color:#8c8071;background:#fff4df;border-radius:7px;padding:7px 9px}
+.comparison-new-heading{border-color:#ee640c}.comparison-new-heading h2{color:#b84b0b}.comparison-new-heading span{color:#c15c1a}
+.history-comparison-mode .comparison-baseline-inputs input:disabled,.history-comparison-mode .comparison-baseline-inputs select:disabled{opacity:1;color:#746d63;background:#faf5ec;border-color:#efe4d3;cursor:default;-webkit-text-fill-color:#746d63}
+.history-comparison-mode .comparison-baseline-inputs .card{background:#fffdf7}
+.history-comparison-mode main .calculator-inputs .freight-layout{grid-template-columns:1fr}
+.history-comparison-mode main .calculator-inputs .calculation-config #settings-form,
+.history-comparison-mode main .calculator-inputs .calculation-config [id$="settings-form"]{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px 12px}
+.history-comparison-mode main .calculator-inputs .product-information-layout{grid-template-columns:120px minmax(0,1fr);gap:16px}
+.history-comparison-mode main .calculator-inputs .save-fields{gap:12px}
+.history-comparison-mode main .calculator-inputs .freight-inline .product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.history-comparison-mode main .freight-estimate{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px}
+.history-comparison-mode main .freight-inline .section-head{margin-bottom:9px}
+.history-comparison-mode main .freight-estimate{padding:10px 12px;gap:2px 10px;line-height:1.3}
+.history-comparison-mode main .freight-estimate>strong{line-height:1.15}
+.history-comparison-mode main .freight-estimate>p{margin:0;line-height:1.35}
+.history-comparison-mode main .freight-estimate>button{grid-column:2;grid-row:1/4;align-self:center;margin:0}
+.history-comparison-mode main .freight-estimate>span,.history-comparison-mode main .freight-estimate>strong,.history-comparison-mode main .freight-estimate>p{grid-column:1}
+.history-comparison-mode .baseline-photo{display:grid;place-items:center;overflow:hidden;position:relative;min-height:120px;border-radius:8px;background:#fff8e9;border:1px solid #eedcc0}
+.history-comparison-mode main .history-comparison-actions{position:static;z-index:auto;display:flex;justify-content:flex-end;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none;margin:0 0 10px}
+.history-comparison-mode main .history-comparison-actions #open-save{width:100%;min-height:48px;font-size:16px}
+.history-comparison-mode main .profit-entry .receipt-note{margin-top:9px}
+.history-comparison-mode main .profit-entry .actions{margin-top:8px}
+.history-comparison-mode main .profit-entry .message{min-height:0;margin-top:5px}
+.history-comparison-mode .profit-details td,.history-comparison-mode .profit-details th{white-space:normal;font-size:12px;padding:10px 8px}
+.history-comparison-mode .profit-details td.positive{color:#2f8a6a}.history-comparison-mode .profit-details td.negative{color:#c44336}
+@media(max-width:1100px){main .history-comparison-workspace{grid-template-columns:minmax(0,38%) minmax(0,62%);gap:14px}.history-comparison-mode main .calculator-inputs .product-information-layout{grid-template-columns:1fr}.history-comparison-mode main .calculator-inputs .product-photo-upload{min-height:130px;max-height:160px}.history-comparison-mode main .calculator-inputs .calculation-config #settings-form,
+.history-comparison-mode main .calculator-inputs .calculation-config [id$="settings-form"]{grid-template-columns:repeat(4,minmax(0,1fr));gap:9px 8px}}
+@media(max-width:800px){main .history-comparison-workspace{grid-template-columns:1fr}.history-comparison-mode main .comparison-baseline-column{order:1}.history-comparison-mode main .comparison-new-inputs{order:2}.history-comparison-mode main .calculator-inputs .product-information-layout{grid-template-columns:120px minmax(0,1fr)}}
+
+/* Confirmed comparison summary presentation: keep the original three metrics only. */
+.history-comparison-mode main .comparison-profit-dock .net-card{
+  padding:20px 22px;
+  background:linear-gradient(135deg,#fff1d8,#fff8eb);
+  border:1px solid #efc28b;
+  border-radius:16px;
+  box-shadow:0 10px 26px #9a5b1d20;
+}
+.history-comparison-mode main .calculator-results .net-card .net-label{
+  margin:0 0 14px;
+  color:#a9521f;
+  font-size:22px;
+  line-height:1.2;
+}
+.history-comparison-mode main .calculator-results .net-card .net-label span:last-child{
+  font-size:12px;
+  color:#9b7853;
+  background:#fff0d9;
+  border-radius:20px;
+  padding:4px 9px;
+}
+.history-comparison-mode .comparison-net-summary{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+  margin-top:0;
+}
+.history-comparison-mode .comparison-net-cell{
+  min-height:108px;
+  padding:14px 16px;
+  gap:0;
+  border:1px solid #eedfcf;
+  border-radius:11px;
+  background:#fffdfa;
+  color:#2b3147;
+  text-align:center;
+}
+.history-comparison-mode .comparison-net-cell:nth-child(2){
+  background:#ffe9ca;
+  border-color:#efbb78;
+}
+.history-comparison-mode .comparison-net-cell:nth-child(3){
+  background:#fff5e8;
+  border-color:#ecd1ae;
+}
+.history-comparison-mode .comparison-net-cell>span{
+  font-size:12px;
+  font-weight:700;
+  color:#947c6a;
+}
+.history-comparison-mode .comparison-net-cell>strong{
+  display:block;
+  margin-top:7px;
+  font-size:30px;
+  line-height:1.1;
+  color:#27815f;
+}
+.history-comparison-mode .comparison-net-cell:nth-child(3)>strong{color:#6d6470}
+.history-comparison-mode .comparison-net-cell>small{
+  display:block;
+  margin-top:9px;
+  font-size:19px;
+  line-height:1.2;
+  font-weight:700;
+  color:#857364;
+}
+.history-comparison-mode .comparison-net-cell .positive{color:#16814d}
+.history-comparison-mode .comparison-net-cell .negative{color:#c43c32}
+@media(max-width:800px){
+  .history-comparison-mode main .comparison-profit-dock .net-card{padding:16px}
+  .history-comparison-mode main .comparison-profit-heading,.history-comparison-mode main .comparison-profit-heading strong{font-size:19px}
+  .history-comparison-mode .comparison-net-summary{gap:8px}
+  .history-comparison-mode .comparison-net-cell{padding:12px 10px}
+  .history-comparison-mode .comparison-net-cell>strong{font-size:24px}
+  .history-comparison-mode .comparison-net-cell>small{font-size:16px}
+}
