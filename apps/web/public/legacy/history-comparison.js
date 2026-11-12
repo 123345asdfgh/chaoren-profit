@@ -38,23 +38,43 @@
    if(input.type==='hidden'||input.hidden)return;
    const original=from[index],value=original.value;
    const display=document.createElement('p');display.className='comparison-read-value';
-   display.textContent=original.tagName==='SELECT'?(Array.from(original.options).find(option=>option.value===value)?.textContent||value||'—'):(value||'—');
+   const originalValue=original.tagName==='SELECT'?(Array.from(original.options).find(option=>option.value===value)?.textContent||value||'—'):(value||'—');
+   const unit={chinaPrice:'RMB',salePrice:'💲',buyerShipping:'💲',receipt:'💲',logistics:sourceCurrency(original)}[original.id];
+   display.textContent=unit&&originalValue!=='—'?`${originalValue} ${unit}`:originalValue;
+   display.dataset.field=original.id;
    input.replaceWith(display);
   });
   for(const node of clone.querySelectorAll('[id]'))node.id='baseline-'+node.id;
   for(const node of clone.querySelectorAll('label[for]'))node.htmlFor='baseline-'+node.htmlFor;
+  for(const node of clone.querySelectorAll('.input-unit > span'))node.remove();
+  for(const node of clone.querySelectorAll('.logistics-row > select'))node.remove();
   for(const button of clone.querySelectorAll('button')){
    if(button.classList.contains('product-photo-upload')){const photo=document.createElement('div');photo.className='product-photo-upload baseline-photo';photo.append(...button.childNodes);button.replaceWith(photo);}else button.remove();
   }
   for(const node of clone.querySelectorAll('dialog,[role="status"],.actions,.explanation,.product-photo-actions,.small,.hint,input[type="hidden"],select[hidden]'))node.remove();
   return clone;
  }
+ function sourceCurrency(input){
+  if(input.id!=='logistics')return undefined;
+  const currency=get('currency')?.value;
+  return currency==='USD'?'💲':'RMB';
+ }
  function renderBaseline(){
   const saved=document.createElement('div');saved.className='calculator-inputs comparison-baseline-inputs';
   const heading=document.createElement('div');heading.className='comparison-column-heading';
   const title=document.createElement('h2');title.textContent='原订单';
   const version=document.createElement('span');version.textContent=`第 ${record.version} 版 · 载入数据`;heading.append(title,version);saved.append(heading);
-  for(const selector of ['.product-identity','.freight-inline','.profit-entry','.calculation-config'])saved.append(cloneReadonly(inputs.querySelector(selector)));
+  for(const selector of ['.product-identity','.freight-inline','.profit-entry','.calculation-config']){
+   const card=cloneReadonly(inputs.querySelector(selector));
+   if(selector==='.profit-entry'){
+    card.querySelectorAll('label').forEach(label=>{label.textContent=label.textContent.replace(/（RMB）|（💲）/g,'')});
+    // 原订单只读区的物流成本单位已经跟在数字后面，移除旧的独立币种行。
+    card.querySelectorAll('.comparison-read-value').forEach(node=>{
+     if(node.dataset.field==='currency'||node.textContent.trim()==='人民币 RMB'||node.textContent.trim()==='美元 💲')node.remove();
+    });
+   }
+   saved.append(card);
+  }
   if(baselineColumn.querySelector('.comparison-baseline-inputs'))baselineColumn.querySelector('.comparison-baseline-inputs').replaceWith(saved);else baselineColumn.prepend(saved);
  }
  function load(next){

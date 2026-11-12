@@ -1,4 +1,4 @@
-main .history-comparison-workspace{grid-template-columns:minmax(0,38%) minmax(0,62%);align-items:start;gap:22px}
+main .history-comparison-workspace{grid-template-columns:minmax(0,32%) minmax(0,68%);align-items:start;gap:18px}
 .history-comparison-mode main{max-width:1540px;padding-top:28px;padding-bottom:48px;background:linear-gradient(180deg,#fff8e9,#fff4df)}
 .history-comparison-mode main .calculator-inputs,.history-comparison-mode main .comparison-baseline-column{background:transparent}
 .history-comparison-mode main .comparison-baseline-inputs,.history-comparison-mode main .comparison-new-inputs{width:100%;min-width:0}
@@ -68,7 +68,7 @@ main .history-comparison-workspace{grid-template-columns:minmax(0,38%) minmax(0,
 .history-comparison-mode main .profit-entry .message{min-height:0;margin-top:5px}
 .history-comparison-mode .profit-details td,.history-comparison-mode .profit-details th{white-space:normal;font-size:12px;padding:10px 8px}
 .history-comparison-mode .profit-details td.positive{color:#2f8a6a}.history-comparison-mode .profit-details td.negative{color:#c44336}
-@media(max-width:1100px){main .history-comparison-workspace{grid-template-columns:minmax(0,38%) minmax(0,62%);gap:14px}.history-comparison-mode main .calculator-inputs .product-information-layout{grid-template-columns:1fr}.history-comparison-mode main .calculator-inputs .product-photo-upload{min-height:130px;max-height:160px}.history-comparison-mode main .calculator-inputs .calculation-config #settings-form,
+@media(max-width:1100px){main .history-comparison-workspace{grid-template-columns:minmax(0,32%) minmax(0,68%);gap:14px}.history-comparison-mode main .calculator-inputs .product-information-layout{grid-template-columns:1fr}.history-comparison-mode main .calculator-inputs .product-photo-upload{min-height:130px;max-height:160px}.history-comparison-mode main .calculator-inputs .calculation-config #settings-form,
 .history-comparison-mode main .calculator-inputs .calculation-config [id$="settings-form"]{grid-template-columns:repeat(4,minmax(0,1fr));gap:9px 8px}}
 @media(max-width:800px){main .history-comparison-workspace{grid-template-columns:1fr}.history-comparison-mode main .comparison-baseline-column{order:1}.history-comparison-mode main .comparison-new-inputs{order:2}.history-comparison-mode main .calculator-inputs .product-information-layout{grid-template-columns:120px minmax(0,1fr)}}
 
