@@ -5,6 +5,7 @@
  const actions=document.querySelector('.net-actions'),netCard=document.querySelector('.net-card'),lookup=document.querySelector('.product-lookup'),explanation=document.querySelector('.explanation');
  const originalHeader=get('measurement-back-label').textContent;
  let record=null,baselineColumn=null,newHeading=null,comparisonDock=null,comparisonHeading=null;
+ let heightSyncing=false;
  const format=(value,currency='RMB')=>typeof value==='number'&&Number.isFinite(value)?money(value,currency):'—';
  const tone=value=>typeof value!=='number'||!Number.isFinite(value)||value===0?'neutral':value>0?'positive':'negative';
  const pair=(cell,rmb,usd)=>{cell.textContent=format(rmb)+' / '+format(usd,'USD');cell.className=tone(rmb)};
@@ -77,6 +78,20 @@
   }
   if(baselineColumn.querySelector('.comparison-baseline-inputs'))baselineColumn.querySelector('.comparison-baseline-inputs').replaceWith(saved);else baselineColumn.prepend(saved);
  }
+ function syncColumnHeights(){
+  if(!baselineColumn||heightSyncing)return;
+  const left=[...baselineColumn.querySelectorAll('.comparison-baseline-inputs>.card,.comparison-baseline-inputs>.profit-entry')];
+  const right=[...inputs.querySelectorAll('.comparison-new-inputs>.card,.comparison-new-inputs>.profit-entry')];
+  if(!left.length||!right.length)return;
+  heightSyncing=true;
+  left.forEach((card,index)=>{
+   const peer=right[index];if(!peer)return;
+   card.style.minHeight='';peer.style.minHeight='';
+   const height=Math.ceil(Math.max(card.getBoundingClientRect().height,peer.getBoundingClientRect().height));
+   card.style.minHeight=`${height}px`;peer.style.minHeight=`${height}px`;
+  });
+  heightSyncing=false;
+ }
  function load(next){
   record=JSON.parse(JSON.stringify(next));
   if(!baselineColumn){
@@ -116,6 +131,7 @@
   if(actions.parentElement!==inputs)inputs.insertBefore(actions,results);
   get('open-save').textContent='保存本次修改';
   renderProfit();
+  syncColumnHeights();
  }
  function reset(){
   if(!baselineColumn)return;
@@ -126,6 +142,7 @@
   comparisonDock?.remove();comparisonDock=null;
   document.querySelector('.comparison-net-summary')?.remove();
   baselineColumn.remove();baselineColumn=null;newHeading.remove();newHeading=null;
+  inputs.querySelectorAll('.comparison-new-inputs>.card').forEach(card=>{card.style.minHeight=''});
   inputs.classList.remove('comparison-new-inputs');workspace.classList.remove('history-comparison-workspace');document.body.classList.remove('history-comparison-mode');
   lookup.hidden=false;explanation.hidden=false;get('compare-current').hidden=true;
   document.querySelector('main h1').textContent='跨境日常辅助测算';
@@ -149,7 +166,9 @@
    name.textContent=label;pair(oldValue,oldRmb,oldUsd);pair(newValue,newRmb,newUsd);pair(delta,oldRmb===null||newRmb===null?null:newRmb-oldRmb,oldUsd===null||newUsd===null?null:newUsd-oldUsd);tr.append(name,oldValue,newValue,delta);body.append(tr);
   }
   const tr=document.createElement('tr');for(const text of ['净利润率',before.margin===null?'—':(before.margin*100).toFixed(2)+'%',after.margin===null?'—':(after.margin*100).toFixed(2)+'%',before.margin===null||after.margin===null?'—':((after.margin-before.margin)*100).toFixed(2)+' 个百分点']){const cell=document.createElement('td');cell.textContent=text;tr.append(cell);}body.append(tr);
+  syncColumnHeights();
   return true;
  }
  window.HistoryComparison={load,reset,renderRows,get active(){return Boolean(record)}};
+ window.addEventListener('resize',()=>{if(record)syncColumnHeights()});
 })();
