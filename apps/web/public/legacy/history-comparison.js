@@ -40,7 +40,7 @@
    const original=from[index],value=original.value;
    const display=document.createElement('p');display.className='comparison-read-value';
    const originalValue=original.tagName==='SELECT'?(Array.from(original.options).find(option=>option.value===value)?.textContent||value||'—'):(value||'—');
-   const unit={chinaPrice:'RMB',salePrice:'💲',buyerShipping:'💲',receipt:'💲',logistics:sourceCurrency(original)}[original.id];
+   const unit={chinaPrice:'RMB',salePrice:'💲',buyerShipping:'💲',receipt:'💲',logistics:sourceCurrency(original),'comparison-fx':'RMB/💲'}[original.id];
    display.textContent=unit&&originalValue!=='—'?`${originalValue} ${unit}`:originalValue;
    display.dataset.field=original.id;
    input.replaceWith(display);
@@ -60,6 +60,20 @@
   const currency=get('currency')?.value;
   return currency==='USD'?'💲':'RMB';
  }
+ function ensureComparisonFxField(){
+  const form=inputs.querySelector('.comparison-new-inputs .calculation-config #settings-form');
+  if(!form||form.querySelector('.comparison-fx-field'))return;
+  const fields=form.querySelector('#setting-fields')||form;
+  const field=document.createElement('div');field.className='comparison-fx-field';
+  field.innerHTML='<label for="comparison-fx">结算汇率（RMB/💲）</label><input id="comparison-fx" type="number" min="0.000001" max="1000000000" step="any" aria-label="对比页结算汇率">';
+  fields.prepend(field);
+  const input=field.querySelector('input'),source=get('fx');
+  input.value=source?.value||'6.8';
+  input.addEventListener('input',()=>{
+   if(source&&source.value!==input.value){source.value=input.value;source.dispatchEvent(new Event('input',{bubbles:true}))}
+  });
+  source?.addEventListener('input',()=>{if(document.activeElement!==input)input.value=source.value});
+ }
  function renderBaseline(){
   const saved=document.createElement('div');saved.className='calculator-inputs comparison-baseline-inputs';
   const heading=document.createElement('div');heading.className='comparison-column-heading';
@@ -73,6 +87,10 @@
     card.querySelectorAll('.comparison-read-value').forEach(node=>{
      if(node.dataset.field==='currency'||node.textContent.trim()==='人民币 RMB'||node.textContent.trim()==='美元 💲')node.remove();
     });
+   }
+   if(selector==='.calculation-config'){
+    const fx=card.querySelector('[data-field="comparison-fx"]');
+    if(fx)fx.textContent=record?.snapshot?.fields?.fx?`${record.snapshot.fields.fx} RMB/💲`:'—';
    }
    saved.append(card);
   }
@@ -107,6 +125,7 @@
    inputs.append(results);
    newHeading=document.createElement('div');newHeading.className='comparison-column-heading comparison-new-heading';inputs.prepend(newHeading);
    inputs.classList.add('comparison-new-inputs');
+   ensureComparisonFxField();
    actions.classList.add('history-comparison-actions');inputs.insertBefore(actions,results);get('compare-current').hidden=true;
    lookup.hidden=true;explanation.hidden=true;
    document.querySelector('.profit-details').open=true;
@@ -143,6 +162,7 @@
   document.querySelector('.comparison-net-summary')?.remove();
   baselineColumn.remove();baselineColumn=null;newHeading.remove();newHeading=null;
   inputs.querySelectorAll('.comparison-new-inputs>.card').forEach(card=>{card.style.minHeight=''});
+  inputs.querySelectorAll('.comparison-fx-field').forEach(field=>field.remove());
   inputs.classList.remove('comparison-new-inputs');workspace.classList.remove('history-comparison-workspace');document.body.classList.remove('history-comparison-mode');
   lookup.hidden=false;explanation.hidden=false;get('compare-current').hidden=true;
   document.querySelector('main h1').textContent='跨境日常辅助测算';
